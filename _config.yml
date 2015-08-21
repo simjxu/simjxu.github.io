@@ -1,0 +1,11 @@
+# Localhost Jekyll Server Settings
+host: '0.0.0.0'
+port: '80'
+
+# Basic blog details
+title: 'My Awesome Blog'
+description: 'My Awesome Blog made with Jekyll'
+permalink: '/:year/:month/:title/'
+
+markdown: kramdown
+highlighter: rouge
