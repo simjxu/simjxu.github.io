@@ -8,7 +8,7 @@
   <meta charset="utf-8"> <!-- dunno -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!-- dunno -->
 
-  <title>Portfolio | Simon Xu</title> <!-- dunno -->
+  <title>LabVIEW Balancing | Simon Xu</title> <!-- dunno -->
   <meta name="description" content="Portfolio">
   <meta name="author" content="Simon Xu">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -74,75 +74,33 @@
   <div id="container" class="clearfix">
     <div id="main" role="main" class="clearfix">
 
-      <ul class="projects clearfix">
+      <div id="post-container">
+  <div class="post post-narrow">
+    <h2>LabVIEW Balancing</h2>
+    <!-- <div class="separator"> </div> -->
+    <p>
+From 2014-2015, I created a new program that allows a user to balance any 4-plane rotor shaft. The user edits an Excel form template which the program uses to optimize a balance solution given magnitude and phase data from accelerometers. 
+</p>
+<p>
+The program uses DAQmx tools to allow user to calibrate each individual sensor using the program. Once magnitude and phase data have been established, the program uses Goodman's solution (1964) to find either the least squares or least absolute solution. A binary search algorithm was employed to identify the best weight split solution given the allowable weights and plane locations. 
+</p>
+<p>
+On the interface side, I used a circular buffer so that the frequency domain plots transition fluidly.
+</p>
 
-  <li>
-    <div class="project">
-      <a class="cover" href="/project/2015/08/01/Belt-plus.html">
-        <div class="project-details">
-          <span>
-            Belt+
-          </span>
-          <span>
-            Product Development
-          </span>
-          <span>
-            View project
-          </span>
-        </div>
-      </a>
-      
-      
-      <img class="thumb" src="img/thumbs/SeveralColorsBelt.jpg" />
-      <div class="aspect-two-one"></div>
-    </div>
-  </li>
+<p class="meta">Date: <strong>Jul 2015</strong></p>
 
-  <li>
-    <div class="project">
-      <a class="cover" href="/project/2015/07/01/LabVIEW-balancing.html">
-        <div class="project-details">
-          <span>
-            LabVIEW Balancing
-          </span>
-          <span>
-            Programming
-          </span>
-          <span>
-            View project
-          </span>
-        </div>
-      </a>
-      
-      
-      <img class="thumb" src="img/thumbs/LabVIEWpicture.jpg" />
-      <div class="aspect-two-one"></div>
-    </div>
-  </li>
+<div class="showcase">
+	
 
-  <li>
-    <div class="project">
-      <a class="cover" href="/project/2015/06/01/CAD-portfolio.html">
-        <div class="project-details">
-          <span>
-            CAD models
-          </span>
-          <span>
-            CAD
-          </span>
-          <span>
-            View project
-          </span>
-        </div>
-      </a>
-      
-      
-      <img class="thumb" src="img/thumbs/motorcyclewheel.jpg" />
-      <div class="aspect-two-one"></div>
-    </div>
-  </li>
+</div>
 
-</ul>
+  </div>
+</div>
+
+<a href="/project/2015/08/01/Belt-plus.html" title="Belt+" class="next-project"></a>
+<a href="/project/2015/06/01/CAD-portfolio.html" title="CAD models" class="prev-project"></a>
+
 
     </div>
     <footer>
