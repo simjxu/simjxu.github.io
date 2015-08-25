@@ -1,7 +1,45 @@
-name: Simon Xu
-description: Projects
-author: Simon Xu
-analytics: UA-30141486-2
-exclude: [ _design, README ]
-# baseurl: "http://www.simonxu.com"
-baseurl: "/"
+# Site settings
+title: Simon Xu
+email: simon.shoo@gmail.com
+url: https://example.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+skills: "Mechanical/Electrical Engineer - Application Developer - CAD Modeler"
+
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Simon Xu
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, bitbucket, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/simonjxu
+  - title: github
+    url: http://github.com/simjxu	
+  - title: twitter
+    url: http://twitter.com/SimonXu_
+  - title: facebook
+    url: https://www.facebook.com/simonjxu
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: San Francisco, CA 94107
+
+# Credits content
+credits: 'I am using Freelancer, an open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
