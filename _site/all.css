@@ -297,7 +297,7 @@ td {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: #000;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   a:active, a:visited {
@@ -428,6 +428,8 @@ td {
   #container {
     margin-top: 80px;
     margin-bottom: 30px;
+	margin-left: 200px;
+	margin-right: 200px;
   }
 
   .projects {
@@ -451,7 +453,7 @@ td {
   }
 
   .projects li .aspect-two-one {
-    padding-bottom: 66.67%;
+    padding-bottom: 100%;
   }
 
   .projects .cover {
@@ -545,7 +547,7 @@ td {
 
   .static-page{
     text-align: left;
-    padding-top: 100px;
+    padding-top: 30px;
   }
 
   /* ==|== POST page styles ======================================== */

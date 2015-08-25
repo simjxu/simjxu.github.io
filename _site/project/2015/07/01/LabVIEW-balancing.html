@@ -8,7 +8,7 @@
   <meta charset="utf-8"> <!-- dunno -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!-- dunno -->
 
-  <title>About Me | Simon Xu</title> <!-- dunno -->
+  <title>LabVIEW Balancing | Simon Xu</title> <!-- dunno -->
   <meta name="description" content="Projects">
   <meta name="author" content="Simon Xu">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -75,15 +75,33 @@
   <div id="container" class="clearfix">
     <div id="main" role="main" class="clearfix">
 
-      <div class="static-page">
+      <div id="post-container">
+  <div class="post post-narrow">
+    <h2>LabVIEW Balancing</h2>
+    <!-- <div class="separator"> </div> -->
+    <p>
+From 2014-2015, I created a new program that allows a user to balance any 4-plane rotor shaft. The user edits an Excel form template which the program uses to optimize a balance solution given magnitude and phase data from accelerometers. 
+</p>
+<p>
+The program uses DAQmx tools to allow user to calibrate each individual sensor using the program. Once magnitude and phase data have been established, the program uses Goodman's solution (1964) to find either the least squares or least absolute solution. A binary search algorithm was employed to identify the best weight split solution given the allowable weights and plane locations. 
+</p>
+<p>
+On the interface side, I used a circular buffer so that the frequency domain plots transition fluidly.
+</p>
 
-<h1> About </h1>
-Greetings. I'm Simon and this is my site. I am a Mechanical Engineer that is slowly morphing his career into a more Electrical Engineering direction. I created this site to showcase my resume and some of my work. Enjoy!
+<p class="meta">Date: <strong>Jul 2015</strong></p>
 
-
-
+<div class="showcase">
+	
 
 </div>
+
+  </div>
+</div>
+
+<a href="/project/2015/08/01/Belt-plus%20-%20Copy.html" title="Belt+" class="next-project"></a>
+<a href="/project/2015/06/01/CAD-portfolio.html" title="CAD models" class="prev-project"></a>
+
 
     </div>
     <footer>
