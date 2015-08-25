@@ -359,7 +359,6 @@ td {
   header .mobile-nav {
     display: none;
     text-align: right;
-	margin: 10px auto;
   }
 
   header nav ul li {
@@ -545,7 +544,7 @@ td {
 
   .static-page{
     text-align: left;
-    padding-top: 100px;
+    padding-top: 30px;
   }
 
   /* ==|== POST page styles ======================================== */
