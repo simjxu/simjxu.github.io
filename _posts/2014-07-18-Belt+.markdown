@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: beltplus.png
+img: Beltplus.png
 alt: image-alt
 project-date: August 2015
 client: Physicians
