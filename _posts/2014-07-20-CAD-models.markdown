@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-17
+date: 2014-07-20
 img: motorcyclewheel.png
 alt: image-alt
 project-date: May 2010
