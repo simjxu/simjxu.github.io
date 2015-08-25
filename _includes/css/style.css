@@ -359,6 +359,7 @@ td {
   header .mobile-nav {
     display: none;
     text-align: right;
+	margin: 10px auto;
   }
 
   header nav ul li {
