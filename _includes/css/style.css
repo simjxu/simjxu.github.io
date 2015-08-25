@@ -296,7 +296,7 @@ td {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: #000;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   a:active, a:visited {
@@ -545,6 +545,8 @@ td {
   .static-page{
     text-align: left;
     padding-top: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
   }
 
   /* ==|== POST page styles ======================================== */
