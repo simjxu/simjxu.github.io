@@ -40,7 +40,7 @@ address:
   - line: San Francisco, CA 94107
 
 # Credits content
-credits: 'I am using Freelancer, an open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'I am using Freelancer, an open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. Also special thanks to Github pages, where I am hosting this webpage for free!'
 
 # Build settings
 markdown: kramdown
