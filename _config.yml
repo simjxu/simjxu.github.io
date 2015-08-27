@@ -38,9 +38,10 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: San Francisco, CA 94107
+  - line: SOMA district
 
 # Credits content
-credits: 'I am using Freelancer, an open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. Also, special thanks to Github pages, where I am hosting this webpage for free!'
+credits: 'I am using an open source Bootstrap theme made by <a href="http://startbootstrap.com">Start Bootstrap</a>. Also, special thanks to Github pages, where I am hosting this webpage for free!'
 
 # Build settings
 markdown: kramdown
