@@ -25,9 +25,9 @@ description: A blog
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Resume: "https://drive.google.com"
+    - Resume: "https://drive.google.com/open?id=1Q0AotX0TWgyPH8cb4qUJzP86Df8tJu84"
     - GitHub: "https://github.com/simjxu"
-  Google: "http://google.com"
+  Projects: "http://google.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
