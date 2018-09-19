@@ -7,7 +7,8 @@ Since I work for an IIoT combined hardware/sofware company, we often receive pac
 
 In the ideal scenario, we could create a Chrome extension with a trained machine learning algorithm that can detect whether a purchase has been made for a delivery, guess the delivery timeframe, store the delivery in a database, and automatically alert the user if today's date is later than the anticipated delivery date. However, even this scenario doesn't account for company purchases made with a purchase order system, which is why procurement teams exist.
 
-Given that I am no genius, an idiot's backup to the system above is to use a slack slash command to automatically update a simple database, like a spreadsheet in Google Sheets for example. Then, using an incoming webhook, send an alert if it is past the delivery date for the package, triggered once every day to a channel, perhaps called #deliveryalerts. If there are no packages that are supposed to be delivered already, no alerts. 
+Given that I am no genius, an idiot's backup to the system above is to use a slack slash command to automatically update a simple database, like a spreadsheet in Google Sheets for example. Then, using an incoming webhook, send an alert if it is past the delivery date for the package, triggered once every day to a channel, perhaps called #deliveryalerts. If there are no packages that are supposed to be delivered already, no alerts. An alert can show up like this:
+![slack-alert](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/slackalert_example.jpg)
 
 We can first create a simple spreadsheet database like this: 
 ![vendor-spreadsheet](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/vendor_spreadsheet.jpg)
