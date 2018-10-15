@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/home/simon/Projects/Github-simjxu/simjxu.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/home/simon/Projects/Github-simjxu/simjxu.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "dc41b113b7a1426630c9ae4ec7f904d8",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -990,14 +999,16 @@
       "siteMetadata": {
         "title": "The Mush"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-15T02:10:52.602Z",
+      "buildTime": "2018-10-15T06:09:01.292Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "696ea28dae24b070d2ea329816f139e6",
+        "contentDigest": "2237e3796d6f3a86214dde5a549f7a9c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2522,26 +2533,6 @@
         "slug": "/posts/slackdeliverytracker/"
       }
     },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/home/simon/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/home/simon/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "d4eb81542c6baeb7d4d3ce0d3e9b6be1",
-        "description": "Plugin gatsby-plugin-offline",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /about/aboutme/": {
       "jsonName": "about-aboutme-179",
       "internalComponentName": "ComponentAboutAboutme",
@@ -2937,9 +2928,9 @@
       "query": "query homeSimonProjectsGithubSimjxuSimjxuGithubIoSrcPagesMyFilesJs3953592347 {\n  allFile {\n    edges {\n      node {\n        relativePath\n        prettySize\n        extension\n        birthTime(fromNow: true)\n      }\n    }\n  }\n}\n",
       "componentPath": "/home/simon/Projects/Github-simjxu/simjxu.github.io/src/pages/my-files.js"
     },
-    "/home/simon/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-offline/app-shell.js": {
+    "/home/simon/Projects/Github-simjxu/simjxu.github.io/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/home/simon/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-offline/app-shell.js"
+      "componentPath": "/home/simon/Projects/Github-simjxu/simjxu.github.io/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
