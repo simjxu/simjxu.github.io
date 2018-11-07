@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/simonxu/Projects/Github-simjxu/untitledfolder/simjxu.github.io/node_modules/gatsby-plugin-emotion/gatsby-ssr'),
+      plugin: require('/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-emotion/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/simonxu/Projects/Github-simjxu/untitledfolder/simjxu.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/simonxu/Projects/Github-simjxu/untitledfolder/simjxu.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
