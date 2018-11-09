@@ -5,7 +5,7 @@ date: 2018-09-30
 ---
 
 I'm currently in the process of converting this blog into a Gatsby blog, and I've spent a full day trying to get it working. Thankfully, they do seem to have good documentation on their website <a href="https://www.gatsbyjs.org/tutorial/">Gatsby Tutorial</a>. The going is quite slow, and the results are also quite ugly, but after trying to figure out GraphQL and aggravating myself over backticks, at least I have something.
-![gatsby-1](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/gatsby1.jpg)
+![gatsby-1](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gatsby1.jpg)
 
 I'll also push the gatsby version of this site onto github here: https://github.com/simjxu/gatsby-themush. You're probably wondering, what's the point of pushing something so useless onto github?  Well, my plan is to continue iterating on this Gatsby blog, and I also intend to litter the darn thing with comments. Hopefully this will help others understand the nuances of building a site. I don't have many comments yet, but stay tuned and I expect there to be more commentary than there is code.
 

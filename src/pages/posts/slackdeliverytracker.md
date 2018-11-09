@@ -11,7 +11,7 @@ In the ideal scenario, we could create a Chrome extension with a trained machine
 Given that I am no genius, an idiot's backup to the system above is to use a slack slash command to automatically update a simple database, like a spreadsheet in Google Sheets for example. Then, using an incoming webhook, send an alert if it is past the delivery date for the package, triggered once every day to a channel, perhaps called #deliveryalerts. If there are no packages that are supposed to be delivered already, no alerts. 
 
 We can first create a simple spreadsheet database like this: 
-![vendor-spreadsheet](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/vendor_spreadsheet.jpg)
+![vendor-spreadsheet](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/vendor_spreadsheet.jpg)
 This would show the item that is being delivered, the estimated delivery date, and a boolean Yes/No as to whether the item has been received.
 
 Then, we can create the #deliveryalerts channel in Slack, and integrate a Slack incoming webhook that points to #deliveryalerts and a slash command. In this case, we create one called /delivery. /delivery will send a post request to some endpoint that you need to define (a url). In our case, we can just use Google Apps script to set up this endpoint. Anything written after the /delivery command will be sent to the endpoint, and we can create the script to parse this text message using regular expressions (regex). Google Apps Script will handle the request through a `doPost()` function that you must write. Just take the spreadsheet that you want to set as your deliveries database, and on the Tools menu select script editor. Copy the `doPost()` example below into the Code.gs file.

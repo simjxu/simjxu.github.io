@@ -4,9 +4,9 @@
             {
                 "name": "babel-plugin-emotion",
                 "options": {
-                    "sourceMap": true,
-                    "autoLabel": true,
-                    "hoist": false,
+                    "sourceMap": false,
+                    "autoLabel": false,
+                    "hoist": true,
                     "plugins": []
                 }
             }
@@ -22,9 +22,9 @@
             {
                 "name": "babel-plugin-emotion",
                 "options": {
-                    "sourceMap": true,
-                    "autoLabel": true,
-                    "hoist": false,
+                    "sourceMap": false,
+                    "autoLabel": false,
+                    "hoist": true,
                     "plugins": []
                 }
             }
@@ -40,9 +40,9 @@
             {
                 "name": "babel-plugin-emotion",
                 "options": {
-                    "sourceMap": true,
-                    "autoLabel": true,
-                    "hoist": false,
+                    "sourceMap": false,
+                    "autoLabel": false,
+                    "hoist": true,
                     "plugins": []
                 }
             }
@@ -58,9 +58,9 @@
             {
                 "name": "babel-plugin-emotion",
                 "options": {
-                    "sourceMap": true,
-                    "autoLabel": true,
-                    "hoist": false,
+                    "sourceMap": false,
+                    "autoLabel": false,
+                    "hoist": true,
                     "plugins": []
                 }
             }
