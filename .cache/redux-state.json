@@ -1153,12 +1153,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-12T04:20:45.762Z",
+      "buildTime": "2018-11-12T04:26:04.760Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1f24fb1d63ee48b8b25c7ea1c24d249e",
+        "contentDigest": "e240796b0d28823fcdcab1ffbc975e96",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1168,7 +1168,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "12e8cda2c9e1c6e2cd802c34f6a01fa0",
+        "contentDigest": "828c6757a806d2dbfbec07cdd10b46d0",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -1180,7 +1180,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-11-07T21:44:44.349Z",
-      "accessTime": "2018-11-12T04:20:49.528Z",
+      "accessTime": "2018-11-12T04:26:08.609Z",
       "changeTime": "2018-11-07T21:44:44.349Z",
       "birthTime": "2018-11-04T01:43:09.963Z",
       "root": "/",
@@ -1198,11 +1198,11 @@
       "blksize": 4096,
       "ino": 5239404,
       "blocks": 0,
-      "atimeMs": 1541996449527.757,
+      "atimeMs": 1541996768608.6223,
       "mtimeMs": 1541627084348.9956,
       "ctimeMs": 1541627084348.9956,
       "birthtimeMs": 1541295789962.6338,
-      "atime": "2018-11-12T04:20:49.528Z",
+      "atime": "2018-11-12T04:26:08.609Z",
       "mtime": "2018-11-07T21:44:44.349Z",
       "ctime": "2018-11-07T21:44:44.349Z",
       "birthtime": "2018-11-04T01:43:09.963Z"
@@ -1212,7 +1212,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7b13cb8acb9472c89e84bf73fccfbdb7",
+        "contentDigest": "08c04ade607c6dca109e9a17f7e7f19b",
         "type": "Directory",
         "description": "Directory \"src/components\"",
         "owner": "gatsby-source-filesystem"
@@ -1224,7 +1224,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-11-04T03:56:49.959Z",
-      "accessTime": "2018-11-12T04:20:49.530Z",
+      "accessTime": "2018-11-12T04:26:08.611Z",
       "changeTime": "2018-11-05T03:00:04.201Z",
       "birthTime": "2018-11-04T01:43:09.963Z",
       "root": "/",
@@ -1242,11 +1242,11 @@
       "blksize": 4096,
       "ino": 5279208,
       "blocks": 0,
-      "atimeMs": 1541996449530.283,
+      "atimeMs": 1541996768611.3813,
       "mtimeMs": 1541303809958.8206,
       "ctimeMs": 1541386804201.0657,
       "birthtimeMs": 1541295789962.7195,
-      "atime": "2018-11-12T04:20:49.530Z",
+      "atime": "2018-11-12T04:26:08.611Z",
       "mtime": "2018-11-04T03:56:49.959Z",
       "ctime": "2018-11-05T03:00:04.201Z",
       "birthtime": "2018-11-04T01:43:09.963Z"
@@ -1256,7 +1256,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "56a3fb5cbdbac3e1c048d3300f3617ac",
+        "contentDigest": "b0a458b796133467004f1f54047f73fd",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1268,7 +1268,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-11-04T06:09:30.318Z",
-      "accessTime": "2018-11-12T04:20:49.530Z",
+      "accessTime": "2018-11-12T04:26:08.611Z",
       "changeTime": "2018-11-05T03:00:04.209Z",
       "birthTime": "2018-11-04T01:43:09.965Z",
       "root": "/",
@@ -1286,11 +1286,11 @@
       "blksize": 4096,
       "ino": 5279214,
       "blocks": 0,
-      "atimeMs": 1541996449530.2832,
+      "atimeMs": 1541996768611.4773,
       "mtimeMs": 1541311770317.9966,
       "ctimeMs": 1541386804209.1877,
       "birthtimeMs": 1541295789964.8677,
-      "atime": "2018-11-12T04:20:49.530Z",
+      "atime": "2018-11-12T04:26:08.611Z",
       "mtime": "2018-11-04T06:09:30.318Z",
       "ctime": "2018-11-05T03:00:04.209Z",
       "birthtime": "2018-11-04T01:43:09.965Z"
@@ -1300,7 +1300,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c8e039f2bb05f238e5765d6a8689733c",
+        "contentDigest": "f5aefb4e71f851b8bdbaac72bfb973d3",
         "type": "Directory",
         "description": "Directory \"src/templates\"",
         "owner": "gatsby-source-filesystem"
@@ -1312,7 +1312,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-11-04T06:56:40.702Z",
-      "accessTime": "2018-11-12T04:20:49.530Z",
+      "accessTime": "2018-11-12T04:26:08.611Z",
       "changeTime": "2018-11-05T03:00:04.202Z",
       "birthTime": "2018-11-04T06:56:40.701Z",
       "root": "/",
@@ -1330,11 +1330,11 @@
       "blksize": 4096,
       "ino": 5279212,
       "blocks": 0,
-      "atimeMs": 1541996449530.3218,
+      "atimeMs": 1541996768611.3762,
       "mtimeMs": 1541314600701.7566,
       "ctimeMs": 1541386804201.9036,
       "birthtimeMs": 1541314600701.077,
-      "atime": "2018-11-12T04:20:49.530Z",
+      "atime": "2018-11-12T04:26:08.611Z",
       "mtime": "2018-11-04T06:56:40.702Z",
       "ctime": "2018-11-05T03:00:04.202Z",
       "birthtime": "2018-11-04T06:56:40.701Z"
@@ -1344,7 +1344,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2a7f9cfd3844eef1adab2b6397994261",
+        "contentDigest": "a715db128e29b6476651982be2e2528e",
         "type": "Directory",
         "description": "Directory \"src/pages/about\"",
         "owner": "gatsby-source-filesystem"
@@ -1356,7 +1356,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-11-04T07:09:46.290Z",
-      "accessTime": "2018-11-12T04:20:49.532Z",
+      "accessTime": "2018-11-12T04:26:08.613Z",
       "changeTime": "2018-11-05T03:00:04.208Z",
       "birthTime": "2018-11-04T04:37:05.479Z",
       "root": "/",
@@ -1374,11 +1374,11 @@
       "blksize": 4096,
       "ino": 5279225,
       "blocks": 0,
-      "atimeMs": 1541996449531.8132,
+      "atimeMs": 1541996768613.1174,
       "mtimeMs": 1541315386289.6462,
       "ctimeMs": 1541386804208.0159,
       "birthtimeMs": 1541306225479.0728,
-      "atime": "2018-11-12T04:20:49.532Z",
+      "atime": "2018-11-12T04:26:08.613Z",
       "mtime": "2018-11-04T07:09:46.290Z",
       "ctime": "2018-11-05T03:00:04.208Z",
       "birthtime": "2018-11-04T04:37:05.479Z"
@@ -1388,7 +1388,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "34fcb59b0237436b34516b793871c479",
+        "contentDigest": "4b21cc36270f15506cb7c6df8e6ad1e8",
         "type": "Directory",
         "description": "Directory \"src/pages/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1400,7 +1400,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-11-12T04:11:46.336Z",
-      "accessTime": "2018-11-12T04:20:49.532Z",
+      "accessTime": "2018-11-12T04:26:08.613Z",
       "changeTime": "2018-11-12T04:11:46.336Z",
       "birthTime": "2018-11-04T04:37:05.479Z",
       "root": "/",
@@ -1418,11 +1418,11 @@
       "blksize": 4096,
       "ino": 5279215,
       "blocks": 0,
-      "atimeMs": 1541996449531.8428,
+      "atimeMs": 1541996768613.1367,
       "mtimeMs": 1541995906335.5398,
       "ctimeMs": 1541995906335.5398,
       "birthtimeMs": 1541306225479.163,
-      "atime": "2018-11-12T04:20:49.532Z",
+      "atime": "2018-11-12T04:26:08.613Z",
       "mtime": "2018-11-12T04:11:46.336Z",
       "ctime": "2018-11-12T04:11:46.336Z",
       "birthtime": "2018-11-04T04:37:05.479Z"
@@ -2121,7 +2121,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ee99af894f9e03507d84f4875a34a362",
+        "contentDigest": "c1df49025eadc6137ad1062e815847e7",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/posts/particlepostgetwebhk.md\"",
@@ -2131,11 +2131,11 @@
       "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/particlepostgetwebhk.md",
       "relativePath": "pages/posts/particlepostgetwebhk.md",
       "extension": "md",
-      "size": 10269,
+      "size": 10268,
       "prettySize": "10.3 kB",
-      "modifiedTime": "2018-11-12T04:20:06.576Z",
-      "accessTime": "2018-11-12T04:20:29.633Z",
-      "changeTime": "2018-11-12T04:20:06.576Z",
+      "modifiedTime": "2018-11-12T04:24:29.177Z",
+      "accessTime": "2018-11-12T04:25:47.984Z",
+      "changeTime": "2018-11-12T04:24:29.177Z",
       "birthTime": "2018-11-12T04:11:46.336Z",
       "root": "/",
       "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
@@ -2152,13 +2152,13 @@
       "blksize": 4096,
       "ino": 5565527,
       "blocks": 24,
-      "atimeMs": 1541996429633.1443,
-      "mtimeMs": 1541996406575.972,
-      "ctimeMs": 1541996406575.972,
+      "atimeMs": 1541996747984.2544,
+      "mtimeMs": 1541996669177.1667,
+      "ctimeMs": 1541996669177.1667,
       "birthtimeMs": 1541995906335.5198,
-      "atime": "2018-11-12T04:20:29.633Z",
-      "mtime": "2018-11-12T04:20:06.576Z",
-      "ctime": "2018-11-12T04:20:06.576Z",
+      "atime": "2018-11-12T04:25:47.984Z",
+      "mtime": "2018-11-12T04:24:29.177Z",
+      "ctime": "2018-11-12T04:24:29.177Z",
       "birthtime": "2018-11-12T04:11:46.336Z"
     },
     "afcd5eb6-39e2-51de-9a00-212d886314f8": {
@@ -2395,9 +2395,9 @@
       "children": [],
       "parent": "580170bf-9c68-5b11-96d9-1e46253808e3",
       "internal": {
-        "content": "\nShameful plug post, but I'll be using Particle devices to demonstrate how to setup a Post/Get/Webhook right on a Google Sheet. Although Excel has more spreadsheet features than Google Sheets, the nice thing is that since your google sheets resides on some server connected to the internet, you can essentially use Google Sheets as a basic server to receive and send requests to an IoT device somewhere else. Take a look at how simple this spreadsheet is:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/googlesht-getpostwebhk.jpg)\n\nAll requests will operate under a request/response format, the idea being that the Google Sheet I made will shoot off a request, and a response will be collected. ONE IMPORTANT NOTE: Since you will be allowing anonymous access in order to use Google Apps Script, PLEASE only use this for development testing purposes ONLY, not to run a production server. If someone finds your Google Sheets URL endpoint, they can flood your sheet with requests. Furthermore, your device access token may be exposed.\n\nWith that said, let's get started.\n\nFirst you will want to create a new Google sheet which looks like what I've shown above. You can ignore cells B3, C3, and D2-D3, as these will be populated automatically by the webapp you'll create using Google Apps Script. You don't have to do this, but I merged cell D2 and D3. To create the buttons, go to Insert >> Drawing to draw a basic rectangle with some text in the middle. You will be able to assign function to these buttons you created later.\n\nParticle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/particle-photon.jpg)\n\nYou will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino \n\nIn my `setup()` section I've called out 3 different `Particle.variables`: `analogvalue`, which is the output from the photoresistor, `brightness`, which is the brightness of the LED, and `setpoint`, which is the setpoint issued to the LED. I've also created a `Particle.function` called `led`, which toggles the blue LED situated on D7 on the board. Lastly, I've created a `Particle.publish`, which tracks the analog value and publishes a `low_light` event when the value drops below 50. \n\nWhat I will do now is use my \"Post Request\" function on my google sheet to call the `led` function and toggle on/off the LED. I will use the \"Get Request\" button to pull the `analogvalue` variable. Lastly, I will create a webhook to publish the `low_light` event details to my Google sheet when the event publishes.\n\nFirst, go to the Google Sheet and go to Tools >> Script Editor. This will allow you write javascript which controls how your Google Sheet behaves. Start off in the script by setting some Global variables. You have to retrieve you access token from build.particle.io, by clicking the settings tab. The device id is the device of your photon, and spreadsheet id is the long string of in your Google Sheets URL. You can also edit the Sheet name if you decide to change that.\n\n```javascript\n// Set Global Variables \n/* \nACCESS_TOKEN: Go to build.particle.io and click \"Settings\" on the left side panel\nPARTICLE_DEVICE_ID: Identify device ID from the console, or from using \"particle list\"\nSPREADSHEET_ID: Look on the URL for your Google Sheet for the long random string\n*/\nPropertiesService.getScriptProperties().setProperty('SHEET_NAME', 'Sheet1');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_ACCESS_TOKEN', '<enter access token>');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_DEVICE_ID', '<enter device id>');\nPropertiesService.getScriptProperties().setProperty('SPREADSHEET_ID', '<enter spreadsheetid>');\n```\n\nHandling the Post Request:\nGo back to your Google Sheet, and right click the button you labeled \"MAKE POST REQUEST\", and assign it a function called `PostRequest` or whatever you decide to name it. In the script file, add the function below. You will be using the Particle API URL, and sending the request there. The request will require your access token, and the argument (in the case above, either \"on\" or \"off\" for the LED).\n\n```javascript\n// Handle the button click for Post Request -------------------------------------------------\nfunction PostRequest() {\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this:\n  // https://api.particle.io/v1/devices/<deviceid>/\n  // led?args=on&access_token=<accesstoken>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var function_name = sheet.getRange(\"B4\").getValue();\n  var request = sheet.getRange(\"B2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + function_name + \"?\" + \n    \"access_token=\" + access_token;\n\n  // Create a form which will be sent as the payload to the post request\n  var formData = {\n    'args' : request\n    \n  };\n  \n  // Create the options\n  var options =\n      {\n        \"method\"  : \"POST\", \n        \"payload\"  : formData,\n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": false\n      };\n  \n  // Send Post request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {  \n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"B3\").setValue(params);\n  }\n}\n```\n\nThe Get request is even simpler, as now you don't have to include a form as part of the package to be delivered. Don't forget to assign the function to the \"MAKE GET REQUEST\" button.\n\n```javascript\n// Handle the button click for Get Request -------------------------------------------------\nfunction GetRequest() {\n  // Start by trying in postman\n  \n  // Set which spreadsheet to pull or output information\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this: \n  // https://api.particle.io/v1/devices/<PARTICLE_DEVICE_ID>/<VARIABLE_NAME>?access_token=<PARTICLE_ACCESS_TOKEN>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var variable_name = sheet.getRange(\"C2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + variable_name + \"?access_token=\" + access_token\n  \n  // Not sure if all options are necessary\n  var options =\n      {\n        \"method\"  : \"GET\",   \n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": true\n      };\n  \n  // Send Get request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {\n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"C3\").setValue(params);\n  };\n}\n```\n\nFinally, the Webhook. We need to set up the Google Sheet to be able to receive a message that is published to it. This is done through a function called `doPost()`. You will not be able to use any name you want, because doPost will be the handler to a post made externally.\n\n```javascript\n// Handle the webhook using doPost() -------------------------------------------------\nfunction doPost(e){\n  // Set which spreadsheet to output this data to\n  var spreadsheet_id = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // Fill the \"Webhook Data\" cell with the parameters of the webhook package sent\n  sheet.getRange(\"D2\").setValue(e.parameter);\n  \n  return ContentService.createTextOutput(JSON.stringify({text:\"webhook received\"})).setMimeType(ContentService.MimeType.JSON);;\n}\n```\nOnce the full script is complete (full script available here, you will need to edit the Global variables section at the top: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/googlesheets_pgw.gs)go to your Google Apps script (https://script.google.com...), and select Publish >> Deploy as webapp. Copy the webapp URL, which you will need to setup the webhook on the Particle console. Then in the section that says \"Who has access to the app\", you will need to select \"Anyone, even anonymous\". This will ensure that the Particle console can make changes to the google sheet.\nThe webhook must also be set up as an integration on console.particle.io. with a Web Form setup. \n\n![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/webhooksetupconsole.jpg)\n\nUnder the Full URL section, you will need to include the target URL for your google sheets webapp. It should begin with https://script.google.com/... This is the URL you copied earlier after deploying as a webapp.\n\nThat's it! Now you have a Google sheet with a webapp that will communicate between the sheet and your Particle IoT device. Try changing the Post Request section (B2) to \"on\" or \"off\" and clicking the \"MAKE POST REQUEST\" button. Try changing cell C2 to brightness, or setpoint, and clicking \"MAKE GET REQUEST\" to view the values. Try holding your hand over the photoresistor on the photoresistor to block out enough light to trigger the webhook event.\n",
+        "content": "\nShameful plug post, but I'll be using Particle devices to demonstrate how to setup a Post/Get/Webhook right on a Google Sheet. Although Excel has more spreadsheet features than Google Sheets, the nice thing is that since your google sheets resides on some server connected to the internet, you can essentially use Google Sheets as a basic server to receive and send requests to an IoT device somewhere else. Take a look at how simple this spreadsheet is:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/googlesht-getpostwebhk.jpg)\n\nAll requests will operate under a request/response format, the idea being that the Google Sheet I made will shoot off a request, and a response will be collected. ONE IMPORTANT NOTE: Since you will be allowing anonymous access in order to use Google Apps Script, PLEASE only use this for development testing purposes ONLY, not to run a production server. If someone finds your Google Sheets URL endpoint, they can flood your sheet with requests. Furthermore, your device access token may be exposed.\n\nWith that said, let's get started.\n\nFirst you will want to create a new Google sheet which looks like what I've shown above. You can ignore cells B3, C3, and D2-D3, as these will be populated automatically by the webapp you'll create using Google Apps Script. You don't have to do this, but I merged cell D2 and D3. To create the buttons, go to Insert >> Drawing to draw a basic rectangle with some text in the middle. You will be able to assign function to these buttons you created later.\n\nParticle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:\n\n![photon-pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/particle-photon.jpg)\n\nYou will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino \n\nIn my `setup()` section I've called out 3 different `Particle.variables`: `analogvalue`, which is the output from the photoresistor, `brightness`, which is the brightness of the LED, and `setpoint`, which is the setpoint issued to the LED. I've also created a `Particle.function` called `led`, which toggles the blue LED situated on D7 on the board. Lastly, I've created a `Particle.publish`, which tracks the analog value and publishes a `low_light` event when the value drops below 50. \n\nWhat I will do now is use my \"Post Request\" function on my google sheet to call the `led` function and toggle on/off the LED. I will use the \"Get Request\" button to pull the `analogvalue` variable. Lastly, I will create a webhook to publish the `low_light` event details to my Google sheet when the event publishes.\n\nFirst, go to the Google Sheet and go to Tools >> Script Editor. This will allow you write javascript which controls how your Google Sheet behaves. Start off in the script by setting some Global variables. You have to retrieve you access token from build.particle.io, by clicking the settings tab. The device id is the device of your photon, and spreadsheet id is the long string of in your Google Sheets URL. You can also edit the Sheet name if you decide to change that.\n\n```javascript\n// Set Global Variables \n/* \nACCESS_TOKEN: Go to build.particle.io and click \"Settings\" on the left side panel\nPARTICLE_DEVICE_ID: Identify device ID from the console, or from using \"particle list\"\nSPREADSHEET_ID: Look on the URL for your Google Sheet for the long random string\n*/\nPropertiesService.getScriptProperties().setProperty('SHEET_NAME', 'Sheet1');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_ACCESS_TOKEN', '<enter access token>');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_DEVICE_ID', '<enter device id>');\nPropertiesService.getScriptProperties().setProperty('SPREADSHEET_ID', '<enter spreadsheetid>');\n```\n\nHandling the Post Request:\nGo back to your Google Sheet, and right click the button you labeled \"MAKE POST REQUEST\", and assign it a function called `PostRequest` or whatever you decide to name it. In the script file, add the function below. You will be using the Particle API URL, and sending the request there. The request will require your access token, and the argument (in the case above, either \"on\" or \"off\" for the LED).\n\n```javascript\n// Handle the button click for Post Request -------------------------------------------------\nfunction PostRequest() {\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this:\n  // https://api.particle.io/v1/devices/<deviceid>/\n  // led?args=on&access_token=<accesstoken>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var function_name = sheet.getRange(\"B4\").getValue();\n  var request = sheet.getRange(\"B2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + function_name + \"?\" + \n    \"access_token=\" + access_token;\n\n  // Create a form which will be sent as the payload to the post request\n  var formData = {\n    'args' : request\n    \n  };\n  \n  // Create the options\n  var options =\n      {\n        \"method\"  : \"POST\", \n        \"payload\"  : formData,\n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": false\n      };\n  \n  // Send Post request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {  \n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"B3\").setValue(params);\n  }\n}\n```\n\nThe Get request is even simpler, as now you don't have to include a form as part of the package to be delivered. Don't forget to assign the function to the \"MAKE GET REQUEST\" button.\n\n```javascript\n// Handle the button click for Get Request -------------------------------------------------\nfunction GetRequest() {\n  // Start by trying in postman\n  \n  // Set which spreadsheet to pull or output information\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this: \n  // https://api.particle.io/v1/devices/<PARTICLE_DEVICE_ID>/<VARIABLE_NAME>?access_token=<PARTICLE_ACCESS_TOKEN>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var variable_name = sheet.getRange(\"C2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + variable_name + \"?access_token=\" + access_token\n  \n  // Not sure if all options are necessary\n  var options =\n      {\n        \"method\"  : \"GET\",   \n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": true\n      };\n  \n  // Send Get request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {\n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"C3\").setValue(params);\n  };\n}\n```\n\nFinally, the Webhook. We need to set up the Google Sheet to be able to receive a message that is published to it. This is done through a function called `doPost()`. You will not be able to use any name you want, because doPost will be the handler to a post made externally.\n\n```javascript\n// Handle the webhook using doPost() -------------------------------------------------\nfunction doPost(e){\n  // Set which spreadsheet to output this data to\n  var spreadsheet_id = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // Fill the \"Webhook Data\" cell with the parameters of the webhook package sent\n  sheet.getRange(\"D2\").setValue(e.parameter);\n  \n  return ContentService.createTextOutput(JSON.stringify({text:\"webhook received\"})).setMimeType(ContentService.MimeType.JSON);;\n}\n```\nOnce the full script is complete (full script available here, you will need to edit the Global variables section at the top: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/googlesheets_pgw.gs)go to your Google Apps script (https://script.google.com...), and select Publish >> Deploy as webapp. Copy the webapp URL, which you will need to setup the webhook on the Particle console. Then in the section that says \"Who has access to the app\", you will need to select \"Anyone, even anonymous\". This will ensure that the Particle console can make changes to the google sheet.\nThe webhook must also be set up as an integration on console.particle.io. with a Web Form setup. \n\n![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/webhooksetupconsole.jpg)\n\nUnder the Full URL section, you will need to include the target URL for your google sheets webapp. It should begin with https://script.google.com/... This is the URL you copied earlier after deploying as a webapp.\n\nThat's it! Now you have a Google sheet with a webapp that will communicate between the sheet and your Particle IoT device. Try changing the Post Request section (B2) to \"on\" or \"off\" and clicking the \"MAKE POST REQUEST\" button. Try changing cell C2 to brightness, or setpoint, and clicking \"MAKE GET REQUEST\" to view the values. Try holding your hand over the photoresistor on the photoresistor to block out enough light to trigger the webhook event.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "fa0054947a893efc94f2b2b24026c3b1",
+        "contentDigest": "c0a9cb998f1b0600c67efefc2b832d41",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2410,7 +2410,7 @@
         "_PARENT": "580170bf-9c68-5b11-96d9-1e46253808e3"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nShameful plug post, but I'll be using Particle devices to demonstrate how to setup a Post/Get/Webhook right on a Google Sheet. Although Excel has more spreadsheet features than Google Sheets, the nice thing is that since your google sheets resides on some server connected to the internet, you can essentially use Google Sheets as a basic server to receive and send requests to an IoT device somewhere else. Take a look at how simple this spreadsheet is:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/googlesht-getpostwebhk.jpg)\n\nAll requests will operate under a request/response format, the idea being that the Google Sheet I made will shoot off a request, and a response will be collected. ONE IMPORTANT NOTE: Since you will be allowing anonymous access in order to use Google Apps Script, PLEASE only use this for development testing purposes ONLY, not to run a production server. If someone finds your Google Sheets URL endpoint, they can flood your sheet with requests. Furthermore, your device access token may be exposed.\n\nWith that said, let's get started.\n\nFirst you will want to create a new Google sheet which looks like what I've shown above. You can ignore cells B3, C3, and D2-D3, as these will be populated automatically by the webapp you'll create using Google Apps Script. You don't have to do this, but I merged cell D2 and D3. To create the buttons, go to Insert >> Drawing to draw a basic rectangle with some text in the middle. You will be able to assign function to these buttons you created later.\n\nParticle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/particle-photon.jpg)\n\nYou will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino \n\nIn my `setup()` section I've called out 3 different `Particle.variables`: `analogvalue`, which is the output from the photoresistor, `brightness`, which is the brightness of the LED, and `setpoint`, which is the setpoint issued to the LED. I've also created a `Particle.function` called `led`, which toggles the blue LED situated on D7 on the board. Lastly, I've created a `Particle.publish`, which tracks the analog value and publishes a `low_light` event when the value drops below 50. \n\nWhat I will do now is use my \"Post Request\" function on my google sheet to call the `led` function and toggle on/off the LED. I will use the \"Get Request\" button to pull the `analogvalue` variable. Lastly, I will create a webhook to publish the `low_light` event details to my Google sheet when the event publishes.\n\nFirst, go to the Google Sheet and go to Tools >> Script Editor. This will allow you write javascript which controls how your Google Sheet behaves. Start off in the script by setting some Global variables. You have to retrieve you access token from build.particle.io, by clicking the settings tab. The device id is the device of your photon, and spreadsheet id is the long string of in your Google Sheets URL. You can also edit the Sheet name if you decide to change that.\n\n```javascript\n// Set Global Variables \n/* \nACCESS_TOKEN: Go to build.particle.io and click \"Settings\" on the left side panel\nPARTICLE_DEVICE_ID: Identify device ID from the console, or from using \"particle list\"\nSPREADSHEET_ID: Look on the URL for your Google Sheet for the long random string\n*/\nPropertiesService.getScriptProperties().setProperty('SHEET_NAME', 'Sheet1');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_ACCESS_TOKEN', '<enter access token>');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_DEVICE_ID', '<enter device id>');\nPropertiesService.getScriptProperties().setProperty('SPREADSHEET_ID', '<enter spreadsheetid>');\n```\n\nHandling the Post Request:\nGo back to your Google Sheet, and right click the button you labeled \"MAKE POST REQUEST\", and assign it a function called `PostRequest` or whatever you decide to name it. In the script file, add the function below. You will be using the Particle API URL, and sending the request there. The request will require your access token, and the argument (in the case above, either \"on\" or \"off\" for the LED).\n\n```javascript\n// Handle the button click for Post Request -------------------------------------------------\nfunction PostRequest() {\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this:\n  // https://api.particle.io/v1/devices/<deviceid>/\n  // led?args=on&access_token=<accesstoken>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var function_name = sheet.getRange(\"B4\").getValue();\n  var request = sheet.getRange(\"B2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + function_name + \"?\" + \n    \"access_token=\" + access_token;\n\n  // Create a form which will be sent as the payload to the post request\n  var formData = {\n    'args' : request\n    \n  };\n  \n  // Create the options\n  var options =\n      {\n        \"method\"  : \"POST\", \n        \"payload\"  : formData,\n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": false\n      };\n  \n  // Send Post request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {  \n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"B3\").setValue(params);\n  }\n}\n```\n\nThe Get request is even simpler, as now you don't have to include a form as part of the package to be delivered. Don't forget to assign the function to the \"MAKE GET REQUEST\" button.\n\n```javascript\n// Handle the button click for Get Request -------------------------------------------------\nfunction GetRequest() {\n  // Start by trying in postman\n  \n  // Set which spreadsheet to pull or output information\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this: \n  // https://api.particle.io/v1/devices/<PARTICLE_DEVICE_ID>/<VARIABLE_NAME>?access_token=<PARTICLE_ACCESS_TOKEN>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var variable_name = sheet.getRange(\"C2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + variable_name + \"?access_token=\" + access_token\n  \n  // Not sure if all options are necessary\n  var options =\n      {\n        \"method\"  : \"GET\",   \n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": true\n      };\n  \n  // Send Get request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {\n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"C3\").setValue(params);\n  };\n}\n```\n\nFinally, the Webhook. We need to set up the Google Sheet to be able to receive a message that is published to it. This is done through a function called `doPost()`. You will not be able to use any name you want, because doPost will be the handler to a post made externally.\n\n```javascript\n// Handle the webhook using doPost() -------------------------------------------------\nfunction doPost(e){\n  // Set which spreadsheet to output this data to\n  var spreadsheet_id = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // Fill the \"Webhook Data\" cell with the parameters of the webhook package sent\n  sheet.getRange(\"D2\").setValue(e.parameter);\n  \n  return ContentService.createTextOutput(JSON.stringify({text:\"webhook received\"})).setMimeType(ContentService.MimeType.JSON);;\n}\n```\nOnce the full script is complete (full script available here, you will need to edit the Global variables section at the top: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/googlesheets_pgw.gs)go to your Google Apps script (https://script.google.com...), and select Publish >> Deploy as webapp. Copy the webapp URL, which you will need to setup the webhook on the Particle console. Then in the section that says \"Who has access to the app\", you will need to select \"Anyone, even anonymous\". This will ensure that the Particle console can make changes to the google sheet.\nThe webhook must also be set up as an integration on console.particle.io. with a Web Form setup. \n\n![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/webhooksetupconsole.jpg)\n\nUnder the Full URL section, you will need to include the target URL for your google sheets webapp. It should begin with https://script.google.com/... This is the URL you copied earlier after deploying as a webapp.\n\nThat's it! Now you have a Google sheet with a webapp that will communicate between the sheet and your Particle IoT device. Try changing the Post Request section (B2) to \"on\" or \"off\" and clicking the \"MAKE POST REQUEST\" button. Try changing cell C2 to brightness, or setpoint, and clicking \"MAKE GET REQUEST\" to view the values. Try holding your hand over the photoresistor on the photoresistor to block out enough light to trigger the webhook event.\n",
+      "rawMarkdownBody": "\nShameful plug post, but I'll be using Particle devices to demonstrate how to setup a Post/Get/Webhook right on a Google Sheet. Although Excel has more spreadsheet features than Google Sheets, the nice thing is that since your google sheets resides on some server connected to the internet, you can essentially use Google Sheets as a basic server to receive and send requests to an IoT device somewhere else. Take a look at how simple this spreadsheet is:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/googlesht-getpostwebhk.jpg)\n\nAll requests will operate under a request/response format, the idea being that the Google Sheet I made will shoot off a request, and a response will be collected. ONE IMPORTANT NOTE: Since you will be allowing anonymous access in order to use Google Apps Script, PLEASE only use this for development testing purposes ONLY, not to run a production server. If someone finds your Google Sheets URL endpoint, they can flood your sheet with requests. Furthermore, your device access token may be exposed.\n\nWith that said, let's get started.\n\nFirst you will want to create a new Google sheet which looks like what I've shown above. You can ignore cells B3, C3, and D2-D3, as these will be populated automatically by the webapp you'll create using Google Apps Script. You don't have to do this, but I merged cell D2 and D3. To create the buttons, go to Insert >> Drawing to draw a basic rectangle with some text in the middle. You will be able to assign function to these buttons you created later.\n\nParticle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:\n\n![photon-pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/particle-photon.jpg)\n\nYou will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino \n\nIn my `setup()` section I've called out 3 different `Particle.variables`: `analogvalue`, which is the output from the photoresistor, `brightness`, which is the brightness of the LED, and `setpoint`, which is the setpoint issued to the LED. I've also created a `Particle.function` called `led`, which toggles the blue LED situated on D7 on the board. Lastly, I've created a `Particle.publish`, which tracks the analog value and publishes a `low_light` event when the value drops below 50. \n\nWhat I will do now is use my \"Post Request\" function on my google sheet to call the `led` function and toggle on/off the LED. I will use the \"Get Request\" button to pull the `analogvalue` variable. Lastly, I will create a webhook to publish the `low_light` event details to my Google sheet when the event publishes.\n\nFirst, go to the Google Sheet and go to Tools >> Script Editor. This will allow you write javascript which controls how your Google Sheet behaves. Start off in the script by setting some Global variables. You have to retrieve you access token from build.particle.io, by clicking the settings tab. The device id is the device of your photon, and spreadsheet id is the long string of in your Google Sheets URL. You can also edit the Sheet name if you decide to change that.\n\n```javascript\n// Set Global Variables \n/* \nACCESS_TOKEN: Go to build.particle.io and click \"Settings\" on the left side panel\nPARTICLE_DEVICE_ID: Identify device ID from the console, or from using \"particle list\"\nSPREADSHEET_ID: Look on the URL for your Google Sheet for the long random string\n*/\nPropertiesService.getScriptProperties().setProperty('SHEET_NAME', 'Sheet1');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_ACCESS_TOKEN', '<enter access token>');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_DEVICE_ID', '<enter device id>');\nPropertiesService.getScriptProperties().setProperty('SPREADSHEET_ID', '<enter spreadsheetid>');\n```\n\nHandling the Post Request:\nGo back to your Google Sheet, and right click the button you labeled \"MAKE POST REQUEST\", and assign it a function called `PostRequest` or whatever you decide to name it. In the script file, add the function below. You will be using the Particle API URL, and sending the request there. The request will require your access token, and the argument (in the case above, either \"on\" or \"off\" for the LED).\n\n```javascript\n// Handle the button click for Post Request -------------------------------------------------\nfunction PostRequest() {\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this:\n  // https://api.particle.io/v1/devices/<deviceid>/\n  // led?args=on&access_token=<accesstoken>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var function_name = sheet.getRange(\"B4\").getValue();\n  var request = sheet.getRange(\"B2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + function_name + \"?\" + \n    \"access_token=\" + access_token;\n\n  // Create a form which will be sent as the payload to the post request\n  var formData = {\n    'args' : request\n    \n  };\n  \n  // Create the options\n  var options =\n      {\n        \"method\"  : \"POST\", \n        \"payload\"  : formData,\n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": false\n      };\n  \n  // Send Post request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {  \n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"B3\").setValue(params);\n  }\n}\n```\n\nThe Get request is even simpler, as now you don't have to include a form as part of the package to be delivered. Don't forget to assign the function to the \"MAKE GET REQUEST\" button.\n\n```javascript\n// Handle the button click for Get Request -------------------------------------------------\nfunction GetRequest() {\n  // Start by trying in postman\n  \n  // Set which spreadsheet to pull or output information\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this: \n  // https://api.particle.io/v1/devices/<PARTICLE_DEVICE_ID>/<VARIABLE_NAME>?access_token=<PARTICLE_ACCESS_TOKEN>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var variable_name = sheet.getRange(\"C2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + variable_name + \"?access_token=\" + access_token\n  \n  // Not sure if all options are necessary\n  var options =\n      {\n        \"method\"  : \"GET\",   \n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": true\n      };\n  \n  // Send Get request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {\n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"C3\").setValue(params);\n  };\n}\n```\n\nFinally, the Webhook. We need to set up the Google Sheet to be able to receive a message that is published to it. This is done through a function called `doPost()`. You will not be able to use any name you want, because doPost will be the handler to a post made externally.\n\n```javascript\n// Handle the webhook using doPost() -------------------------------------------------\nfunction doPost(e){\n  // Set which spreadsheet to output this data to\n  var spreadsheet_id = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // Fill the \"Webhook Data\" cell with the parameters of the webhook package sent\n  sheet.getRange(\"D2\").setValue(e.parameter);\n  \n  return ContentService.createTextOutput(JSON.stringify({text:\"webhook received\"})).setMimeType(ContentService.MimeType.JSON);;\n}\n```\nOnce the full script is complete (full script available here, you will need to edit the Global variables section at the top: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/googlesheets_pgw.gs)go to your Google Apps script (https://script.google.com...), and select Publish >> Deploy as webapp. Copy the webapp URL, which you will need to setup the webhook on the Particle console. Then in the section that says \"Who has access to the app\", you will need to select \"Anyone, even anonymous\". This will ensure that the Particle console can make changes to the google sheet.\nThe webhook must also be set up as an integration on console.particle.io. with a Web Form setup. \n\n![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/webhooksetupconsole.jpg)\n\nUnder the Full URL section, you will need to include the target URL for your google sheets webapp. It should begin with https://script.google.com/... This is the URL you copied earlier after deploying as a webapp.\n\nThat's it! Now you have a Google sheet with a webapp that will communicate between the sheet and your Particle IoT device. Try changing the Post Request section (B2) to \"on\" or \"off\" and clicking the \"MAKE POST REQUEST\" button. Try changing cell C2 to brightness, or setpoint, and clicking \"MAKE GET REQUEST\" to view the values. Try holding your hand over the photoresistor on the photoresistor to block out enough light to trigger the webhook event.\n",
       "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/particlepostgetwebhk.md",
       "fields": {
         "slug": "/posts/particlepostgetwebhk/"
@@ -2773,7 +2773,8 @@
       "MarkdownRemark": [
         null,
         "/about/",
-        "/"
+        "/",
+        null
       ],
       "File": [
         "/my-files/"
@@ -2782,8 +2783,8 @@
   },
   "jsonDataPaths": {
     "sq--src-components-layout-js": 755544856,
-    "my-files-317": "994/path---my-files-317-4c7-ufinxK4Ewnj5qH2KYjQqM6bYY",
-    "index": "593/path---index-6a9-VFI3IHmNm21149gw2h5JHyRrQM",
+    "my-files-317": "850/path---my-files-317-4c7-qpPz5fUOWMtIKYwPodhrC4f3o",
+    "index": "624/path---index-6a9-AeVZbWkPf0U4d7X3C2BHwheVpw",
     "about-f34": "139/path---about-f-34-4c2-d9vjRJIWoRzCMVZZqoQR4qPq4A",
     "about-aboutme-179": "543/path---about-aboutme-179-4eb-S9wWQLeZ6kiCBelY7VXYV7MVdX4",
     "posts-goingclimbing-015": "93/path---posts-goingclimbing-015-fb4-eVppT35deniTbi8ZsuhxkGPo",
@@ -2794,7 +2795,7 @@
     "posts-slackdeliverytracker-dfa": "545/path---posts-slackdeliverytracker-dfa-1fd-kdpoXZayRNKTFQ1kit0lYvN5LSU",
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "posts-particlepostgetwebhk-3df": "620/path---posts-particlepostgetwebhk-3-df-dee-eNHQTxeaHD94GjwfFb2ng7KkjU4",
+    "posts-particlepostgetwebhk-3df": "586/path---posts-particlepostgetwebhk-3-df-dee-eiojCokeJot3P0oJjG2zGJVMfms",
     "projects-9e9": "545/path---projects-9-e-9-957-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
