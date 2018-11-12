@@ -6,7 +6,7 @@ date: "2018-11-11"
 
 Shameful plug post, but I'll be using Particle devices to demonstrate how to setup a Post/Get/Webhook right on a Google Sheet. Although Excel has more spreadsheet features than Google Sheets, the nice thing is that since your google sheets resides on some server connected to the internet, you can essentially use Google Sheets as a basic server to receive and send requests to an IoT device somewhere else. Take a look at how simple this spreadsheet is:
 
-![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/googlesht-getpostwebhk.jpg)
+![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/googlesht-getpostwebhk.jpg)
 
 All requests will operate under a request/response format, the idea being that the Google Sheet I made will shoot off a request, and a response will be collected. ONE IMPORTANT NOTE: Since you will be allowing anonymous access in order to use Google Apps Script, PLEASE only use this for development testing purposes ONLY, not to run a production server. If someone finds your Google Sheets URL endpoint, they can flood your sheet with requests. Furthermore, your device access token may be exposed.
 
@@ -16,7 +16,7 @@ First you will want to create a new Google sheet which looks like what I've show
 
 Particle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:
 
-![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/particle-photon.jpg)
+![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/particle-photon.jpg)
 
 You will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino 
 
@@ -142,7 +142,7 @@ function doPost(e){
 Once the full script is complete (full script available here, you will need to edit the Global variables section at the top: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/googlesheets_pgw.gs)go to your Google Apps script (https://script.google.com...), and select Publish >> Deploy as webapp. Copy the webapp URL, which you will need to setup the webhook on the Particle console. Then in the section that says "Who has access to the app", you will need to select "Anyone, even anonymous". This will ensure that the Particle console can make changes to the google sheet.
 The webhook must also be set up as an integration on console.particle.io. with a Web Form setup. 
 
-![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/webhooksetupconsole.jpg)
+![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/webhooksetupconsole.jpg)
 
 Under the Full URL section, you will need to include the target URL for your google sheets webapp. It should begin with https://script.google.com/... This is the URL you copied earlier after deploying as a webapp.
 
