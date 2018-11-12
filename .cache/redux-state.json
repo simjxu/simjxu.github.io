@@ -931,12 +931,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-07T20:28:58.626Z",
+      "buildTime": "2018-11-12T04:13:32.333Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f17d60cb41ce031be52ccc238c55bdaa",
+        "contentDigest": "d0808f28b4ea5510a7638a7d31378642",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1168,7 +1168,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "737c9ea3167ab18b45154ba486742462",
+        "contentDigest": "deb72c579a7627f4951f9f35ee2db505",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -1177,11 +1177,11 @@
       "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/",
       "relativePath": "",
       "extension": "",
-      "size": 160,
-      "prettySize": "160 B",
-      "modifiedTime": "2018-11-07T20:27:40.328Z",
-      "accessTime": "2018-11-07T20:29:02.897Z",
-      "changeTime": "2018-11-07T20:27:40.328Z",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-11-07T21:44:44.349Z",
+      "accessTime": "2018-11-12T04:13:36.280Z",
+      "changeTime": "2018-11-07T21:44:44.349Z",
       "birthTime": "2018-11-04T01:43:09.963Z",
       "root": "/",
       "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io",
@@ -1191,20 +1191,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 5,
+      "nlink": 6,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 5239404,
       "blocks": 0,
-      "atimeMs": 1541622542896.532,
-      "mtimeMs": 1541622460328.3413,
-      "ctimeMs": 1541622460328.3413,
+      "atimeMs": 1541996016280.1301,
+      "mtimeMs": 1541627084348.9956,
+      "ctimeMs": 1541627084348.9956,
       "birthtimeMs": 1541295789962.6338,
-      "atime": "2018-11-07T20:29:02.897Z",
-      "mtime": "2018-11-07T20:27:40.328Z",
-      "ctime": "2018-11-07T20:27:40.328Z",
+      "atime": "2018-11-12T04:13:36.280Z",
+      "mtime": "2018-11-07T21:44:44.349Z",
+      "ctime": "2018-11-07T21:44:44.349Z",
       "birthtime": "2018-11-04T01:43:09.963Z"
     },
     "62250e5d-d94c-5147-8eb2-cb9a387763b8": {
@@ -1212,7 +1212,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ff76c65fb9b858e10f58263fa8ea9197",
+        "contentDigest": "61109a84b4affbcbe4308581a7e9ae59",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1224,7 +1224,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-11-04T06:09:30.318Z",
-      "accessTime": "2018-11-07T20:29:02.899Z",
+      "accessTime": "2018-11-12T04:13:36.282Z",
       "changeTime": "2018-11-05T03:00:04.209Z",
       "birthTime": "2018-11-04T01:43:09.965Z",
       "root": "/",
@@ -1242,11 +1242,11 @@
       "blksize": 4096,
       "ino": 5279214,
       "blocks": 0,
-      "atimeMs": 1541622542899.4553,
+      "atimeMs": 1541996016282.3918,
       "mtimeMs": 1541311770317.9966,
       "ctimeMs": 1541386804209.1877,
       "birthtimeMs": 1541295789964.8677,
-      "atime": "2018-11-07T20:29:02.899Z",
+      "atime": "2018-11-12T04:13:36.282Z",
       "mtime": "2018-11-04T06:09:30.318Z",
       "ctime": "2018-11-05T03:00:04.209Z",
       "birthtime": "2018-11-04T01:43:09.965Z"
@@ -1256,7 +1256,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3b5ad1a59f0550d81476a2f3404cb2a1",
+        "contentDigest": "dfc39c70ea34dcea461bae270176efda",
         "type": "Directory",
         "description": "Directory \"src/templates\"",
         "owner": "gatsby-source-filesystem"
@@ -1268,7 +1268,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-11-04T06:56:40.702Z",
-      "accessTime": "2018-11-07T20:29:02.899Z",
+      "accessTime": "2018-11-12T04:13:36.282Z",
       "changeTime": "2018-11-05T03:00:04.202Z",
       "birthTime": "2018-11-04T06:56:40.701Z",
       "root": "/",
@@ -1286,11 +1286,11 @@
       "blksize": 4096,
       "ino": 5279212,
       "blocks": 0,
-      "atimeMs": 1541622542899.3242,
+      "atimeMs": 1541996016282.3193,
       "mtimeMs": 1541314600701.7566,
       "ctimeMs": 1541386804201.9036,
       "birthtimeMs": 1541314600701.077,
-      "atime": "2018-11-07T20:29:02.899Z",
+      "atime": "2018-11-12T04:13:36.282Z",
       "mtime": "2018-11-04T06:56:40.702Z",
       "ctime": "2018-11-05T03:00:04.202Z",
       "birthtime": "2018-11-04T06:56:40.701Z"
@@ -1300,7 +1300,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e222e21d64dbb94d0b120cdceb28d7a8",
+        "contentDigest": "44e3dfb942bc1520a684309074710779",
         "type": "Directory",
         "description": "Directory \"src/components\"",
         "owner": "gatsby-source-filesystem"
@@ -1312,7 +1312,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-11-04T03:56:49.959Z",
-      "accessTime": "2018-11-07T20:29:02.899Z",
+      "accessTime": "2018-11-12T04:13:36.282Z",
       "changeTime": "2018-11-05T03:00:04.201Z",
       "birthTime": "2018-11-04T01:43:09.963Z",
       "root": "/",
@@ -1330,11 +1330,11 @@
       "blksize": 4096,
       "ino": 5279208,
       "blocks": 0,
-      "atimeMs": 1541622542899.3584,
+      "atimeMs": 1541996016282.344,
       "mtimeMs": 1541303809958.8206,
       "ctimeMs": 1541386804201.0657,
       "birthtimeMs": 1541295789962.7195,
-      "atime": "2018-11-07T20:29:02.899Z",
+      "atime": "2018-11-12T04:13:36.282Z",
       "mtime": "2018-11-04T03:56:49.959Z",
       "ctime": "2018-11-05T03:00:04.201Z",
       "birthtime": "2018-11-04T01:43:09.963Z"
@@ -1344,7 +1344,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5417e4da45b5e8df64226d8d4875f3e8",
+        "contentDigest": "feebc1609daa47f29f88efd009acb092",
         "type": "Directory",
         "description": "Directory \"src/pages/about\"",
         "owner": "gatsby-source-filesystem"
@@ -1356,7 +1356,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-11-04T07:09:46.290Z",
-      "accessTime": "2018-11-07T20:29:02.901Z",
+      "accessTime": "2018-11-12T04:13:36.285Z",
       "changeTime": "2018-11-05T03:00:04.208Z",
       "birthTime": "2018-11-04T04:37:05.479Z",
       "root": "/",
@@ -1374,11 +1374,11 @@
       "blksize": 4096,
       "ino": 5279225,
       "blocks": 0,
-      "atimeMs": 1541622542901.0813,
+      "atimeMs": 1541996016284.5679,
       "mtimeMs": 1541315386289.6462,
       "ctimeMs": 1541386804208.0159,
       "birthtimeMs": 1541306225479.0728,
-      "atime": "2018-11-07T20:29:02.901Z",
+      "atime": "2018-11-12T04:13:36.285Z",
       "mtime": "2018-11-04T07:09:46.290Z",
       "ctime": "2018-11-05T03:00:04.208Z",
       "birthtime": "2018-11-04T04:37:05.479Z"
@@ -1388,7 +1388,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8d18cfde85907f9efac194b6748a6cbf",
+        "contentDigest": "3b81dff0fd38395dc8e33997699c645f",
         "type": "Directory",
         "description": "Directory \"src/pages/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1397,11 +1397,11 @@
       "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
       "relativePath": "pages/posts",
       "extension": "",
-      "size": 256,
-      "prettySize": "256 B",
-      "modifiedTime": "2018-11-04T04:37:05.492Z",
-      "accessTime": "2018-11-07T20:29:02.901Z",
-      "changeTime": "2018-11-05T03:00:04.206Z",
+      "size": 288,
+      "prettySize": "288 B",
+      "modifiedTime": "2018-11-12T04:11:46.336Z",
+      "accessTime": "2018-11-12T04:13:36.285Z",
+      "changeTime": "2018-11-12T04:11:46.336Z",
       "birthTime": "2018-11-04T04:37:05.479Z",
       "root": "/",
       "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages",
@@ -1411,20 +1411,20 @@
       "relativeDirectory": "pages",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 8,
+      "nlink": 9,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 5279215,
       "blocks": 0,
-      "atimeMs": 1541622542901.1016,
-      "mtimeMs": 1541306225492.1245,
-      "ctimeMs": 1541386804205.531,
+      "atimeMs": 1541996016284.5884,
+      "mtimeMs": 1541995906335.5398,
+      "ctimeMs": 1541995906335.5398,
       "birthtimeMs": 1541306225479.163,
-      "atime": "2018-11-07T20:29:02.901Z",
-      "mtime": "2018-11-04T04:37:05.492Z",
-      "ctime": "2018-11-05T03:00:04.206Z",
+      "atime": "2018-11-12T04:13:36.285Z",
+      "mtime": "2018-11-12T04:11:46.336Z",
+      "ctime": "2018-11-12T04:11:46.336Z",
       "birthtime": "2018-11-04T04:37:05.479Z"
     },
     "cf3e59b9-58f9-5832-b733-3241af688aa0": {
@@ -1933,7 +1933,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "459c56d5af5ce9ec5d385c9853f2da64",
+        "contentDigest": "00d15228707dba8171eb8a2d8c69e74c",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/posts/googlecomputeengine.md\"",
@@ -1943,11 +1943,11 @@
       "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/googlecomputeengine.md",
       "relativePath": "pages/posts/googlecomputeengine.md",
       "extension": "md",
-      "size": 3355,
-      "prettySize": "3.35 kB",
-      "modifiedTime": "2018-11-04T04:37:05.490Z",
-      "accessTime": "2018-11-05T03:03:20.766Z",
-      "changeTime": "2018-11-05T03:00:04.205Z",
+      "size": 3361,
+      "prettySize": "3.36 kB",
+      "modifiedTime": "2018-11-09T08:12:58.665Z",
+      "accessTime": "2018-11-09T08:13:33.538Z",
+      "changeTime": "2018-11-09T08:12:58.665Z",
       "birthTime": "2018-11-04T04:37:05.484Z",
       "root": "/",
       "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
@@ -1964,13 +1964,13 @@
       "blksize": 4096,
       "ino": 5279220,
       "blocks": 8,
-      "atimeMs": 1541387000765.5256,
-      "mtimeMs": 1541306225490.1016,
-      "ctimeMs": 1541386804204.9504,
+      "atimeMs": 1541751213537.704,
+      "mtimeMs": 1541751178665.3323,
+      "ctimeMs": 1541751178665.3323,
       "birthtimeMs": 1541306225484.45,
-      "atime": "2018-11-05T03:03:20.766Z",
-      "mtime": "2018-11-04T04:37:05.490Z",
-      "ctime": "2018-11-05T03:00:04.205Z",
+      "atime": "2018-11-09T08:13:33.538Z",
+      "mtime": "2018-11-09T08:12:58.665Z",
+      "ctime": "2018-11-09T08:12:58.665Z",
       "birthtime": "2018-11-04T04:37:05.484Z"
     },
     "87ba23d7-785a-5a20-845e-8e0841d545ff": {
@@ -2027,7 +2027,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2d4b81a74ed4b2980caab34c1d5c3c24",
+        "contentDigest": "da43a653203584c648950fb0c210ab41",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/posts/slackdeliverytracker.md\"",
@@ -2037,11 +2037,11 @@
       "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/slackdeliverytracker.md",
       "relativePath": "pages/posts/slackdeliverytracker.md",
       "extension": "md",
-      "size": 6358,
+      "size": 6360,
       "prettySize": "6.36 kB",
-      "modifiedTime": "2018-11-04T04:37:05.493Z",
-      "accessTime": "2018-11-05T03:03:20.759Z",
-      "changeTime": "2018-11-05T03:00:04.204Z",
+      "modifiedTime": "2018-11-09T08:12:14.082Z",
+      "accessTime": "2018-11-09T08:13:33.538Z",
+      "changeTime": "2018-11-09T08:12:14.082Z",
       "birthTime": "2018-11-04T04:37:05.492Z",
       "root": "/",
       "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
@@ -2058,13 +2058,13 @@
       "blksize": 4096,
       "ino": 5279218,
       "blocks": 16,
-      "atimeMs": 1541387000758.6719,
-      "mtimeMs": 1541306225492.5073,
-      "ctimeMs": 1541386804203.9578,
+      "atimeMs": 1541751213537.7566,
+      "mtimeMs": 1541751134082.2354,
+      "ctimeMs": 1541751134082.2354,
       "birthtimeMs": 1541306225492.1167,
-      "atime": "2018-11-05T03:03:20.759Z",
-      "mtime": "2018-11-04T04:37:05.493Z",
-      "ctime": "2018-11-05T03:00:04.204Z",
+      "atime": "2018-11-09T08:13:33.538Z",
+      "mtime": "2018-11-09T08:12:14.082Z",
+      "ctime": "2018-11-09T08:12:14.082Z",
       "birthtime": "2018-11-04T04:37:05.492Z"
     },
     "9538a226-819d-5cae-bb8e-14db12838a95": {
@@ -2121,7 +2121,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "412f8208036a41cb5cc3879eafc21ffe",
+        "contentDigest": "9956b3acbe673aa637dab0345469caac",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/posts/gatsby1.md\"",
@@ -2131,11 +2131,11 @@
       "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/gatsby1.md",
       "relativePath": "pages/posts/gatsby1.md",
       "extension": "md",
-      "size": 2149,
+      "size": 2151,
       "prettySize": "2.15 kB",
-      "modifiedTime": "2018-11-05T01:50:27.037Z",
-      "accessTime": "2018-11-05T03:03:20.703Z",
-      "changeTime": "2018-11-05T03:00:04.203Z",
+      "modifiedTime": "2018-11-09T08:13:09.329Z",
+      "accessTime": "2018-11-09T08:13:33.538Z",
+      "changeTime": "2018-11-09T08:13:09.329Z",
       "birthTime": "2018-11-04T04:37:05.481Z",
       "root": "/",
       "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
@@ -2152,13 +2152,13 @@
       "blksize": 4096,
       "ino": 5279216,
       "blocks": 8,
-      "atimeMs": 1541387000703.3108,
-      "mtimeMs": 1541382627036.6667,
-      "ctimeMs": 1541386804202.8606,
+      "atimeMs": 1541751213537.6387,
+      "mtimeMs": 1541751189329.4944,
+      "ctimeMs": 1541751189329.4944,
       "birthtimeMs": 1541306225480.6711,
-      "atime": "2018-11-05T03:03:20.703Z",
-      "mtime": "2018-11-05T01:50:27.037Z",
-      "ctime": "2018-11-05T03:00:04.203Z",
+      "atime": "2018-11-09T08:13:33.538Z",
+      "mtime": "2018-11-09T08:13:09.329Z",
+      "ctime": "2018-11-09T08:13:09.329Z",
       "birthtime": "2018-11-04T04:37:05.481Z"
     },
     "bad11a45-7ca0-5880-9fc2-96d778e7dec4": {
@@ -2213,32 +2213,6 @@
         "slug": "/about/aboutme/"
       }
     },
-    "3305f733-cc16-59f2-bd3d-eb1c2493426d": {
-      "id": "3305f733-cc16-59f2-bd3d-eb1c2493426d",
-      "children": [],
-      "parent": "a67a1138-6f42-5125-8acf-1135d1af7eb9",
-      "internal": {
-        "content": "\nProbably the most familiar experience of a hardware startup is the lack of monetary resources (free lunches? no way!). And yet, we still want to be cutting edge with our machine learning techniques. Sometimes, doing a custom feature extraction from our datasets can take a lot of computing resources, taking up to 8 hours on a laptop running Linux (notice how I did not say a Macbook Pro). Thankfully, Big Brother Google wants to trickle down some benefits for the needy, and provides us with a Free Tier for a lot of there cloud platform modules. So, I decided to try this out.\n\nFirst, I just wrote a simple Python program (testscript.py) that takes more than just a second to run, by doing the forbidden: nested for loops, the Avada Kedavra of programming.\n\n~~~ python\nnumruns = 300\nprint(\"running\")\nhuge_array = [[[0.0 for i in range(numruns)] for j in range(numruns)] for k in range(numruns)]\ncounter = 0\nprint(\"starting loops\")\nfor i in range(numruns):\n    for j in range(numruns):\n        for k in range(numruns):\n            huge_array[i][j][k] = i+j+k\n            counter+=1\n            if counter%10000 == 0:\n                print(counter)\nprint(\"finished\")\n~~~\n\nThe first thing to do is to create a project on GCP (Google Cloud Platform) by going to console.cloud.google.com and clicking on \"Select a Project\". Once you have named your project, notice you can take advantage of $300 of free credits to play with (how generous!). Once you have made your project, you can click on \"Compute Engine\" on the left hand panel, and create an instance. As of the time this post was written, you can get a free f1-micro instance running on a virtual machine in the US. This f1-micro has 0.6GB of memory and 1vCPU.\n![gce-f1micro](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/gce-dashboard.jpg)\n\nAfter this instance is created, you can view your instance and also SSH into the instance. If you do this, then you can interact with this instance via a Debian Linux shell. To upload a file, you can click on the gearbox on the top right side to upload your python file. In my case, I am uploading a python 3 script called testscript.py, which I shared above. \n![gce-f1microShell](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/f1micro-SSHshell.jpg)\n\nAfter it is uploaded, you can run the file on the instance by first making it an executable with `chmod +x testscript.py`. `chmod` basically changes the mode and using the `+x` option makes it an executable. Then you can run `nohup` on the python script to get it running in the shell without requiring the shell to be open. Unfortunately, with the python script I shared, it gets killed after a few seconds:\n![gce-f1microKilled](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/f1micro-killed.jpg)\n\nTurns out free also means you can't just leave something running forever. If you check the nohup.out file using `cat nohup.out`, you can see that my script ended somewhere after iteration 523000. Probably exceeded the RAM available here. Probably the better thing to do is to take advantage of another free item, the 5GB of cloud storage. I'll try that next time.\n\nUseful references: https://cloud.google.com/free/docs/always-free-usage-limits\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "ed9580c2d08f513031ed0931522b379d",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "How to run a Python Script on Google Compute Engine",
-        "layout": "post",
-        "date": "2018-09-19",
-        "_PARENT": "a67a1138-6f42-5125-8acf-1135d1af7eb9"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nProbably the most familiar experience of a hardware startup is the lack of monetary resources (free lunches? no way!). And yet, we still want to be cutting edge with our machine learning techniques. Sometimes, doing a custom feature extraction from our datasets can take a lot of computing resources, taking up to 8 hours on a laptop running Linux (notice how I did not say a Macbook Pro). Thankfully, Big Brother Google wants to trickle down some benefits for the needy, and provides us with a Free Tier for a lot of there cloud platform modules. So, I decided to try this out.\n\nFirst, I just wrote a simple Python program (testscript.py) that takes more than just a second to run, by doing the forbidden: nested for loops, the Avada Kedavra of programming.\n\n~~~ python\nnumruns = 300\nprint(\"running\")\nhuge_array = [[[0.0 for i in range(numruns)] for j in range(numruns)] for k in range(numruns)]\ncounter = 0\nprint(\"starting loops\")\nfor i in range(numruns):\n    for j in range(numruns):\n        for k in range(numruns):\n            huge_array[i][j][k] = i+j+k\n            counter+=1\n            if counter%10000 == 0:\n                print(counter)\nprint(\"finished\")\n~~~\n\nThe first thing to do is to create a project on GCP (Google Cloud Platform) by going to console.cloud.google.com and clicking on \"Select a Project\". Once you have named your project, notice you can take advantage of $300 of free credits to play with (how generous!). Once you have made your project, you can click on \"Compute Engine\" on the left hand panel, and create an instance. As of the time this post was written, you can get a free f1-micro instance running on a virtual machine in the US. This f1-micro has 0.6GB of memory and 1vCPU.\n![gce-f1micro](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/gce-dashboard.jpg)\n\nAfter this instance is created, you can view your instance and also SSH into the instance. If you do this, then you can interact with this instance via a Debian Linux shell. To upload a file, you can click on the gearbox on the top right side to upload your python file. In my case, I am uploading a python 3 script called testscript.py, which I shared above. \n![gce-f1microShell](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/f1micro-SSHshell.jpg)\n\nAfter it is uploaded, you can run the file on the instance by first making it an executable with `chmod +x testscript.py`. `chmod` basically changes the mode and using the `+x` option makes it an executable. Then you can run `nohup` on the python script to get it running in the shell without requiring the shell to be open. Unfortunately, with the python script I shared, it gets killed after a few seconds:\n![gce-f1microKilled](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/f1micro-killed.jpg)\n\nTurns out free also means you can't just leave something running forever. If you check the nohup.out file using `cat nohup.out`, you can see that my script ended somewhere after iteration 523000. Probably exceeded the RAM available here. Probably the better thing to do is to take advantage of another free item, the 5GB of cloud storage. I'll try that next time.\n\nUseful references: https://cloud.google.com/free/docs/always-free-usage-limits\n",
-      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/googlecomputeengine.md",
-      "fields": {
-        "slug": "/posts/googlecomputeengine/"
-      }
-    },
     "c0b8af4b-c913-5a6c-9bc8-c245ea018dd4": {
       "id": "c0b8af4b-c913-5a6c-9bc8-c245ea018dd4",
       "children": [],
@@ -2263,32 +2237,6 @@
       "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/mfgapp.md",
       "fields": {
         "slug": "/posts/mfgapp/"
-      }
-    },
-    "c5806368-9a38-5f7c-9961-43f4bf5ef877": {
-      "id": "c5806368-9a38-5f7c-9961-43f4bf5ef877",
-      "children": [],
-      "parent": "afcd5eb6-39e2-51de-9a00-212d886314f8",
-      "internal": {
-        "content": "\nSince I work for an IIoT combined hardware/sofware company, we often receive packages through the mail. This includes anything from dev boards to etched plastic enclosures. Now that we receive packages so often, it is not very easy to keep track of when a package is supposed to be arriving, and we don't always get notifications when items get held up in customs or get lost in the process. Once again APIs are here to save the day.\n\nIn the ideal scenario, we could create a Chrome extension with a trained machine learning algorithm that can detect whether a purchase has been made for a delivery, guess the delivery timeframe, store the delivery in a database, and automatically alert the user if today's date is later than the anticipated delivery date. However, even this scenario doesn't account for company purchases made with a purchase order system, which is why procurement teams exist.\n\nGiven that I am no genius, an idiot's backup to the system above is to use a slack slash command to automatically update a simple database, like a spreadsheet in Google Sheets for example. Then, using an incoming webhook, send an alert if it is past the delivery date for the package, triggered once every day to a channel, perhaps called #deliveryalerts. If there are no packages that are supposed to be delivered already, no alerts. \n\nWe can first create a simple spreadsheet database like this: \n![vendor-spreadsheet](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/vendor_spreadsheet.jpg)\nThis would show the item that is being delivered, the estimated delivery date, and a boolean Yes/No as to whether the item has been received.\n\nThen, we can create the #deliveryalerts channel in Slack, and integrate a Slack incoming webhook that points to #deliveryalerts and a slash command. In this case, we create one called /delivery. /delivery will send a post request to some endpoint that you need to define (a url). In our case, we can just use Google Apps script to set up this endpoint. Anything written after the /delivery command will be sent to the endpoint, and we can create the script to parse this text message using regular expressions (regex). Google Apps Script will handle the request through a `doPost()` function that you must write. Just take the spreadsheet that you want to set as your deliveries database, and on the Tools menu select script editor. Copy the `doPost()` example below into the Code.gs file.\n\n```javascript\n// Handle the Post request, based upon the command that is written after the slash command\nfunction doPost(e){\n  var commandReceived = e.parameter[\"text\"];\n\n  if (commandReceived.match(/help/)) showHelp();\t\t\t// showHelp() is run when slack user types: /delivery help\n  if (commandReceived.match(/list/)) listDeliveries();\n  if (commandReceived.match(/add/)) add(e);\n  if (commandReceived.match(/remove/)) remove(e);\t\t\t// remove(e) is run after slack user types: /delivery remove someItem\n  if (commandReceived.match(/received/)) received(e);\n  \n  // Need to create a return, otherwise slack will complain that there was no response created\n  var returnMessage = \"send complete\";\n  return ContentService.createTextOutput(JSON.stringify({text:returnMessage})).setMimeType(ContentService.MimeType.JSON);\n}\n```\n\nSlack complains if there is no return message, so I've also included just a simple \"send complete\" at the end of the `doPost()` function. Now, all you need to do is create the functions to handle each of the if statements in `doPost()`. An example of this function can be seen here, for marking a delivery as received. Notice that regular expressions are used to determine the format for the string that is attached to the slash command.\n\n~~~ javascript\nfunction received(e){\n  var receiver = e.parameter[\"user_name\"];\n  var messageReceived = e.parameter[\"text\"].trim();\n  var regex = /received ([a-zA-Z0-9-_\\s]+)/;\n  var matches = regex.exec(messageReceived);\n  var deliveryName = matches[1];\n  var sheet = getStatusSheet();\n  var affectedRow = getDeliveryRow(deliveryName);\n  \n  if (affectedRow) {\n    sheet.getRange(\"D\" + (affectedRow)).setValue('Y');\n    getLogger().log(\"%s received delivery %s\", receiver, deliveryName);\n    listDeliveries();\n  } else {\n    sendMessage(\"*\" + deliveryName + \"* delivery not found\");\n  }\n}\n~~~\n\nThen there's the timed triggers. To do this, I used a trigger function, which runs another function I made, querySpreadsheet, once every day. I also created a button on a html page to turn on/off this trigger.\n~~~ javascript\nfunction createTrigger() {\n  ScriptApp.newTrigger('querySpreadsheet')\n  .timeBased()\n  .everyDays(1)\n  .create()\n}\n~~~\n\nAnother note, I used BetterLog to create another spreadsheet tab that keeps track of the different actions users take with the app. This helps us know who received what package in case we need to track one down. You'll have to add the BetterLog library to your project.\n\nTo set everything up on the Slack end, login to <a href=\"https://api.slack.com/apps\">api.slack.com/apps</a>, create a new app, and Add features and functionality, adding Incoming Webhooks, Interactive Components, and Slash Commands. You will need to copy the incoming webhooks link into the Google Apps Script. \n\nThe full script is located in this github repository: <a href=\"https://github.com/simjxu/google_apps_scripts/tree/master/Slack-Delivery-Tracking\">Slack Delivery Tracking</a>  Be sure to change out the spreadsheet id to match the spreadsheet id of your Google sheets document (the long string in your Google Sheet URL), and change the incoming webhook link to the webhook link that you receive when you enable that feature on your slack apps. You might want to test by changing the `createTrigger()` function to be `.everyMinutes(1)` instead of `.everyDays(1)`.\n\nTo Do: to reduce time that it takes to read through the excel sheet, it's best to add within the trigger function something that places the received packages into some sort of archive spreadsheet tab. But alas, I already took too long to create this post. I can't take this long if I want to see rows of green squares on my github.\n\nUseful references: https://medium.com/@hopsor/building-a-slack-serverless-bot-with-google-apps-script-and-spreadsheets-35bdac755a44\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "5d960846519d4675611f003a5c11d45c",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "How to use Slack to Post to a Google Sheets Database",
-        "layout": "post",
-        "date": "2018-09-17",
-        "_PARENT": "afcd5eb6-39e2-51de-9a00-212d886314f8"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nSince I work for an IIoT combined hardware/sofware company, we often receive packages through the mail. This includes anything from dev boards to etched plastic enclosures. Now that we receive packages so often, it is not very easy to keep track of when a package is supposed to be arriving, and we don't always get notifications when items get held up in customs or get lost in the process. Once again APIs are here to save the day.\n\nIn the ideal scenario, we could create a Chrome extension with a trained machine learning algorithm that can detect whether a purchase has been made for a delivery, guess the delivery timeframe, store the delivery in a database, and automatically alert the user if today's date is later than the anticipated delivery date. However, even this scenario doesn't account for company purchases made with a purchase order system, which is why procurement teams exist.\n\nGiven that I am no genius, an idiot's backup to the system above is to use a slack slash command to automatically update a simple database, like a spreadsheet in Google Sheets for example. Then, using an incoming webhook, send an alert if it is past the delivery date for the package, triggered once every day to a channel, perhaps called #deliveryalerts. If there are no packages that are supposed to be delivered already, no alerts. \n\nWe can first create a simple spreadsheet database like this: \n![vendor-spreadsheet](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/vendor_spreadsheet.jpg)\nThis would show the item that is being delivered, the estimated delivery date, and a boolean Yes/No as to whether the item has been received.\n\nThen, we can create the #deliveryalerts channel in Slack, and integrate a Slack incoming webhook that points to #deliveryalerts and a slash command. In this case, we create one called /delivery. /delivery will send a post request to some endpoint that you need to define (a url). In our case, we can just use Google Apps script to set up this endpoint. Anything written after the /delivery command will be sent to the endpoint, and we can create the script to parse this text message using regular expressions (regex). Google Apps Script will handle the request through a `doPost()` function that you must write. Just take the spreadsheet that you want to set as your deliveries database, and on the Tools menu select script editor. Copy the `doPost()` example below into the Code.gs file.\n\n```javascript\n// Handle the Post request, based upon the command that is written after the slash command\nfunction doPost(e){\n  var commandReceived = e.parameter[\"text\"];\n\n  if (commandReceived.match(/help/)) showHelp();\t\t\t// showHelp() is run when slack user types: /delivery help\n  if (commandReceived.match(/list/)) listDeliveries();\n  if (commandReceived.match(/add/)) add(e);\n  if (commandReceived.match(/remove/)) remove(e);\t\t\t// remove(e) is run after slack user types: /delivery remove someItem\n  if (commandReceived.match(/received/)) received(e);\n  \n  // Need to create a return, otherwise slack will complain that there was no response created\n  var returnMessage = \"send complete\";\n  return ContentService.createTextOutput(JSON.stringify({text:returnMessage})).setMimeType(ContentService.MimeType.JSON);\n}\n```\n\nSlack complains if there is no return message, so I've also included just a simple \"send complete\" at the end of the `doPost()` function. Now, all you need to do is create the functions to handle each of the if statements in `doPost()`. An example of this function can be seen here, for marking a delivery as received. Notice that regular expressions are used to determine the format for the string that is attached to the slash command.\n\n~~~ javascript\nfunction received(e){\n  var receiver = e.parameter[\"user_name\"];\n  var messageReceived = e.parameter[\"text\"].trim();\n  var regex = /received ([a-zA-Z0-9-_\\s]+)/;\n  var matches = regex.exec(messageReceived);\n  var deliveryName = matches[1];\n  var sheet = getStatusSheet();\n  var affectedRow = getDeliveryRow(deliveryName);\n  \n  if (affectedRow) {\n    sheet.getRange(\"D\" + (affectedRow)).setValue('Y');\n    getLogger().log(\"%s received delivery %s\", receiver, deliveryName);\n    listDeliveries();\n  } else {\n    sendMessage(\"*\" + deliveryName + \"* delivery not found\");\n  }\n}\n~~~\n\nThen there's the timed triggers. To do this, I used a trigger function, which runs another function I made, querySpreadsheet, once every day. I also created a button on a html page to turn on/off this trigger.\n~~~ javascript\nfunction createTrigger() {\n  ScriptApp.newTrigger('querySpreadsheet')\n  .timeBased()\n  .everyDays(1)\n  .create()\n}\n~~~\n\nAnother note, I used BetterLog to create another spreadsheet tab that keeps track of the different actions users take with the app. This helps us know who received what package in case we need to track one down. You'll have to add the BetterLog library to your project.\n\nTo set everything up on the Slack end, login to <a href=\"https://api.slack.com/apps\">api.slack.com/apps</a>, create a new app, and Add features and functionality, adding Incoming Webhooks, Interactive Components, and Slash Commands. You will need to copy the incoming webhooks link into the Google Apps Script. \n\nThe full script is located in this github repository: <a href=\"https://github.com/simjxu/google_apps_scripts/tree/master/Slack-Delivery-Tracking\">Slack Delivery Tracking</a>  Be sure to change out the spreadsheet id to match the spreadsheet id of your Google sheets document (the long string in your Google Sheet URL), and change the incoming webhook link to the webhook link that you receive when you enable that feature on your slack apps. You might want to test by changing the `createTrigger()` function to be `.everyMinutes(1)` instead of `.everyDays(1)`.\n\nTo Do: to reduce time that it takes to read through the excel sheet, it's best to add within the trigger function something that places the received packages into some sort of archive spreadsheet tab. But alas, I already took too long to create this post. I can't take this long if I want to see rows of green squares on my github.\n\nUseful references: https://medium.com/@hopsor/building-a-slack-serverless-bot-with-google-apps-script-and-spreadsheets-35bdac755a44\n",
-      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/slackdeliverytracker.md",
-      "fields": {
-        "slug": "/posts/slackdeliverytracker/"
       }
     },
     "87f1932e-ed55-538a-afd0-2f99b81d4af8": {
@@ -2322,9 +2270,9 @@
       "children": [],
       "parent": "6c5c6478-5d14-5219-8c35-5230ade2a0b7",
       "internal": {
-        "content": "\nI'm currently in the process of converting this blog into a Gatsby blog, and I've spent a full day trying to get it working. Thankfully, they do seem to have good documentation on their website <a href=\"https://www.gatsbyjs.org/tutorial/\">Gatsby Tutorial</a>. The going is quite slow, and the results are also quite ugly, but after trying to figure out GraphQL and aggravating myself over backticks, at least I have something.\n![gatsby-1](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/gatsby1.jpg)\n\nI'll also push the gatsby version of this site onto github here: https://github.com/simjxu/gatsby-themush. You're probably wondering, what's the point of pushing something so useless onto github?  Well, my plan is to continue iterating on this Gatsby blog, and I also intend to litter the darn thing with comments. Hopefully this will help others understand the nuances of building a site. I don't have many comments yet, but stay tuned and I expect there to be more commentary than there is code.\n\nThe tutorial does a good job at helping you understand how GraphQL allows different page components to query particular items. One of the first uses of GraphQL is to swap out any mention of the website title with a `{data.site.siteMetadata.title}`. This does a page query to another file that must be titled gatsby-config.js to determine the website's metadata, like its title. This means that anytime a title is referenced, it queries the metadata. If the website title were to change at any point, then they can all be changed because of the query.\n\nAnother place where queries are used are for the blog posts. You can set GraphQL to automatically filter out any markdown file within your \"pages\" folder on Gatsby and list them on the homepage of the website. This is any file that ends in .md. To create that query that can point to the blogposts, you need to create a path to the location, and for some reason they call this a \"slug\". The page can then be created by using two Gatsby APIs, `onCreateNode` and `createPages`. \n\nTo be continued, SOON.",
+        "content": "\nI'm currently in the process of converting this blog into a Gatsby blog, and I've spent a full day trying to get it working. Thankfully, they do seem to have good documentation on their website <a href=\"https://www.gatsbyjs.org/tutorial/\">Gatsby Tutorial</a>. The going is quite slow, and the results are also quite ugly, but after trying to figure out GraphQL and aggravating myself over backticks, at least I have something.\n![gatsby-1](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gatsby1.jpg)\n\nI'll also push the gatsby version of this site onto github here: https://github.com/simjxu/gatsby-themush. You're probably wondering, what's the point of pushing something so useless onto github?  Well, my plan is to continue iterating on this Gatsby blog, and I also intend to litter the darn thing with comments. Hopefully this will help others understand the nuances of building a site. I don't have many comments yet, but stay tuned and I expect there to be more commentary than there is code.\n\nThe tutorial does a good job at helping you understand how GraphQL allows different page components to query particular items. One of the first uses of GraphQL is to swap out any mention of the website title with a `{data.site.siteMetadata.title}`. This does a page query to another file that must be titled gatsby-config.js to determine the website's metadata, like its title. This means that anytime a title is referenced, it queries the metadata. If the website title were to change at any point, then they can all be changed because of the query.\n\nAnother place where queries are used are for the blog posts. You can set GraphQL to automatically filter out any markdown file within your \"pages\" folder on Gatsby and list them on the homepage of the website. This is any file that ends in .md. To create that query that can point to the blogposts, you need to create a path to the location, and for some reason they call this a \"slug\". The page can then be created by using two Gatsby APIs, `onCreateNode` and `createPages`. \n\nTo be continued, SOON.",
         "type": "MarkdownRemark",
-        "contentDigest": "cb2d21999b304b1d7916d0b3a2bd9baa",
+        "contentDigest": "971f1c29ae2e160df05e5165a83bb458",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2337,10 +2285,135 @@
         "_PARENT": "6c5c6478-5d14-5219-8c35-5230ade2a0b7"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nI'm currently in the process of converting this blog into a Gatsby blog, and I've spent a full day trying to get it working. Thankfully, they do seem to have good documentation on their website <a href=\"https://www.gatsbyjs.org/tutorial/\">Gatsby Tutorial</a>. The going is quite slow, and the results are also quite ugly, but after trying to figure out GraphQL and aggravating myself over backticks, at least I have something.\n![gatsby-1](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/gatsby1.jpg)\n\nI'll also push the gatsby version of this site onto github here: https://github.com/simjxu/gatsby-themush. You're probably wondering, what's the point of pushing something so useless onto github?  Well, my plan is to continue iterating on this Gatsby blog, and I also intend to litter the darn thing with comments. Hopefully this will help others understand the nuances of building a site. I don't have many comments yet, but stay tuned and I expect there to be more commentary than there is code.\n\nThe tutorial does a good job at helping you understand how GraphQL allows different page components to query particular items. One of the first uses of GraphQL is to swap out any mention of the website title with a `{data.site.siteMetadata.title}`. This does a page query to another file that must be titled gatsby-config.js to determine the website's metadata, like its title. This means that anytime a title is referenced, it queries the metadata. If the website title were to change at any point, then they can all be changed because of the query.\n\nAnother place where queries are used are for the blog posts. You can set GraphQL to automatically filter out any markdown file within your \"pages\" folder on Gatsby and list them on the homepage of the website. This is any file that ends in .md. To create that query that can point to the blogposts, you need to create a path to the location, and for some reason they call this a \"slug\". The page can then be created by using two Gatsby APIs, `onCreateNode` and `createPages`. \n\nTo be continued, SOON.",
+      "rawMarkdownBody": "\nI'm currently in the process of converting this blog into a Gatsby blog, and I've spent a full day trying to get it working. Thankfully, they do seem to have good documentation on their website <a href=\"https://www.gatsbyjs.org/tutorial/\">Gatsby Tutorial</a>. The going is quite slow, and the results are also quite ugly, but after trying to figure out GraphQL and aggravating myself over backticks, at least I have something.\n![gatsby-1](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gatsby1.jpg)\n\nI'll also push the gatsby version of this site onto github here: https://github.com/simjxu/gatsby-themush. You're probably wondering, what's the point of pushing something so useless onto github?  Well, my plan is to continue iterating on this Gatsby blog, and I also intend to litter the darn thing with comments. Hopefully this will help others understand the nuances of building a site. I don't have many comments yet, but stay tuned and I expect there to be more commentary than there is code.\n\nThe tutorial does a good job at helping you understand how GraphQL allows different page components to query particular items. One of the first uses of GraphQL is to swap out any mention of the website title with a `{data.site.siteMetadata.title}`. This does a page query to another file that must be titled gatsby-config.js to determine the website's metadata, like its title. This means that anytime a title is referenced, it queries the metadata. If the website title were to change at any point, then they can all be changed because of the query.\n\nAnother place where queries are used are for the blog posts. You can set GraphQL to automatically filter out any markdown file within your \"pages\" folder on Gatsby and list them on the homepage of the website. This is any file that ends in .md. To create that query that can point to the blogposts, you need to create a path to the location, and for some reason they call this a \"slug\". The page can then be created by using two Gatsby APIs, `onCreateNode` and `createPages`. \n\nTo be continued, SOON.",
       "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/gatsby1.md",
       "fields": {
         "slug": "/posts/gatsby1/"
+      }
+    },
+    "3305f733-cc16-59f2-bd3d-eb1c2493426d": {
+      "id": "3305f733-cc16-59f2-bd3d-eb1c2493426d",
+      "children": [],
+      "parent": "a67a1138-6f42-5125-8acf-1135d1af7eb9",
+      "internal": {
+        "content": "\nProbably the most familiar experience of a hardware startup is the lack of monetary resources (free lunches? no way!). And yet, we still want to be cutting edge with our machine learning techniques. Sometimes, doing a custom feature extraction from our datasets can take a lot of computing resources, taking up to 8 hours on a laptop running Linux (notice how I did not say a Macbook Pro). Thankfully, Big Brother Google wants to trickle down some benefits for the needy, and provides us with a Free Tier for a lot of there cloud platform modules. So, I decided to try this out.\n\nFirst, I just wrote a simple Python program (testscript.py) that takes more than just a second to run, by doing the forbidden: nested for loops, the Avada Kedavra of programming.\n\n~~~ python\nnumruns = 300\nprint(\"running\")\nhuge_array = [[[0.0 for i in range(numruns)] for j in range(numruns)] for k in range(numruns)]\ncounter = 0\nprint(\"starting loops\")\nfor i in range(numruns):\n    for j in range(numruns):\n        for k in range(numruns):\n            huge_array[i][j][k] = i+j+k\n            counter+=1\n            if counter%10000 == 0:\n                print(counter)\nprint(\"finished\")\n~~~\n\nThe first thing to do is to create a project on GCP (Google Cloud Platform) by going to console.cloud.google.com and clicking on \"Select a Project\". Once you have named your project, notice you can take advantage of $300 of free credits to play with (how generous!). Once you have made your project, you can click on \"Compute Engine\" on the left hand panel, and create an instance. As of the time this post was written, you can get a free f1-micro instance running on a virtual machine in the US. This f1-micro has 0.6GB of memory and 1vCPU.\n![gce-f1micro](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gce-dashboard.jpg)\n\nAfter this instance is created, you can view your instance and also SSH into the instance. If you do this, then you can interact with this instance via a Debian Linux shell. To upload a file, you can click on the gearbox on the top right side to upload your python file. In my case, I am uploading a python 3 script called testscript.py, which I shared above. \n![gce-f1microShell](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-SSHshell.jpg)\n\nAfter it is uploaded, you can run the file on the instance by first making it an executable with `chmod +x testscript.py`. `chmod` basically changes the mode and using the `+x` option makes it an executable. Then you can run `nohup` on the python script to get it running in the shell without requiring the shell to be open. Unfortunately, with the python script I shared, it gets killed after a few seconds:\n![gce-f1microKilled](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-killed.jpg)\n\nTurns out free also means you can't just leave something running forever. If you check the nohup.out file using `cat nohup.out`, you can see that my script ended somewhere after iteration 523000. Probably exceeded the RAM available here. Probably the better thing to do is to take advantage of another free item, the 5GB of cloud storage. I'll try that next time.\n\nUseful references: https://cloud.google.com/free/docs/always-free-usage-limits\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "82151d835b473372ee65d064e7565317",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "How to run a Python Script on Google Compute Engine",
+        "layout": "post",
+        "date": "2018-09-19",
+        "_PARENT": "a67a1138-6f42-5125-8acf-1135d1af7eb9"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nProbably the most familiar experience of a hardware startup is the lack of monetary resources (free lunches? no way!). And yet, we still want to be cutting edge with our machine learning techniques. Sometimes, doing a custom feature extraction from our datasets can take a lot of computing resources, taking up to 8 hours on a laptop running Linux (notice how I did not say a Macbook Pro). Thankfully, Big Brother Google wants to trickle down some benefits for the needy, and provides us with a Free Tier for a lot of there cloud platform modules. So, I decided to try this out.\n\nFirst, I just wrote a simple Python program (testscript.py) that takes more than just a second to run, by doing the forbidden: nested for loops, the Avada Kedavra of programming.\n\n~~~ python\nnumruns = 300\nprint(\"running\")\nhuge_array = [[[0.0 for i in range(numruns)] for j in range(numruns)] for k in range(numruns)]\ncounter = 0\nprint(\"starting loops\")\nfor i in range(numruns):\n    for j in range(numruns):\n        for k in range(numruns):\n            huge_array[i][j][k] = i+j+k\n            counter+=1\n            if counter%10000 == 0:\n                print(counter)\nprint(\"finished\")\n~~~\n\nThe first thing to do is to create a project on GCP (Google Cloud Platform) by going to console.cloud.google.com and clicking on \"Select a Project\". Once you have named your project, notice you can take advantage of $300 of free credits to play with (how generous!). Once you have made your project, you can click on \"Compute Engine\" on the left hand panel, and create an instance. As of the time this post was written, you can get a free f1-micro instance running on a virtual machine in the US. This f1-micro has 0.6GB of memory and 1vCPU.\n![gce-f1micro](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gce-dashboard.jpg)\n\nAfter this instance is created, you can view your instance and also SSH into the instance. If you do this, then you can interact with this instance via a Debian Linux shell. To upload a file, you can click on the gearbox on the top right side to upload your python file. In my case, I am uploading a python 3 script called testscript.py, which I shared above. \n![gce-f1microShell](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-SSHshell.jpg)\n\nAfter it is uploaded, you can run the file on the instance by first making it an executable with `chmod +x testscript.py`. `chmod` basically changes the mode and using the `+x` option makes it an executable. Then you can run `nohup` on the python script to get it running in the shell without requiring the shell to be open. Unfortunately, with the python script I shared, it gets killed after a few seconds:\n![gce-f1microKilled](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-killed.jpg)\n\nTurns out free also means you can't just leave something running forever. If you check the nohup.out file using `cat nohup.out`, you can see that my script ended somewhere after iteration 523000. Probably exceeded the RAM available here. Probably the better thing to do is to take advantage of another free item, the 5GB of cloud storage. I'll try that next time.\n\nUseful references: https://cloud.google.com/free/docs/always-free-usage-limits\n",
+      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/googlecomputeengine.md",
+      "fields": {
+        "slug": "/posts/googlecomputeengine/"
+      }
+    },
+    "c5806368-9a38-5f7c-9961-43f4bf5ef877": {
+      "id": "c5806368-9a38-5f7c-9961-43f4bf5ef877",
+      "children": [],
+      "parent": "afcd5eb6-39e2-51de-9a00-212d886314f8",
+      "internal": {
+        "content": "\nSince I work for an IIoT combined hardware/sofware company, we often receive packages through the mail. This includes anything from dev boards to etched plastic enclosures. Now that we receive packages so often, it is not very easy to keep track of when a package is supposed to be arriving, and we don't always get notifications when items get held up in customs or get lost in the process. Once again APIs are here to save the day.\n\nIn the ideal scenario, we could create a Chrome extension with a trained machine learning algorithm that can detect whether a purchase has been made for a delivery, guess the delivery timeframe, store the delivery in a database, and automatically alert the user if today's date is later than the anticipated delivery date. However, even this scenario doesn't account for company purchases made with a purchase order system, which is why procurement teams exist.\n\nGiven that I am no genius, an idiot's backup to the system above is to use a slack slash command to automatically update a simple database, like a spreadsheet in Google Sheets for example. Then, using an incoming webhook, send an alert if it is past the delivery date for the package, triggered once every day to a channel, perhaps called #deliveryalerts. If there are no packages that are supposed to be delivered already, no alerts. \n\nWe can first create a simple spreadsheet database like this: \n![vendor-spreadsheet](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/vendor_spreadsheet.jpg)\nThis would show the item that is being delivered, the estimated delivery date, and a boolean Yes/No as to whether the item has been received.\n\nThen, we can create the #deliveryalerts channel in Slack, and integrate a Slack incoming webhook that points to #deliveryalerts and a slash command. In this case, we create one called /delivery. /delivery will send a post request to some endpoint that you need to define (a url). In our case, we can just use Google Apps script to set up this endpoint. Anything written after the /delivery command will be sent to the endpoint, and we can create the script to parse this text message using regular expressions (regex). Google Apps Script will handle the request through a `doPost()` function that you must write. Just take the spreadsheet that you want to set as your deliveries database, and on the Tools menu select script editor. Copy the `doPost()` example below into the Code.gs file.\n\n```javascript\n// Handle the Post request, based upon the command that is written after the slash command\nfunction doPost(e){\n  var commandReceived = e.parameter[\"text\"];\n\n  if (commandReceived.match(/help/)) showHelp();\t\t\t// showHelp() is run when slack user types: /delivery help\n  if (commandReceived.match(/list/)) listDeliveries();\n  if (commandReceived.match(/add/)) add(e);\n  if (commandReceived.match(/remove/)) remove(e);\t\t\t// remove(e) is run after slack user types: /delivery remove someItem\n  if (commandReceived.match(/received/)) received(e);\n  \n  // Need to create a return, otherwise slack will complain that there was no response created\n  var returnMessage = \"send complete\";\n  return ContentService.createTextOutput(JSON.stringify({text:returnMessage})).setMimeType(ContentService.MimeType.JSON);\n}\n```\n\nSlack complains if there is no return message, so I've also included just a simple \"send complete\" at the end of the `doPost()` function. Now, all you need to do is create the functions to handle each of the if statements in `doPost()`. An example of this function can be seen here, for marking a delivery as received. Notice that regular expressions are used to determine the format for the string that is attached to the slash command.\n\n~~~ javascript\nfunction received(e){\n  var receiver = e.parameter[\"user_name\"];\n  var messageReceived = e.parameter[\"text\"].trim();\n  var regex = /received ([a-zA-Z0-9-_\\s]+)/;\n  var matches = regex.exec(messageReceived);\n  var deliveryName = matches[1];\n  var sheet = getStatusSheet();\n  var affectedRow = getDeliveryRow(deliveryName);\n  \n  if (affectedRow) {\n    sheet.getRange(\"D\" + (affectedRow)).setValue('Y');\n    getLogger().log(\"%s received delivery %s\", receiver, deliveryName);\n    listDeliveries();\n  } else {\n    sendMessage(\"*\" + deliveryName + \"* delivery not found\");\n  }\n}\n~~~\n\nThen there's the timed triggers. To do this, I used a trigger function, which runs another function I made, querySpreadsheet, once every day. I also created a button on a html page to turn on/off this trigger.\n~~~ javascript\nfunction createTrigger() {\n  ScriptApp.newTrigger('querySpreadsheet')\n  .timeBased()\n  .everyDays(1)\n  .create()\n}\n~~~\n\nAnother note, I used BetterLog to create another spreadsheet tab that keeps track of the different actions users take with the app. This helps us know who received what package in case we need to track one down. You'll have to add the BetterLog library to your project.\n\nTo set everything up on the Slack end, login to <a href=\"https://api.slack.com/apps\">api.slack.com/apps</a>, create a new app, and Add features and functionality, adding Incoming Webhooks, Interactive Components, and Slash Commands. You will need to copy the incoming webhooks link into the Google Apps Script. \n\nThe full script is located in this github repository: <a href=\"https://github.com/simjxu/google_apps_scripts/tree/master/Slack-Delivery-Tracking\">Slack Delivery Tracking</a>  Be sure to change out the spreadsheet id to match the spreadsheet id of your Google sheets document (the long string in your Google Sheet URL), and change the incoming webhook link to the webhook link that you receive when you enable that feature on your slack apps. You might want to test by changing the `createTrigger()` function to be `.everyMinutes(1)` instead of `.everyDays(1)`.\n\nTo Do: to reduce time that it takes to read through the excel sheet, it's best to add within the trigger function something that places the received packages into some sort of archive spreadsheet tab. But alas, I already took too long to create this post. I can't take this long if I want to see rows of green squares on my github.\n\nUseful references: https://medium.com/@hopsor/building-a-slack-serverless-bot-with-google-apps-script-and-spreadsheets-35bdac755a44\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "40c3a159a548e1461a2d550e82b41d74",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "How to use Slack to Post to a Google Sheets Database",
+        "layout": "post",
+        "date": "2018-09-17",
+        "_PARENT": "afcd5eb6-39e2-51de-9a00-212d886314f8"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nSince I work for an IIoT combined hardware/sofware company, we often receive packages through the mail. This includes anything from dev boards to etched plastic enclosures. Now that we receive packages so often, it is not very easy to keep track of when a package is supposed to be arriving, and we don't always get notifications when items get held up in customs or get lost in the process. Once again APIs are here to save the day.\n\nIn the ideal scenario, we could create a Chrome extension with a trained machine learning algorithm that can detect whether a purchase has been made for a delivery, guess the delivery timeframe, store the delivery in a database, and automatically alert the user if today's date is later than the anticipated delivery date. However, even this scenario doesn't account for company purchases made with a purchase order system, which is why procurement teams exist.\n\nGiven that I am no genius, an idiot's backup to the system above is to use a slack slash command to automatically update a simple database, like a spreadsheet in Google Sheets for example. Then, using an incoming webhook, send an alert if it is past the delivery date for the package, triggered once every day to a channel, perhaps called #deliveryalerts. If there are no packages that are supposed to be delivered already, no alerts. \n\nWe can first create a simple spreadsheet database like this: \n![vendor-spreadsheet](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/vendor_spreadsheet.jpg)\nThis would show the item that is being delivered, the estimated delivery date, and a boolean Yes/No as to whether the item has been received.\n\nThen, we can create the #deliveryalerts channel in Slack, and integrate a Slack incoming webhook that points to #deliveryalerts and a slash command. In this case, we create one called /delivery. /delivery will send a post request to some endpoint that you need to define (a url). In our case, we can just use Google Apps script to set up this endpoint. Anything written after the /delivery command will be sent to the endpoint, and we can create the script to parse this text message using regular expressions (regex). Google Apps Script will handle the request through a `doPost()` function that you must write. Just take the spreadsheet that you want to set as your deliveries database, and on the Tools menu select script editor. Copy the `doPost()` example below into the Code.gs file.\n\n```javascript\n// Handle the Post request, based upon the command that is written after the slash command\nfunction doPost(e){\n  var commandReceived = e.parameter[\"text\"];\n\n  if (commandReceived.match(/help/)) showHelp();\t\t\t// showHelp() is run when slack user types: /delivery help\n  if (commandReceived.match(/list/)) listDeliveries();\n  if (commandReceived.match(/add/)) add(e);\n  if (commandReceived.match(/remove/)) remove(e);\t\t\t// remove(e) is run after slack user types: /delivery remove someItem\n  if (commandReceived.match(/received/)) received(e);\n  \n  // Need to create a return, otherwise slack will complain that there was no response created\n  var returnMessage = \"send complete\";\n  return ContentService.createTextOutput(JSON.stringify({text:returnMessage})).setMimeType(ContentService.MimeType.JSON);\n}\n```\n\nSlack complains if there is no return message, so I've also included just a simple \"send complete\" at the end of the `doPost()` function. Now, all you need to do is create the functions to handle each of the if statements in `doPost()`. An example of this function can be seen here, for marking a delivery as received. Notice that regular expressions are used to determine the format for the string that is attached to the slash command.\n\n~~~ javascript\nfunction received(e){\n  var receiver = e.parameter[\"user_name\"];\n  var messageReceived = e.parameter[\"text\"].trim();\n  var regex = /received ([a-zA-Z0-9-_\\s]+)/;\n  var matches = regex.exec(messageReceived);\n  var deliveryName = matches[1];\n  var sheet = getStatusSheet();\n  var affectedRow = getDeliveryRow(deliveryName);\n  \n  if (affectedRow) {\n    sheet.getRange(\"D\" + (affectedRow)).setValue('Y');\n    getLogger().log(\"%s received delivery %s\", receiver, deliveryName);\n    listDeliveries();\n  } else {\n    sendMessage(\"*\" + deliveryName + \"* delivery not found\");\n  }\n}\n~~~\n\nThen there's the timed triggers. To do this, I used a trigger function, which runs another function I made, querySpreadsheet, once every day. I also created a button on a html page to turn on/off this trigger.\n~~~ javascript\nfunction createTrigger() {\n  ScriptApp.newTrigger('querySpreadsheet')\n  .timeBased()\n  .everyDays(1)\n  .create()\n}\n~~~\n\nAnother note, I used BetterLog to create another spreadsheet tab that keeps track of the different actions users take with the app. This helps us know who received what package in case we need to track one down. You'll have to add the BetterLog library to your project.\n\nTo set everything up on the Slack end, login to <a href=\"https://api.slack.com/apps\">api.slack.com/apps</a>, create a new app, and Add features and functionality, adding Incoming Webhooks, Interactive Components, and Slash Commands. You will need to copy the incoming webhooks link into the Google Apps Script. \n\nThe full script is located in this github repository: <a href=\"https://github.com/simjxu/google_apps_scripts/tree/master/Slack-Delivery-Tracking\">Slack Delivery Tracking</a>  Be sure to change out the spreadsheet id to match the spreadsheet id of your Google sheets document (the long string in your Google Sheet URL), and change the incoming webhook link to the webhook link that you receive when you enable that feature on your slack apps. You might want to test by changing the `createTrigger()` function to be `.everyMinutes(1)` instead of `.everyDays(1)`.\n\nTo Do: to reduce time that it takes to read through the excel sheet, it's best to add within the trigger function something that places the received packages into some sort of archive spreadsheet tab. But alas, I already took too long to create this post. I can't take this long if I want to see rows of green squares on my github.\n\nUseful references: https://medium.com/@hopsor/building-a-slack-serverless-bot-with-google-apps-script-and-spreadsheets-35bdac755a44\n",
+      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/slackdeliverytracker.md",
+      "fields": {
+        "slug": "/posts/slackdeliverytracker/"
+      }
+    },
+    "580170bf-9c68-5b11-96d9-1e46253808e3": {
+      "id": "580170bf-9c68-5b11-96d9-1e46253808e3",
+      "children": [
+        "5002ed5e-b35d-5579-a78e-43e0e064d7b3"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d84d067e8cb294fce49df6cd4be939e5",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/posts/particlepostgetwebhk.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/particlepostgetwebhk.md",
+      "relativePath": "pages/posts/particlepostgetwebhk.md",
+      "extension": "md",
+      "size": 10263,
+      "prettySize": "10.3 kB",
+      "modifiedTime": "2018-11-12T04:11:46.336Z",
+      "accessTime": "2018-11-12T04:11:46.446Z",
+      "changeTime": "2018-11-12T04:11:46.337Z",
+      "birthTime": "2018-11-12T04:11:46.336Z",
+      "root": "/",
+      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
+      "base": "particlepostgetwebhk.md",
+      "ext": ".md",
+      "name": "particlepostgetwebhk",
+      "relativeDirectory": "pages/posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5565527,
+      "blocks": 24,
+      "atimeMs": 1541995906446.1448,
+      "mtimeMs": 1541995906336.099,
+      "ctimeMs": 1541995906336.5571,
+      "birthtimeMs": 1541995906335.5198,
+      "atime": "2018-11-12T04:11:46.446Z",
+      "mtime": "2018-11-12T04:11:46.336Z",
+      "ctime": "2018-11-12T04:11:46.337Z",
+      "birthtime": "2018-11-12T04:11:46.336Z"
+    },
+    "5002ed5e-b35d-5579-a78e-43e0e064d7b3": {
+      "id": "5002ed5e-b35d-5579-a78e-43e0e064d7b3",
+      "children": [],
+      "parent": "580170bf-9c68-5b11-96d9-1e46253808e3",
+      "internal": {
+        "content": "\nShameful plug post, but I'll be using Particle devices to demonstrate how to setup a Post/Get/Webhook right on a Google Sheet. Although Excel has more spreadsheet features than Google Sheets, the nice thing is that since your google sheets resides on some server connected to the internet, you can essentially use Google Sheets as a basic server to receive and send requests to an IoT device somewhere else. Take a look at how simple this spreadsheet is:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/googlesht-getpostwebhk.jpg)\n\nAll requests will operate under a request/response format, the idea being that the Google Sheet I made will shoot off a request, and a response will be collected. ONE IMPORTANT NOTE: Since you will be allowing anonymous access in order to use Google Apps Script, PLEASE only use this for development testing purposes ONLY, not to run a production server. If someone finds your Google Sheets URL endpoint, they can flood your sheet with requests. Furthermore, your device access token may be exposed.\n\nWith that said, let's get started.\n\nFirst you will want to create a new Google sheet which looks like what I've shown above. You can ignore cells B3, C3, and D2-D3, as these will be populated automatically by the webapp you'll create using Google Apps Script. You don't have to do this, but I merged cell D2 and D3. To create the buttons, go to Insert >> Drawing to draw a basic rectangle with some text in the middle. You will be able to assign function to these buttons you created later.\n\nParticle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/particle-photon.jpg)\n\nYou will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino \n\nIn my `setup()` section I've called out 3 different `Particle.variables`: `analogvalue`, which is the output from the photoresistor, `brightness`, which is the brightness of the LED, and `setpoint`, which is the setpoint issued to the LED. I've also created a `Particle.function` called `led`, which toggles the blue LED situated on D7 on the board. Lastly, I've created a `Particle.publish`, which tracks the analog value and publishes a `low_light` event when the value drops below 50. \n\nWhat I will do now is use my \"Post Request\" function on my google sheet to call the `led` function and toggle on/off the LED. I will use the \"Get Request\" button to pull the `analogvalue` variable. Lastly, I will create a webhook to publish the `low_light` event details to my Google sheet when the event publishes.\n\nFirst, go to the Google Sheet and go to Tools >> Script Editor. This will allow you write javascript which controls how your Google Sheet behaves. Start off in the script by setting some Global variables. You have to retrieve you access token from build.particle.io, by clicking the settings tab. The device id is the device of your photon, and spreadsheet id is the long string of in your Google Sheets URL. You can also edit the Sheet name if you decide to change that.\n\n```javascript\n// Set Global Variables \n/* \nACCESS_TOKEN: Go to build.particle.io and click \"Settings\" on the left side panel\nPARTICLE_DEVICE_ID: Identify device ID from the console, or from using \"particle list\"\nSPREADSHEET_ID: Look on the URL for your Google Sheet for the long random string\n*/\nPropertiesService.getScriptProperties().setProperty('SHEET_NAME', 'Sheet1');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_ACCESS_TOKEN', '<enter access token>');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_DEVICE_ID', '<enter device id>');\nPropertiesService.getScriptProperties().setProperty('SPREADSHEET_ID', '<enter spreadsheetid>');\n```\n\nHandling the Post Request:\nGo back to your Google Sheet, and right click the button you labeled \"MAKE POST REQUEST\", and assign it a function called `PostRequest` or whatever you decide to name it. In the script file, add the function below. You will be using the Particle API URL, and sending the request there. The request will require your access token, and the argument (in the case above, either \"on\" or \"off\" for the LED).\n\n```javascript\n// Handle the button click for Post Request -------------------------------------------------\nfunction PostRequest() {\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this:\n  // https://api.particle.io/v1/devices/<deviceid>/\n  // led?args=on&access_token=<accesstoken>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var function_name = sheet.getRange(\"B4\").getValue();\n  var request = sheet.getRange(\"B2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + function_name + \"?\" + \n    \"access_token=\" + access_token;\n\n  // Create a form which will be sent as the payload to the post request\n  var formData = {\n    'args' : request\n    \n  };\n  \n  // Create the options\n  var options =\n      {\n        \"method\"  : \"POST\", \n        \"payload\"  : formData,\n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": false\n      };\n  \n  // Send Post request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {  \n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"B3\").setValue(params);\n  }\n}\n```\n\nThe Get request is even simpler, as now you don't have to include a form as part of the package to be delivered. Don't forget to assign the function to the \"MAKE GET REQUEST\" button.\n\n```javascript\n// Handle the button click for Get Request -------------------------------------------------\nfunction GetRequest() {\n  // Start by trying in postman\n  \n  // Set which spreadsheet to pull or output information\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this: \n  // https://api.particle.io/v1/devices/<PARTICLE_DEVICE_ID>/<VARIABLE_NAME>?access_token=<PARTICLE_ACCESS_TOKEN>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var variable_name = sheet.getRange(\"C2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + variable_name + \"?access_token=\" + access_token\n  \n  // Not sure if all options are necessary\n  var options =\n      {\n        \"method\"  : \"GET\",   \n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": true\n      };\n  \n  // Send Get request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {\n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"C3\").setValue(params);\n  };\n}\n```\n\nFinally, the Webhook. We need to set up the Google Sheet to be able to receive a message that is published to it. This is done through a function called `doPost()`. You will not be able to use any name you want, because doPost will be the handler to a post made externally.\n\n```javascript\n// Handle the webhook using doPost() -------------------------------------------------\nfunction doPost(e){\n  // Set which spreadsheet to output this data to\n  var spreadsheet_id = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // Fill the \"Webhook Data\" cell with the parameters of the webhook package sent\n  sheet.getRange(\"D2\").setValue(e.parameter);\n  \n  return ContentService.createTextOutput(JSON.stringify({text:\"webhook received\"})).setMimeType(ContentService.MimeType.JSON);;\n}\n```\nOnce the full script is complete (full script available here, you will need to edit the Global variables section at the top: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/googlesheets_pgw.gs)go to your Google Apps script (https://script.google.com...), and select Publish >> Deploy as webapp. Copy the webapp URL, which you will need to setup the webhook on the Particle console. Then in the section that says \"Who has access to the app\", you will need to select \"Anyone, even anonymous\". This will ensure that the Particle console can make changes to the google sheet.\nThe webhook must also be set up as an integration on console.particle.io. with a Web Form setup. \n\n![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/webhooksetupconsole.jpg)\n\nUnder the Full URL section, you will need to include the target URL for your google sheets webapp. It should begin with https://script.google.com/... This is the URL you copied earlier after deploying as a webapp.\n\nThat's it! Now you have a Google sheet with a webapp that will communicate between the sheet and your Particle IoT device. Try changing the Post Request section (B2) to \"on\" or \"off\" and clicking the \"MAKE POST REQUEST\" button. Try changing cell C2 to brightness, or setpoint, and clicking \"MAKE GET REQUEST\" to view the values. Try holding your hand over the photoresistor on the photoresistor to block out enough light to trigger the webhook event.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "063982041e9c7b6e1be859fb16efce21",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "How to use Google Sheets as a Post/Get/Webhook Endpoint",
+        "layout": "post",
+        "date": "2018-11-11",
+        "_PARENT": "580170bf-9c68-5b11-96d9-1e46253808e3"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nShameful plug post, but I'll be using Particle devices to demonstrate how to setup a Post/Get/Webhook right on a Google Sheet. Although Excel has more spreadsheet features than Google Sheets, the nice thing is that since your google sheets resides on some server connected to the internet, you can essentially use Google Sheets as a basic server to receive and send requests to an IoT device somewhere else. Take a look at how simple this spreadsheet is:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/googlesht-getpostwebhk.jpg)\n\nAll requests will operate under a request/response format, the idea being that the Google Sheet I made will shoot off a request, and a response will be collected. ONE IMPORTANT NOTE: Since you will be allowing anonymous access in order to use Google Apps Script, PLEASE only use this for development testing purposes ONLY, not to run a production server. If someone finds your Google Sheets URL endpoint, they can flood your sheet with requests. Furthermore, your device access token may be exposed.\n\nWith that said, let's get started.\n\nFirst you will want to create a new Google sheet which looks like what I've shown above. You can ignore cells B3, C3, and D2-D3, as these will be populated automatically by the webapp you'll create using Google Apps Script. You don't have to do this, but I merged cell D2 and D3. To create the buttons, go to Insert >> Drawing to draw a basic rectangle with some text in the middle. You will be able to assign function to these buttons you created later.\n\nParticle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/particle-photon.jpg)\n\nYou will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino \n\nIn my `setup()` section I've called out 3 different `Particle.variables`: `analogvalue`, which is the output from the photoresistor, `brightness`, which is the brightness of the LED, and `setpoint`, which is the setpoint issued to the LED. I've also created a `Particle.function` called `led`, which toggles the blue LED situated on D7 on the board. Lastly, I've created a `Particle.publish`, which tracks the analog value and publishes a `low_light` event when the value drops below 50. \n\nWhat I will do now is use my \"Post Request\" function on my google sheet to call the `led` function and toggle on/off the LED. I will use the \"Get Request\" button to pull the `analogvalue` variable. Lastly, I will create a webhook to publish the `low_light` event details to my Google sheet when the event publishes.\n\nFirst, go to the Google Sheet and go to Tools >> Script Editor. This will allow you write javascript which controls how your Google Sheet behaves. Start off in the script by setting some Global variables. You have to retrieve you access token from build.particle.io, by clicking the settings tab. The device id is the device of your photon, and spreadsheet id is the long string of in your Google Sheets URL. You can also edit the Sheet name if you decide to change that.\n\n```javascript\n// Set Global Variables \n/* \nACCESS_TOKEN: Go to build.particle.io and click \"Settings\" on the left side panel\nPARTICLE_DEVICE_ID: Identify device ID from the console, or from using \"particle list\"\nSPREADSHEET_ID: Look on the URL for your Google Sheet for the long random string\n*/\nPropertiesService.getScriptProperties().setProperty('SHEET_NAME', 'Sheet1');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_ACCESS_TOKEN', '<enter access token>');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_DEVICE_ID', '<enter device id>');\nPropertiesService.getScriptProperties().setProperty('SPREADSHEET_ID', '<enter spreadsheetid>');\n```\n\nHandling the Post Request:\nGo back to your Google Sheet, and right click the button you labeled \"MAKE POST REQUEST\", and assign it a function called `PostRequest` or whatever you decide to name it. In the script file, add the function below. You will be using the Particle API URL, and sending the request there. The request will require your access token, and the argument (in the case above, either \"on\" or \"off\" for the LED).\n\n```javascript\n// Handle the button click for Post Request -------------------------------------------------\nfunction PostRequest() {\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this:\n  // https://api.particle.io/v1/devices/<deviceid>/\n  // led?args=on&access_token=<accesstoken>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var function_name = sheet.getRange(\"B4\").getValue();\n  var request = sheet.getRange(\"B2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + function_name + \"?\" + \n    \"access_token=\" + access_token;\n\n  // Create a form which will be sent as the payload to the post request\n  var formData = {\n    'args' : request\n    \n  };\n  \n  // Create the options\n  var options =\n      {\n        \"method\"  : \"POST\", \n        \"payload\"  : formData,\n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": false\n      };\n  \n  // Send Post request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {  \n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"B3\").setValue(params);\n  }\n}\n```\n\nThe Get request is even simpler, as now you don't have to include a form as part of the package to be delivered. Don't forget to assign the function to the \"MAKE GET REQUEST\" button.\n\n```javascript\n// Handle the button click for Get Request -------------------------------------------------\nfunction GetRequest() {\n  // Start by trying in postman\n  \n  // Set which spreadsheet to pull or output information\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this: \n  // https://api.particle.io/v1/devices/<PARTICLE_DEVICE_ID>/<VARIABLE_NAME>?access_token=<PARTICLE_ACCESS_TOKEN>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var variable_name = sheet.getRange(\"C2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + variable_name + \"?access_token=\" + access_token\n  \n  // Not sure if all options are necessary\n  var options =\n      {\n        \"method\"  : \"GET\",   \n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": true\n      };\n  \n  // Send Get request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {\n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"C3\").setValue(params);\n  };\n}\n```\n\nFinally, the Webhook. We need to set up the Google Sheet to be able to receive a message that is published to it. This is done through a function called `doPost()`. You will not be able to use any name you want, because doPost will be the handler to a post made externally.\n\n```javascript\n// Handle the webhook using doPost() -------------------------------------------------\nfunction doPost(e){\n  // Set which spreadsheet to output this data to\n  var spreadsheet_id = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // Fill the \"Webhook Data\" cell with the parameters of the webhook package sent\n  sheet.getRange(\"D2\").setValue(e.parameter);\n  \n  return ContentService.createTextOutput(JSON.stringify({text:\"webhook received\"})).setMimeType(ContentService.MimeType.JSON);;\n}\n```\nOnce the full script is complete (full script available here, you will need to edit the Global variables section at the top: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/googlesheets_pgw.gs)go to your Google Apps script (https://script.google.com...), and select Publish >> Deploy as webapp. Copy the webapp URL, which you will need to setup the webhook on the Particle console. Then in the section that says \"Who has access to the app\", you will need to select \"Anyone, even anonymous\". This will ensure that the Particle console can make changes to the google sheet.\nThe webhook must also be set up as an integration on console.particle.io. with a Web Form setup. \n\n![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/webhooksetupconsole.jpg)\n\nUnder the Full URL section, you will need to include the target URL for your google sheets webapp. It should begin with https://script.google.com/... This is the URL you copied earlier after deploying as a webapp.\n\nThat's it! Now you have a Google sheet with a webapp that will communicate between the sheet and your Particle IoT device. Try changing the Post Request section (B2) to \"on\" or \"off\" and clicking the \"MAKE POST REQUEST\" button. Try changing cell C2 to brightness, or setpoint, and clicking \"MAKE GET REQUEST\" to view the values. Try holding your hand over the photoresistor on the photoresistor to block out enough light to trigger the webhook event.\n",
+      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/particlepostgetwebhk.md",
+      "fields": {
+        "slug": "/posts/particlepostgetwebhk/"
       }
     },
     "SitePage /offline-plugin-app-shell-fallback/": {
@@ -2407,28 +2480,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /posts/googlecomputeengine/": {
-      "jsonName": "posts-googlecomputeengine-93b",
-      "internalComponentName": "ComponentPostsGooglecomputeengine",
-      "path": "/posts/googlecomputeengine/",
-      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/posts/googlecomputeengine/"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "id": "SitePage /posts/googlecomputeengine/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "902cc123de3d25e8c1f24ea5e1d3539b",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /posts/mfgapp/": {
       "jsonName": "posts-mfgapp-3d3",
       "internalComponentName": "ComponentPostsMfgapp",
@@ -2447,28 +2498,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "41fa9bdde18e5b46b884fc12d65f0e5d",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /posts/slackdeliverytracker/": {
-      "jsonName": "posts-slackdeliverytracker-dfa",
-      "internalComponentName": "ComponentPostsSlackdeliverytracker",
-      "path": "/posts/slackdeliverytracker/",
-      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/posts/slackdeliverytracker/"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "id": "SitePage /posts/slackdeliverytracker/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "7493b3332f3779b4aeab081f69bb869b",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2513,6 +2542,72 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "2c6936fce499cc19c669082050e5005b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/googlecomputeengine/": {
+      "jsonName": "posts-googlecomputeengine-93b",
+      "internalComponentName": "ComponentPostsGooglecomputeengine",
+      "path": "/posts/googlecomputeengine/",
+      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/posts/googlecomputeengine/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "id": "SitePage /posts/googlecomputeengine/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "902cc123de3d25e8c1f24ea5e1d3539b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/slackdeliverytracker/": {
+      "jsonName": "posts-slackdeliverytracker-dfa",
+      "internalComponentName": "ComponentPostsSlackdeliverytracker",
+      "path": "/posts/slackdeliverytracker/",
+      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/posts/slackdeliverytracker/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "id": "SitePage /posts/slackdeliverytracker/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7493b3332f3779b4aeab081f69bb869b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/particlepostgetwebhk/": {
+      "jsonName": "posts-particlepostgetwebhk-3df",
+      "internalComponentName": "ComponentPostsParticlepostgetwebhk",
+      "path": "/posts/particlepostgetwebhk/",
+      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/posts/particlepostgetwebhk/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "id": "SitePage /posts/particlepostgetwebhk/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bffd100b31a7a5c131aa69ab2a0f544f",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2683,6 +2778,9 @@
       ],
       "7084c808-5b01-56d9-85cf-863e222819f6": [
         "/posts/gatsby1/"
+      ],
+      "5002ed5e-b35d-5579-a78e-43e0e064d7b3": [
+        "/posts/particlepostgetwebhk/"
       ]
     },
     "connections": {
@@ -2699,14 +2797,14 @@
   },
   "jsonDataPaths": {
     "sq--src-components-layout-js": 755544856,
-    "my-files-317": "434/path---my-files-317-4c7-UJiR45GxJOEYUQzK6AAJIlRlzc",
-    "index": "936/path---index-6a9-IeWseUd7CCIFAeqc0rOkRxHCo",
+    "my-files-317": "612/path---my-files-317-4c7-R2pwBvRKamF73pI283FW8eF2h5E",
+    "index": "885/path---index-6a9-xgsS4y3IgPZ07c4YVJdtWrW8DQY",
     "posts-goingclimbing-015": "93/path---posts-goingclimbing-015-fb4-eVppT35deniTbi8ZsuhxkGPo",
-    "posts-googlecomputeengine-93b": "527/path---posts-googlecomputeengine-93-b-c19-rZV349IzkQz6CWPK3BoPSRM5pVk",
+    "posts-googlecomputeengine-93b": "157/path---posts-googlecomputeengine-93-b-c19-T6OdDHHiwDj2HLhseuab3qaBEM",
     "posts-mfgapp-3d3": "961/path---posts-mfgapp-3-d-3-a60-pLKlugvpxzbRCm6XAbQoewyKsMk",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "posts-slackdeliverytracker-dfa": "370/path---posts-slackdeliverytracker-dfa-1fd-FSHMV9IHEBK4WMpkZNq6yfftXG4",
+    "posts-slackdeliverytracker-dfa": "545/path---posts-slackdeliverytracker-dfa-1fd-kdpoXZayRNKTFQ1kit0lYvN5LSU",
     "about-f34": "139/path---about-f-34-4c2-d9vjRJIWoRzCMVZZqoQR4qPq4A",
     "contact-26a": "112/path---contact-26-a-cd9-e0RvBVjDvJ6FQNRolVyqDUr6v0",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -2714,9 +2812,10 @@
     "about-contact-9ee": "385/path---about-contact-9-ee-c92-wvbNnoLyaf0TnyU87GSXemlARGc",
     "posts-graphql-filter-ed3": "177/path---posts-graphql-filter-ed-3-716-QBiS6Kmih5AjJjRlGrwNymaI14",
     "posts-2018-09-30-gatsby-1-a12": "53/path---posts-2018-09-30-gatsby-1-a-12-71d-55MFQ0pSXNybT03TxdH1IJ2IQJQ",
-    "posts-gatsby-1-13b": "173/path---posts-gatsby-1-13-b-e06-mailE3QJ7sDvst2iBZhW6q1k",
+    "posts-gatsby-1-13b": "702/path---posts-gatsby-1-13-b-e06-LftSttCu95h6BpJN6bBhBWVq8",
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "projects-9e9": "545/path---projects-9-e-9-957-NZuapzHg3X9TaN1iIixfv1W23E"
+    "projects-9e9": "545/path---projects-9-e-9-957-NZuapzHg3X9TaN1iIixfv1W23E",
+    "posts-particlepostgetwebhk-3df": "749/path---posts-particlepostgetwebhk-3-df-dee-cyxd7VOjKKzk3fUf8GynoEx9tQ"
   },
   "components": {
     "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js": {

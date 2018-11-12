@@ -61,6 +61,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "posts-particlepostgetwebhk-3df",
+        "path": "/posts/particlepostgetwebhk/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "posts-slackdeliverytracker-dfa",
         "path": "/posts/slackdeliverytracker/"
     },
