@@ -16,7 +16,7 @@ First you will want to create a new Google sheet which looks like what I've show
 
 Particle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:
 
-![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/particle-photon.jpg)
+![photon-pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/particle-photon.jpg)
 
 You will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino 
 
