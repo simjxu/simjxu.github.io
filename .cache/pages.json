@@ -66,6 +66,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "posts-projectplan-1218-c6b",
+        "path": "/posts/projectplan1218/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "posts-slackdeliverytracker-dfa",
         "path": "/posts/slackdeliverytracker/"
     },
