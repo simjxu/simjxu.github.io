@@ -620,18 +620,20 @@
       "resolve": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-sharp",
       "id": "84d6154d-4241-556c-a679-cc8339cac100",
       "name": "gatsby-plugin-sharp",
-      "version": "2.0.11",
+      "version": "2.0.17",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "onPreInit"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.0.11",
+        "version": "2.0.17",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -671,7 +673,7 @@
           },
           {
             "name": "imagemin-mozjpeg",
-            "version": "^7.0.0"
+            "version": "^8.0.0"
           },
           {
             "name": "imagemin-pngquant",
@@ -679,7 +681,7 @@
           },
           {
             "name": "imagemin-webp",
-            "version": "^4.1.0"
+            "version": "^5.0.0"
           },
           {
             "name": "lodash",
@@ -721,7 +723,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
+            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
@@ -740,7 +742,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "230f3f13f17f67dc09ff5e04625d4d96",
+        "contentDigest": "17d9101cbab96f857ef6e9f0bef43e75",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -983,7 +985,7 @@
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^2.0.11"
+            "version": "^2.0.17"
           },
           {
             "name": "gatsby-plugin-typography",
@@ -1153,12 +1155,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-10T03:31:17.421Z",
+      "buildTime": "2018-12-30T06:22:47.764Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4adc40fc07d0987a674be2c526f19ea9",
+        "contentDigest": "8e16861169867b6b9dd584bf0158b49b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1168,7 +1170,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "364fecab9cff541d4bd8d69bde16fa6b",
+        "contentDigest": "543be7f47aa69d84e2d8915a2edc64c9",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -1180,7 +1182,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-11-07T21:44:44.349Z",
-      "accessTime": "2018-12-10T03:31:22.940Z",
+      "accessTime": "2018-12-30T06:22:52.085Z",
       "changeTime": "2018-11-07T21:44:44.349Z",
       "birthTime": "2018-11-04T01:43:09.963Z",
       "root": "/",
@@ -1198,21 +1200,65 @@
       "blksize": 4096,
       "ino": 5239404,
       "blocks": 0,
-      "atimeMs": 1544412682940.1064,
+      "atimeMs": 1546150972084.6624,
       "mtimeMs": 1541627084348.9956,
       "ctimeMs": 1541627084348.9956,
       "birthtimeMs": 1541295789962.6338,
-      "atime": "2018-12-10T03:31:22.940Z",
+      "atime": "2018-12-30T06:22:52.085Z",
       "mtime": "2018-11-07T21:44:44.349Z",
       "ctime": "2018-11-07T21:44:44.349Z",
       "birthtime": "2018-11-04T01:43:09.963Z"
+    },
+    "62250e5d-d94c-5147-8eb2-cb9a387763b8": {
+      "id": "62250e5d-d94c-5147-8eb2-cb9a387763b8",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7960479b89bced20048341d1c6f01b0d",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-12-28T07:03:20.518Z",
+      "accessTime": "2018-12-30T06:22:52.087Z",
+      "changeTime": "2018-12-28T07:03:20.518Z",
+      "birthTime": "2018-11-04T01:43:09.965Z",
+      "root": "/",
+      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5279214,
+      "blocks": 0,
+      "atimeMs": 1546150972086.5771,
+      "mtimeMs": 1545980600517.8315,
+      "ctimeMs": 1545980600517.8315,
+      "birthtimeMs": 1541295789964.8677,
+      "atime": "2018-12-30T06:22:52.087Z",
+      "mtime": "2018-12-28T07:03:20.518Z",
+      "ctime": "2018-12-28T07:03:20.518Z",
+      "birthtime": "2018-11-04T01:43:09.965Z"
     },
     "f6aca5c8-1a1c-5723-b7e2-98eafa18f402": {
       "id": "f6aca5c8-1a1c-5723-b7e2-98eafa18f402",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "141688bf549539e44580edcf6af3cbd2",
+        "contentDigest": "9803164ab30983f6e410026940690866",
         "type": "Directory",
         "description": "Directory \"src/components\"",
         "owner": "gatsby-source-filesystem"
@@ -1224,7 +1270,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-11-04T03:56:49.959Z",
-      "accessTime": "2018-12-10T03:31:22.942Z",
+      "accessTime": "2018-12-30T06:22:52.087Z",
       "changeTime": "2018-11-05T03:00:04.201Z",
       "birthTime": "2018-11-04T01:43:09.963Z",
       "root": "/",
@@ -1242,65 +1288,21 @@
       "blksize": 4096,
       "ino": 5279208,
       "blocks": 0,
-      "atimeMs": 1544412682941.6912,
+      "atimeMs": 1546150972086.6096,
       "mtimeMs": 1541303809958.8206,
       "ctimeMs": 1541386804201.0657,
       "birthtimeMs": 1541295789962.7195,
-      "atime": "2018-12-10T03:31:22.942Z",
+      "atime": "2018-12-30T06:22:52.087Z",
       "mtime": "2018-11-04T03:56:49.959Z",
       "ctime": "2018-11-05T03:00:04.201Z",
       "birthtime": "2018-11-04T01:43:09.963Z"
-    },
-    "62250e5d-d94c-5147-8eb2-cb9a387763b8": {
-      "id": "62250e5d-d94c-5147-8eb2-cb9a387763b8",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "0433d49f732d1903a2cc840ab784f7ed",
-        "type": "Directory",
-        "description": "Directory \"src/pages\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages",
-      "relativePath": "pages",
-      "extension": "",
-      "size": 288,
-      "prettySize": "288 B",
-      "modifiedTime": "2018-11-04T06:09:30.318Z",
-      "accessTime": "2018-12-10T03:31:22.942Z",
-      "changeTime": "2018-11-05T03:00:04.209Z",
-      "birthTime": "2018-11-04T01:43:09.965Z",
-      "root": "/",
-      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src",
-      "base": "pages",
-      "ext": "",
-      "name": "pages",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 9,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 5279214,
-      "blocks": 0,
-      "atimeMs": 1544412682941.7122,
-      "mtimeMs": 1541311770317.9966,
-      "ctimeMs": 1541386804209.1877,
-      "birthtimeMs": 1541295789964.8677,
-      "atime": "2018-12-10T03:31:22.942Z",
-      "mtime": "2018-11-04T06:09:30.318Z",
-      "ctime": "2018-11-05T03:00:04.209Z",
-      "birthtime": "2018-11-04T01:43:09.965Z"
     },
     "5b9e28aa-bff7-53f2-a39b-0c20b10dcedd": {
       "id": "5b9e28aa-bff7-53f2-a39b-0c20b10dcedd",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "96986b8fbe1c3b204fc484bbe2b252de",
+        "contentDigest": "7f0e9eb1157456ecbc19c1728178f1fb",
         "type": "Directory",
         "description": "Directory \"src/templates\"",
         "owner": "gatsby-source-filesystem"
@@ -1312,7 +1314,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-11-04T06:56:40.702Z",
-      "accessTime": "2018-12-10T03:31:22.942Z",
+      "accessTime": "2018-12-30T06:22:52.087Z",
       "changeTime": "2018-11-05T03:00:04.202Z",
       "birthTime": "2018-11-04T06:56:40.701Z",
       "root": "/",
@@ -1330,11 +1332,11 @@
       "blksize": 4096,
       "ino": 5279212,
       "blocks": 0,
-      "atimeMs": 1544412682941.7283,
+      "atimeMs": 1546150972086.5618,
       "mtimeMs": 1541314600701.7566,
       "ctimeMs": 1541386804201.9036,
       "birthtimeMs": 1541314600701.077,
-      "atime": "2018-12-10T03:31:22.942Z",
+      "atime": "2018-12-30T06:22:52.087Z",
       "mtime": "2018-11-04T06:56:40.702Z",
       "ctime": "2018-11-05T03:00:04.202Z",
       "birthtime": "2018-11-04T06:56:40.701Z"
@@ -1344,7 +1346,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c6b20075fa5d8f05336cc7309aa80481",
+        "contentDigest": "95b4fca8ad88c6b00b49f8a3f24aa962",
         "type": "Directory",
         "description": "Directory \"src/pages/about\"",
         "owner": "gatsby-source-filesystem"
@@ -1356,7 +1358,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-11-04T07:09:46.290Z",
-      "accessTime": "2018-12-10T03:31:22.943Z",
+      "accessTime": "2018-12-30T06:22:52.088Z",
       "changeTime": "2018-11-05T03:00:04.208Z",
       "birthTime": "2018-11-04T04:37:05.479Z",
       "root": "/",
@@ -1374,11 +1376,11 @@
       "blksize": 4096,
       "ino": 5279225,
       "blocks": 0,
-      "atimeMs": 1544412682942.823,
+      "atimeMs": 1546150972087.8044,
       "mtimeMs": 1541315386289.6462,
       "ctimeMs": 1541386804208.0159,
       "birthtimeMs": 1541306225479.0728,
-      "atime": "2018-12-10T03:31:22.943Z",
+      "atime": "2018-12-30T06:22:52.088Z",
       "mtime": "2018-11-04T07:09:46.290Z",
       "ctime": "2018-11-05T03:00:04.208Z",
       "birthtime": "2018-11-04T04:37:05.479Z"
@@ -1388,7 +1390,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1a2c1f62f286aa769db19277cb5ce732",
+        "contentDigest": "e0e6603c5103a62272381c4ee3d3b6b5",
         "type": "Directory",
         "description": "Directory \"src/pages/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1397,11 +1399,11 @@
       "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
       "relativePath": "pages/posts",
       "extension": "",
-      "size": 320,
-      "prettySize": "320 B",
-      "modifiedTime": "2018-12-10T03:08:46.609Z",
-      "accessTime": "2018-12-10T03:31:22.943Z",
-      "changeTime": "2018-12-10T03:08:46.609Z",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2018-12-28T07:04:08.424Z",
+      "accessTime": "2018-12-30T06:22:52.088Z",
+      "changeTime": "2018-12-28T07:04:08.424Z",
       "birthTime": "2018-11-04T04:37:05.479Z",
       "root": "/",
       "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages",
@@ -1411,111 +1413,21 @@
       "relativeDirectory": "pages",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 10,
+      "nlink": 11,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 5279215,
       "blocks": 0,
-      "atimeMs": 1544412682942.8386,
-      "mtimeMs": 1544411326609.3054,
-      "ctimeMs": 1544411326609.3054,
+      "atimeMs": 1546150972087.819,
+      "mtimeMs": 1545980648423.6182,
+      "ctimeMs": 1545980648423.6182,
       "birthtimeMs": 1541306225479.163,
-      "atime": "2018-12-10T03:31:22.943Z",
-      "mtime": "2018-12-10T03:08:46.609Z",
-      "ctime": "2018-12-10T03:08:46.609Z",
+      "atime": "2018-12-30T06:22:52.088Z",
+      "mtime": "2018-12-28T07:04:08.424Z",
+      "ctime": "2018-12-28T07:04:08.424Z",
       "birthtime": "2018-11-04T04:37:05.479Z"
-    },
-    "9b027829-0ffe-5239-a024-602e67a33ca7": {
-      "id": "9b027829-0ffe-5239-a024-602e67a33ca7",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a952fe29a58b15bfb749933af5d96740",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/components/layout.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components/layout.js",
-      "relativePath": "components/layout.js",
-      "extension": "js",
-      "size": 1159,
-      "prettySize": "1.16 kB",
-      "modifiedTime": "2018-11-04T04:55:43.204Z",
-      "accessTime": "2018-11-12T04:16:06.625Z",
-      "changeTime": "2018-11-05T03:00:04.200Z",
-      "birthTime": "2018-11-04T03:56:49.959Z",
-      "root": "/",
-      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components",
-      "base": "layout.js",
-      "ext": ".js",
-      "name": "layout",
-      "relativeDirectory": "components",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 5279209,
-      "blocks": 8,
-      "atimeMs": 1541996166625.4316,
-      "mtimeMs": 1541307343204.0842,
-      "ctimeMs": 1541386804200.0342,
-      "birthtimeMs": 1541303809958.8125,
-      "atime": "2018-11-12T04:16:06.625Z",
-      "mtime": "2018-11-04T04:55:43.204Z",
-      "ctime": "2018-11-05T03:00:04.200Z",
-      "birthtime": "2018-11-04T03:56:49.959Z"
-    },
-    "1aad3c12-1cc8-5d3f-9f4e-91ff4697d416": {
-      "id": "1aad3c12-1cc8-5d3f-9f4e-91ff4697d416",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "ff2d04ab0a95edc28736687b0f192c96",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/components/header.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components/header.js",
-      "relativePath": "components/header.js",
-      "extension": "js",
-      "size": 1281,
-      "prettySize": "1.28 kB",
-      "modifiedTime": "2018-11-04T04:34:31.636Z",
-      "accessTime": "2018-11-12T04:16:06.625Z",
-      "changeTime": "2018-11-05T03:00:04.201Z",
-      "birthTime": "2018-11-04T03:56:49.958Z",
-      "root": "/",
-      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components",
-      "base": "header.js",
-      "ext": ".js",
-      "name": "header",
-      "relativeDirectory": "components",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 5279210,
-      "blocks": 8,
-      "atimeMs": 1541996166625.4253,
-      "mtimeMs": 1541306071635.5896,
-      "ctimeMs": 1541386804200.543,
-      "birthtimeMs": 1541303809958.075,
-      "atime": "2018-11-12T04:16:06.625Z",
-      "mtime": "2018-11-04T04:34:31.636Z",
-      "ctime": "2018-11-05T03:00:04.201Z",
-      "birthtime": "2018-11-04T03:56:49.958Z"
     },
     "19fdf9ad-56cd-5749-94f2-d7c2f85ba06f": {
       "id": "19fdf9ad-56cd-5749-94f2-d7c2f85ba06f",
@@ -1535,7 +1447,7 @@
       "size": 246,
       "prettySize": "246 B",
       "modifiedTime": "2018-11-04T01:43:09.965Z",
-      "accessTime": "2018-11-12T04:16:06.625Z",
+      "accessTime": "2018-12-13T17:56:15.273Z",
       "changeTime": "2018-11-05T03:00:04.207Z",
       "birthTime": "2018-11-04T01:43:09.965Z",
       "root": "/",
@@ -1553,59 +1465,14 @@
       "blksize": 4096,
       "ino": 5279223,
       "blocks": 8,
-      "atimeMs": 1541996166625.4387,
+      "atimeMs": 1544723775272.5771,
       "mtimeMs": 1541295789965.0342,
       "ctimeMs": 1541386804206.62,
       "birthtimeMs": 1541295789964.9197,
-      "atime": "2018-11-12T04:16:06.625Z",
+      "atime": "2018-12-13T17:56:15.273Z",
       "mtime": "2018-11-04T01:43:09.965Z",
       "ctime": "2018-11-05T03:00:04.207Z",
       "birthtime": "2018-11-04T01:43:09.965Z"
-    },
-    "cf3e59b9-58f9-5832-b733-3241af688aa0": {
-      "id": "cf3e59b9-58f9-5832-b733-3241af688aa0",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "2675ba6bc7aa0021c73c84e9ad2d98b3",
-        "type": "File",
-        "mediaType": "text/css",
-        "description": "File \"src/components/layout.css\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components/layout.css",
-      "relativePath": "components/layout.css",
-      "extension": "css",
-      "size": 11319,
-      "prettySize": "11.3 kB",
-      "modifiedTime": "2018-11-04T04:46:18.245Z",
-      "accessTime": "2018-11-12T04:16:04.094Z",
-      "changeTime": "2018-11-05T03:00:04.201Z",
-      "birthTime": "2018-11-04T01:43:09.963Z",
-      "root": "/",
-      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components",
-      "base": "layout.css",
-      "ext": ".css",
-      "name": "layout",
-      "relativeDirectory": "components",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 5279211,
-      "blocks": 24,
-      "atimeMs": 1541996164094.0796,
-      "mtimeMs": 1541306778245.0955,
-      "ctimeMs": 1541386804200.9749,
-      "birthtimeMs": 1541295789963.118,
-      "atime": "2018-11-12T04:16:04.094Z",
-      "mtime": "2018-11-04T04:46:18.245Z",
-      "ctime": "2018-11-05T03:00:04.201Z",
-      "birthtime": "2018-11-04T01:43:09.963Z"
     },
     "85ba6b76-d0ea-592b-be5e-0ad3ed8e8a56": {
       "id": "85ba6b76-d0ea-592b-be5e-0ad3ed8e8a56",
@@ -1625,7 +1492,7 @@
       "size": 1060,
       "prettySize": "1.06 kB",
       "modifiedTime": "2018-11-04T05:09:13.822Z",
-      "accessTime": "2018-11-12T04:16:06.625Z",
+      "accessTime": "2018-12-13T17:56:15.275Z",
       "changeTime": "2018-11-05T03:00:04.209Z",
       "birthTime": "2018-11-04T05:01:06.960Z",
       "root": "/",
@@ -1643,11 +1510,11 @@
       "blksize": 4096,
       "ino": 5279228,
       "blocks": 8,
-      "atimeMs": 1541996166625.4546,
+      "atimeMs": 1544723775274.76,
       "mtimeMs": 1541308153822.3955,
       "ctimeMs": 1541386804209.0977,
       "birthtimeMs": 1541307666960.0986,
-      "atime": "2018-11-12T04:16:06.625Z",
+      "atime": "2018-12-13T17:56:15.275Z",
       "mtime": "2018-11-04T05:09:13.822Z",
       "ctime": "2018-11-05T03:00:04.209Z",
       "birthtime": "2018-11-04T05:01:06.960Z"
@@ -1670,7 +1537,7 @@
       "size": 1040,
       "prettySize": "1.04 kB",
       "modifiedTime": "2018-11-04T07:06:49.990Z",
-      "accessTime": "2018-11-12T04:16:06.625Z",
+      "accessTime": "2018-12-13T17:56:15.272Z",
       "changeTime": "2018-11-05T03:00:04.206Z",
       "birthTime": "2018-11-04T04:00:35.460Z",
       "root": "/",
@@ -1688,11 +1555,11 @@
       "blksize": 4096,
       "ino": 5279222,
       "blocks": 8,
-      "atimeMs": 1541996166625.442,
+      "atimeMs": 1544723775272.453,
       "mtimeMs": 1541315209989.7654,
       "ctimeMs": 1541386804206.1155,
       "birthtimeMs": 1541304035460.2476,
-      "atime": "2018-11-12T04:16:06.625Z",
+      "atime": "2018-12-13T17:56:15.272Z",
       "mtime": "2018-11-04T07:06:49.990Z",
       "ctime": "2018-11-05T03:00:04.206Z",
       "birthtime": "2018-11-04T04:00:35.460Z"
@@ -1715,7 +1582,7 @@
       "size": 1709,
       "prettySize": "1.71 kB",
       "modifiedTime": "2018-11-04T07:04:28.835Z",
-      "accessTime": "2018-11-12T04:16:06.625Z",
+      "accessTime": "2018-12-13T17:56:15.274Z",
       "changeTime": "2018-11-05T03:00:04.207Z",
       "birthTime": "2018-11-04T01:59:38.242Z",
       "root": "/",
@@ -1733,14 +1600,241 @@
       "blksize": 4096,
       "ino": 5279224,
       "blocks": 8,
-      "atimeMs": 1541996166625.4514,
+      "atimeMs": 1544723775274.3645,
       "mtimeMs": 1541315068835.1768,
       "ctimeMs": 1541386804207.1228,
       "birthtimeMs": 1541296778241.612,
-      "atime": "2018-11-12T04:16:06.625Z",
+      "atime": "2018-12-13T17:56:15.274Z",
       "mtime": "2018-11-04T07:04:28.835Z",
       "ctime": "2018-11-05T03:00:04.207Z",
       "birthtime": "2018-11-04T01:59:38.242Z"
+    },
+    "2eead3d9-96ad-5eb1-add1-43dd96e320d3": {
+      "id": "2eead3d9-96ad-5eb1-add1-43dd96e320d3",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "56fc882f1e44837aa373666a9f6c7ba5",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/templates/blog-post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "relativePath": "templates/blog-post.js",
+      "extension": "js",
+      "size": 519,
+      "prettySize": "519 B",
+      "modifiedTime": "2018-11-04T06:56:40.702Z",
+      "accessTime": "2018-12-13T17:56:15.270Z",
+      "changeTime": "2018-11-05T03:00:04.202Z",
+      "birthTime": "2018-11-04T06:56:40.702Z",
+      "root": "/",
+      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates",
+      "base": "blog-post.js",
+      "ext": ".js",
+      "name": "blog-post",
+      "relativeDirectory": "templates",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5279213,
+      "blocks": 8,
+      "atimeMs": 1544723775270.1694,
+      "mtimeMs": 1541314600702.2188,
+      "ctimeMs": 1541386804201.8132,
+      "birthtimeMs": 1541314600701.7483,
+      "atime": "2018-12-13T17:56:15.270Z",
+      "mtime": "2018-11-04T06:56:40.702Z",
+      "ctime": "2018-11-05T03:00:04.202Z",
+      "birthtime": "2018-11-04T06:56:40.702Z"
+    },
+    "cf3e59b9-58f9-5832-b733-3241af688aa0": {
+      "id": "cf3e59b9-58f9-5832-b733-3241af688aa0",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2675ba6bc7aa0021c73c84e9ad2d98b3",
+        "type": "File",
+        "mediaType": "text/css",
+        "description": "File \"src/components/layout.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components/layout.css",
+      "relativePath": "components/layout.css",
+      "extension": "css",
+      "size": 11319,
+      "prettySize": "11.3 kB",
+      "modifiedTime": "2018-11-04T04:46:18.245Z",
+      "accessTime": "2018-11-05T03:00:13.472Z",
+      "changeTime": "2018-11-05T03:00:04.201Z",
+      "birthTime": "2018-11-04T01:43:09.963Z",
+      "root": "/",
+      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components",
+      "base": "layout.css",
+      "ext": ".css",
+      "name": "layout",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5279211,
+      "blocks": 24,
+      "atimeMs": 1541386813471.6272,
+      "mtimeMs": 1541306778245.0955,
+      "ctimeMs": 1541386804200.9749,
+      "birthtimeMs": 1541295789963.118,
+      "atime": "2018-11-05T03:00:13.472Z",
+      "mtime": "2018-11-04T04:46:18.245Z",
+      "ctime": "2018-11-05T03:00:04.201Z",
+      "birthtime": "2018-11-04T01:43:09.963Z"
+    },
+    "1aad3c12-1cc8-5d3f-9f4e-91ff4697d416": {
+      "id": "1aad3c12-1cc8-5d3f-9f4e-91ff4697d416",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ff2d04ab0a95edc28736687b0f192c96",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/header.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components/header.js",
+      "relativePath": "components/header.js",
+      "extension": "js",
+      "size": 1281,
+      "prettySize": "1.28 kB",
+      "modifiedTime": "2018-11-04T04:34:31.636Z",
+      "accessTime": "2018-12-13T17:56:15.270Z",
+      "changeTime": "2018-11-05T03:00:04.201Z",
+      "birthTime": "2018-11-04T03:56:49.958Z",
+      "root": "/",
+      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components",
+      "base": "header.js",
+      "ext": ".js",
+      "name": "header",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5279210,
+      "blocks": 8,
+      "atimeMs": 1544723775270.3123,
+      "mtimeMs": 1541306071635.5896,
+      "ctimeMs": 1541386804200.543,
+      "birthtimeMs": 1541303809958.075,
+      "atime": "2018-12-13T17:56:15.270Z",
+      "mtime": "2018-11-04T04:34:31.636Z",
+      "ctime": "2018-11-05T03:00:04.201Z",
+      "birthtime": "2018-11-04T03:56:49.958Z"
+    },
+    "4f3de5a8-7b3f-5c57-b975-53e5eaeef977": {
+      "id": "4f3de5a8-7b3f-5c57-b975-53e5eaeef977",
+      "children": [
+        "2f542769-59e9-5a09-b180-f7c57f910415"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ce8ce04f93c3dcb85d0d8de4846705fa",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/about/aboutme.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/about/aboutme.md",
+      "relativePath": "pages/about/aboutme.md",
+      "extension": "md",
+      "size": 1226,
+      "prettySize": "1.23 kB",
+      "modifiedTime": "2018-11-04T07:08:31.153Z",
+      "accessTime": "2018-12-13T17:56:15.275Z",
+      "changeTime": "2018-11-05T03:00:04.208Z",
+      "birthTime": "2018-11-04T04:37:05.480Z",
+      "root": "/",
+      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/about",
+      "base": "aboutme.md",
+      "ext": ".md",
+      "name": "aboutme",
+      "relativeDirectory": "pages/about",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5279226,
+      "blocks": 8,
+      "atimeMs": 1544723775274.712,
+      "mtimeMs": 1541315311152.6064,
+      "ctimeMs": 1541386804207.8992,
+      "birthtimeMs": 1541306225480.35,
+      "atime": "2018-12-13T17:56:15.275Z",
+      "mtime": "2018-11-04T07:08:31.153Z",
+      "ctime": "2018-11-05T03:00:04.208Z",
+      "birthtime": "2018-11-04T04:37:05.480Z"
+    },
+    "9b027829-0ffe-5239-a024-602e67a33ca7": {
+      "id": "9b027829-0ffe-5239-a024-602e67a33ca7",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a952fe29a58b15bfb749933af5d96740",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/layout.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components/layout.js",
+      "relativePath": "components/layout.js",
+      "extension": "js",
+      "size": 1159,
+      "prettySize": "1.16 kB",
+      "modifiedTime": "2018-11-04T04:55:43.204Z",
+      "accessTime": "2018-12-13T17:56:15.270Z",
+      "changeTime": "2018-11-05T03:00:04.200Z",
+      "birthTime": "2018-11-04T03:56:49.959Z",
+      "root": "/",
+      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/components",
+      "base": "layout.js",
+      "ext": ".js",
+      "name": "layout",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5279209,
+      "blocks": 8,
+      "atimeMs": 1544723775270.199,
+      "mtimeMs": 1541307343204.0842,
+      "ctimeMs": 1541386804200.0342,
+      "birthtimeMs": 1541303809958.8125,
+      "atime": "2018-12-13T17:56:15.270Z",
+      "mtime": "2018-11-04T04:55:43.204Z",
+      "ctime": "2018-11-05T03:00:04.200Z",
+      "birthtime": "2018-11-04T03:56:49.959Z"
     },
     "13b62c07-37a6-5cec-83f7-3b13f7101840": {
       "id": "13b62c07-37a6-5cec-83f7-3b13f7101840",
@@ -1760,7 +1854,7 @@
       "size": 355,
       "prettySize": "355 B",
       "modifiedTime": "2018-11-04T04:47:09.045Z",
-      "accessTime": "2018-11-12T04:16:06.625Z",
+      "accessTime": "2018-12-13T17:56:15.274Z",
       "changeTime": "2018-11-05T03:00:04.209Z",
       "birthTime": "2018-11-04T04:29:27.645Z",
       "root": "/",
@@ -1778,11 +1872,11 @@
       "blksize": 4096,
       "ino": 5279227,
       "blocks": 8,
-      "atimeMs": 1541996166625.4836,
+      "atimeMs": 1544723775274.4668,
       "mtimeMs": 1541306829045.292,
       "ctimeMs": 1541386804208.5542,
       "birthtimeMs": 1541305767645.0142,
-      "atime": "2018-11-12T04:16:06.625Z",
+      "atime": "2018-12-13T17:56:15.274Z",
       "mtime": "2018-11-04T04:47:09.045Z",
       "ctime": "2018-11-05T03:00:04.209Z",
       "birthtime": "2018-11-04T04:29:27.645Z"
@@ -1807,7 +1901,7 @@
       "size": 1174,
       "prettySize": "1.17 kB",
       "modifiedTime": "2018-11-04T04:37:05.484Z",
-      "accessTime": "2018-11-12T04:16:00.142Z",
+      "accessTime": "2018-12-13T17:56:15.273Z",
       "changeTime": "2018-11-05T03:00:04.205Z",
       "birthTime": "2018-11-04T04:37:05.483Z",
       "root": "/",
@@ -1825,200 +1919,14 @@
       "blksize": 4096,
       "ino": 5279221,
       "blocks": 8,
-      "atimeMs": 1541996160141.556,
+      "atimeMs": 1544723775272.66,
       "mtimeMs": 1541306225483.777,
       "ctimeMs": 1541386804205.441,
       "birthtimeMs": 1541306225483.457,
-      "atime": "2018-11-12T04:16:00.142Z",
+      "atime": "2018-12-13T17:56:15.273Z",
       "mtime": "2018-11-04T04:37:05.484Z",
       "ctime": "2018-11-05T03:00:04.205Z",
       "birthtime": "2018-11-04T04:37:05.483Z"
-    },
-    "6c5c6478-5d14-5219-8c35-5230ade2a0b7": {
-      "id": "6c5c6478-5d14-5219-8c35-5230ade2a0b7",
-      "children": [
-        "7084c808-5b01-56d9-85cf-863e222819f6"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "9956b3acbe673aa637dab0345469caac",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/posts/gatsby1.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/gatsby1.md",
-      "relativePath": "pages/posts/gatsby1.md",
-      "extension": "md",
-      "size": 2151,
-      "prettySize": "2.15 kB",
-      "modifiedTime": "2018-11-09T08:13:09.329Z",
-      "accessTime": "2018-11-12T04:16:00.142Z",
-      "changeTime": "2018-11-09T08:13:09.329Z",
-      "birthTime": "2018-11-04T04:37:05.481Z",
-      "root": "/",
-      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
-      "base": "gatsby1.md",
-      "ext": ".md",
-      "name": "gatsby1",
-      "relativeDirectory": "pages/posts",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 5279216,
-      "blocks": 8,
-      "atimeMs": 1541996160141.524,
-      "mtimeMs": 1541751189329.4944,
-      "ctimeMs": 1541751189329.4944,
-      "birthtimeMs": 1541306225480.6711,
-      "atime": "2018-11-12T04:16:00.142Z",
-      "mtime": "2018-11-09T08:13:09.329Z",
-      "ctime": "2018-11-09T08:13:09.329Z",
-      "birthtime": "2018-11-04T04:37:05.481Z"
-    },
-    "2eead3d9-96ad-5eb1-add1-43dd96e320d3": {
-      "id": "2eead3d9-96ad-5eb1-add1-43dd96e320d3",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "56fc882f1e44837aa373666a9f6c7ba5",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/templates/blog-post.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "relativePath": "templates/blog-post.js",
-      "extension": "js",
-      "size": 519,
-      "prettySize": "519 B",
-      "modifiedTime": "2018-11-04T06:56:40.702Z",
-      "accessTime": "2018-11-12T04:16:06.625Z",
-      "changeTime": "2018-11-05T03:00:04.202Z",
-      "birthTime": "2018-11-04T06:56:40.702Z",
-      "root": "/",
-      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates",
-      "base": "blog-post.js",
-      "ext": ".js",
-      "name": "blog-post",
-      "relativeDirectory": "templates",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 5279213,
-      "blocks": 8,
-      "atimeMs": 1541996166625.4905,
-      "mtimeMs": 1541314600702.2188,
-      "ctimeMs": 1541386804201.8132,
-      "birthtimeMs": 1541314600701.7483,
-      "atime": "2018-11-12T04:16:06.625Z",
-      "mtime": "2018-11-04T06:56:40.702Z",
-      "ctime": "2018-11-05T03:00:04.202Z",
-      "birthtime": "2018-11-04T06:56:40.702Z"
-    },
-    "4f3de5a8-7b3f-5c57-b975-53e5eaeef977": {
-      "id": "4f3de5a8-7b3f-5c57-b975-53e5eaeef977",
-      "children": [
-        "2f542769-59e9-5a09-b180-f7c57f910415"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "ce8ce04f93c3dcb85d0d8de4846705fa",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/about/aboutme.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/about/aboutme.md",
-      "relativePath": "pages/about/aboutme.md",
-      "extension": "md",
-      "size": 1226,
-      "prettySize": "1.23 kB",
-      "modifiedTime": "2018-11-04T07:08:31.153Z",
-      "accessTime": "2018-11-12T04:16:00.141Z",
-      "changeTime": "2018-11-05T03:00:04.208Z",
-      "birthTime": "2018-11-04T04:37:05.480Z",
-      "root": "/",
-      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/about",
-      "base": "aboutme.md",
-      "ext": ".md",
-      "name": "aboutme",
-      "relativeDirectory": "pages/about",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 5279226,
-      "blocks": 8,
-      "atimeMs": 1541996160141.3506,
-      "mtimeMs": 1541315311152.6064,
-      "ctimeMs": 1541386804207.8992,
-      "birthtimeMs": 1541306225480.35,
-      "atime": "2018-11-12T04:16:00.141Z",
-      "mtime": "2018-11-04T07:08:31.153Z",
-      "ctime": "2018-11-05T03:00:04.208Z",
-      "birthtime": "2018-11-04T04:37:05.480Z"
-    },
-    "a67a1138-6f42-5125-8acf-1135d1af7eb9": {
-      "id": "a67a1138-6f42-5125-8acf-1135d1af7eb9",
-      "children": [
-        "3305f733-cc16-59f2-bd3d-eb1c2493426d"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "00d15228707dba8171eb8a2d8c69e74c",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/posts/googlecomputeengine.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/googlecomputeengine.md",
-      "relativePath": "pages/posts/googlecomputeengine.md",
-      "extension": "md",
-      "size": 3361,
-      "prettySize": "3.36 kB",
-      "modifiedTime": "2018-11-09T08:12:58.665Z",
-      "accessTime": "2018-11-12T04:16:00.142Z",
-      "changeTime": "2018-11-09T08:12:58.665Z",
-      "birthTime": "2018-11-04T04:37:05.484Z",
-      "root": "/",
-      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
-      "base": "googlecomputeengine.md",
-      "ext": ".md",
-      "name": "googlecomputeengine",
-      "relativeDirectory": "pages/posts",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 5279220,
-      "blocks": 8,
-      "atimeMs": 1541996160141.5864,
-      "mtimeMs": 1541751178665.3323,
-      "ctimeMs": 1541751178665.3323,
-      "birthtimeMs": 1541306225484.45,
-      "atime": "2018-11-12T04:16:00.142Z",
-      "mtime": "2018-11-09T08:12:58.665Z",
-      "ctime": "2018-11-09T08:12:58.665Z",
-      "birthtime": "2018-11-04T04:37:05.484Z"
     },
     "9538a226-819d-5cae-bb8e-14db12838a95": {
       "id": "9538a226-819d-5cae-bb8e-14db12838a95",
@@ -2040,7 +1948,7 @@
       "size": 2077,
       "prettySize": "2.08 kB",
       "modifiedTime": "2018-11-05T01:44:08.358Z",
-      "accessTime": "2018-11-12T04:16:00.142Z",
+      "accessTime": "2018-12-13T17:56:15.271Z",
       "changeTime": "2018-11-05T03:00:04.203Z",
       "birthTime": "2018-11-04T04:37:05.491Z",
       "root": "/",
@@ -2058,14 +1966,61 @@
       "blksize": 4096,
       "ino": 5279217,
       "blocks": 8,
-      "atimeMs": 1541996160141.618,
+      "atimeMs": 1544723775270.5603,
       "mtimeMs": 1541382248358.391,
       "ctimeMs": 1541386804203.4143,
       "birthtimeMs": 1541306225490.821,
-      "atime": "2018-11-12T04:16:00.142Z",
+      "atime": "2018-12-13T17:56:15.271Z",
       "mtime": "2018-11-05T01:44:08.358Z",
       "ctime": "2018-11-05T03:00:04.203Z",
       "birthtime": "2018-11-04T04:37:05.491Z"
+    },
+    "22e6c91e-3519-5cd1-8b74-0fd6c4ce3ddb": {
+      "id": "22e6c91e-3519-5cd1-8b74-0fd6c4ce3ddb",
+      "children": [
+        "634fb842-9758-5f92-9e2d-b197c7f6e5a4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6b5adc1bffb04d1a1680a84f9a38f885",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/posts/firebase-rest.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/firebase-rest.md",
+      "relativePath": "pages/posts/firebase-rest.md",
+      "extension": "md",
+      "size": 5618,
+      "prettySize": "5.62 kB",
+      "modifiedTime": "2018-12-30T06:11:23.556Z",
+      "accessTime": "2018-12-30T06:18:42.895Z",
+      "changeTime": "2018-12-30T06:11:23.556Z",
+      "birthTime": "2018-12-10T03:08:46.609Z",
+      "root": "/",
+      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
+      "base": "firebase-rest.md",
+      "ext": ".md",
+      "name": "firebase-rest",
+      "relativeDirectory": "pages/posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18043423,
+      "blocks": 16,
+      "atimeMs": 1546150722895.2734,
+      "mtimeMs": 1546150283555.964,
+      "ctimeMs": 1546150283555.964,
+      "birthtimeMs": 1544411326609.2917,
+      "atime": "2018-12-30T06:18:42.895Z",
+      "mtime": "2018-12-30T06:11:23.556Z",
+      "ctime": "2018-12-30T06:11:23.556Z",
+      "birthtime": "2018-12-10T03:08:46.609Z"
     },
     "87ba23d7-785a-5a20-845e-8e0841d545ff": {
       "id": "87ba23d7-785a-5a20-845e-8e0841d545ff",
@@ -2087,8 +2042,8 @@
       "size": 2258,
       "prettySize": "2.26 kB",
       "modifiedTime": "2018-11-04T04:37:05.492Z",
-      "accessTime": "2018-11-12T04:16:00.142Z",
-      "changeTime": "2018-11-05T03:00:04.204Z",
+      "accessTime": "2018-12-30T06:18:28.159Z",
+      "changeTime": "2018-12-28T07:03:25.614Z",
       "birthTime": "2018-11-04T04:37:05.491Z",
       "root": "/",
       "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
@@ -2105,14 +2060,108 @@
       "blksize": 4096,
       "ino": 5279219,
       "blocks": 8,
-      "atimeMs": 1541996160141.6475,
+      "atimeMs": 1546150708159.0725,
       "mtimeMs": 1541306225491.6946,
-      "ctimeMs": 1541386804204.4548,
+      "ctimeMs": 1545980605613.5913,
       "birthtimeMs": 1541306225491.473,
-      "atime": "2018-11-12T04:16:00.142Z",
+      "atime": "2018-12-30T06:18:28.159Z",
       "mtime": "2018-11-04T04:37:05.492Z",
-      "ctime": "2018-11-05T03:00:04.204Z",
+      "ctime": "2018-12-28T07:03:25.614Z",
       "birthtime": "2018-11-04T04:37:05.491Z"
+    },
+    "a67a1138-6f42-5125-8acf-1135d1af7eb9": {
+      "id": "a67a1138-6f42-5125-8acf-1135d1af7eb9",
+      "children": [
+        "3305f733-cc16-59f2-bd3d-eb1c2493426d"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "00d15228707dba8171eb8a2d8c69e74c",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/posts/googlecomputeengine.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/googlecomputeengine.md",
+      "relativePath": "pages/posts/googlecomputeengine.md",
+      "extension": "md",
+      "size": 3361,
+      "prettySize": "3.36 kB",
+      "modifiedTime": "2018-11-09T08:12:58.665Z",
+      "accessTime": "2018-12-13T18:03:46.555Z",
+      "changeTime": "2018-11-09T08:12:58.665Z",
+      "birthTime": "2018-11-04T04:37:05.484Z",
+      "root": "/",
+      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
+      "base": "googlecomputeengine.md",
+      "ext": ".md",
+      "name": "googlecomputeengine",
+      "relativeDirectory": "pages/posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5279220,
+      "blocks": 8,
+      "atimeMs": 1544724226554.8699,
+      "mtimeMs": 1541751178665.3323,
+      "ctimeMs": 1541751178665.3323,
+      "birthtimeMs": 1541306225484.45,
+      "atime": "2018-12-13T18:03:46.555Z",
+      "mtime": "2018-11-09T08:12:58.665Z",
+      "ctime": "2018-11-09T08:12:58.665Z",
+      "birthtime": "2018-11-04T04:37:05.484Z"
+    },
+    "6c5c6478-5d14-5219-8c35-5230ade2a0b7": {
+      "id": "6c5c6478-5d14-5219-8c35-5230ade2a0b7",
+      "children": [
+        "7084c808-5b01-56d9-85cf-863e222819f6"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9956b3acbe673aa637dab0345469caac",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/posts/gatsby1.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/gatsby1.md",
+      "relativePath": "pages/posts/gatsby1.md",
+      "extension": "md",
+      "size": 2151,
+      "prettySize": "2.15 kB",
+      "modifiedTime": "2018-11-09T08:13:09.329Z",
+      "accessTime": "2018-12-13T18:03:46.557Z",
+      "changeTime": "2018-11-09T08:13:09.329Z",
+      "birthTime": "2018-11-04T04:37:05.481Z",
+      "root": "/",
+      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
+      "base": "gatsby1.md",
+      "ext": ".md",
+      "name": "gatsby1",
+      "relativeDirectory": "pages/posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5279216,
+      "blocks": 8,
+      "atimeMs": 1544724226556.6582,
+      "mtimeMs": 1541751189329.4944,
+      "ctimeMs": 1541751189329.4944,
+      "birthtimeMs": 1541306225480.6711,
+      "atime": "2018-12-13T18:03:46.557Z",
+      "mtime": "2018-11-09T08:13:09.329Z",
+      "ctime": "2018-11-09T08:13:09.329Z",
+      "birthtime": "2018-11-04T04:37:05.481Z"
     },
     "580170bf-9c68-5b11-96d9-1e46253808e3": {
       "id": "580170bf-9c68-5b11-96d9-1e46253808e3",
@@ -2134,7 +2183,7 @@
       "size": 10268,
       "prettySize": "10.3 kB",
       "modifiedTime": "2018-11-12T04:28:17.375Z",
-      "accessTime": "2018-11-12T04:28:33.219Z",
+      "accessTime": "2018-12-30T04:25:23.153Z",
       "changeTime": "2018-11-12T04:28:17.375Z",
       "birthTime": "2018-11-12T04:11:46.336Z",
       "root": "/",
@@ -2152,11 +2201,11 @@
       "blksize": 4096,
       "ino": 5565527,
       "blocks": 24,
-      "atimeMs": 1541996913219.1306,
+      "atimeMs": 1546143923153.016,
       "mtimeMs": 1541996897374.7344,
       "ctimeMs": 1541996897374.7344,
       "birthtimeMs": 1541995906335.5198,
-      "atime": "2018-11-12T04:28:33.219Z",
+      "atime": "2018-12-30T04:25:23.153Z",
       "mtime": "2018-11-12T04:28:17.375Z",
       "ctime": "2018-11-12T04:28:17.375Z",
       "birthtime": "2018-11-12T04:11:46.336Z"
@@ -2181,7 +2230,7 @@
       "size": 6360,
       "prettySize": "6.36 kB",
       "modifiedTime": "2018-11-09T08:12:14.082Z",
-      "accessTime": "2018-11-12T04:16:00.142Z",
+      "accessTime": "2018-12-13T18:03:46.553Z",
       "changeTime": "2018-11-09T08:12:14.082Z",
       "birthTime": "2018-11-04T04:37:05.492Z",
       "root": "/",
@@ -2199,66 +2248,61 @@
       "blksize": 4096,
       "ino": 5279218,
       "blocks": 16,
-      "atimeMs": 1541996160141.7058,
+      "atimeMs": 1544724226553.3955,
       "mtimeMs": 1541751134082.2354,
       "ctimeMs": 1541751134082.2354,
       "birthtimeMs": 1541306225492.1167,
-      "atime": "2018-11-12T04:16:00.142Z",
+      "atime": "2018-12-13T18:03:46.553Z",
       "mtime": "2018-11-09T08:12:14.082Z",
       "ctime": "2018-11-09T08:12:14.082Z",
       "birthtime": "2018-11-04T04:37:05.492Z"
     },
-    "bad11a45-7ca0-5880-9fc2-96d778e7dec4": {
-      "id": "bad11a45-7ca0-5880-9fc2-96d778e7dec4",
-      "children": [],
-      "parent": "454b8dd2-903b-5e1b-96d4-4999a88c39e8",
+    "68930f42-7248-52cb-800b-085a76d59faf": {
+      "id": "68930f42-7248-52cb-800b-085a76d59faf",
+      "children": [
+        "c04a8650-82f7-5596-9ca9-323146f20280"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "\nIt's good to start expectations low for the first post. Commitment is hard, and you never know if a blog will actually continue far past the first few posts. Anyway, this blog is intended to record me as I self-teach web development. Follow along if you're on the same page. Luckily, I'm not really starting from scratch, at this point I've been working for 8 years. 3 of those years I've spent working in IoT. I've developed tools in MATLAB, Python, LabVIEW, Squirrel/C, and also done a tiny bit of node development, mostly to create an endpoint for my Electric Imp module post requests. \n\nI used to focus primarily on hardware work, and my old blog talked nearly exclusively about digital signal processing (https://simonxu.wordpress.com/). I was also a lot less funny then. Now this will be my new blog. I'm using github pages with jekyll and I'm using a template someone else came up with (credit is on the bottom of the page).\n\nRecently, I decided that hardware is too hard, and thus begins my switch. No guarantees. I'm going rock climbing.\n\n~~~ js\nvar blog = require('persistence');\n~~~\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "aaf9b6346a8f454640a22a3cf72af127",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
+        "contentDigest": "e8e2d979ee7815079ff6cc4f1b108d68",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/posts/projectplan1218.md\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "Yeah I'm gonna go rock climbing",
-        "layout": "post",
-        "date": "2018-09-09",
-        "_PARENT": "454b8dd2-903b-5e1b-96d4-4999a88c39e8"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nIt's good to start expectations low for the first post. Commitment is hard, and you never know if a blog will actually continue far past the first few posts. Anyway, this blog is intended to record me as I self-teach web development. Follow along if you're on the same page. Luckily, I'm not really starting from scratch, at this point I've been working for 8 years. 3 of those years I've spent working in IoT. I've developed tools in MATLAB, Python, LabVIEW, Squirrel/C, and also done a tiny bit of node development, mostly to create an endpoint for my Electric Imp module post requests. \n\nI used to focus primarily on hardware work, and my old blog talked nearly exclusively about digital signal processing (https://simonxu.wordpress.com/). I was also a lot less funny then. Now this will be my new blog. I'm using github pages with jekyll and I'm using a template someone else came up with (credit is on the bottom of the page).\n\nRecently, I decided that hardware is too hard, and thus begins my switch. No guarantees. I'm going rock climbing.\n\n~~~ js\nvar blog = require('persistence');\n~~~\n",
-      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/goingclimbing.md",
-      "fields": {
-        "slug": "/posts/goingclimbing/"
-      }
-    },
-    "7084c808-5b01-56d9-85cf-863e222819f6": {
-      "id": "7084c808-5b01-56d9-85cf-863e222819f6",
-      "children": [],
-      "parent": "6c5c6478-5d14-5219-8c35-5230ade2a0b7",
-      "internal": {
-        "content": "\nI'm currently in the process of converting this blog into a Gatsby blog, and I've spent a full day trying to get it working. Thankfully, they do seem to have good documentation on their website <a href=\"https://www.gatsbyjs.org/tutorial/\">Gatsby Tutorial</a>. The going is quite slow, and the results are also quite ugly, but after trying to figure out GraphQL and aggravating myself over backticks, at least I have something.\n![gatsby-1](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gatsby1.jpg)\n\nI'll also push the gatsby version of this site onto github here: https://github.com/simjxu/gatsby-themush. You're probably wondering, what's the point of pushing something so useless onto github?  Well, my plan is to continue iterating on this Gatsby blog, and I also intend to litter the darn thing with comments. Hopefully this will help others understand the nuances of building a site. I don't have many comments yet, but stay tuned and I expect there to be more commentary than there is code.\n\nThe tutorial does a good job at helping you understand how GraphQL allows different page components to query particular items. One of the first uses of GraphQL is to swap out any mention of the website title with a `{data.site.siteMetadata.title}`. This does a page query to another file that must be titled gatsby-config.js to determine the website's metadata, like its title. This means that anytime a title is referenced, it queries the metadata. If the website title were to change at any point, then they can all be changed because of the query.\n\nAnother place where queries are used are for the blog posts. You can set GraphQL to automatically filter out any markdown file within your \"pages\" folder on Gatsby and list them on the homepage of the website. This is any file that ends in .md. To create that query that can point to the blogposts, you need to create a path to the location, and for some reason they call this a \"slug\". The page can then be created by using two Gatsby APIs, `onCreateNode` and `createPages`. \n\nTo be continued, SOON.",
-        "type": "MarkdownRemark",
-        "contentDigest": "971f1c29ae2e160df05e5165a83bb458",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "How GraphQL is used in Gatsby",
-        "layout": "post",
-        "date": "2018-09-30T00:00:00.000Z",
-        "_PARENT": "6c5c6478-5d14-5219-8c35-5230ade2a0b7"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nI'm currently in the process of converting this blog into a Gatsby blog, and I've spent a full day trying to get it working. Thankfully, they do seem to have good documentation on their website <a href=\"https://www.gatsbyjs.org/tutorial/\">Gatsby Tutorial</a>. The going is quite slow, and the results are also quite ugly, but after trying to figure out GraphQL and aggravating myself over backticks, at least I have something.\n![gatsby-1](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gatsby1.jpg)\n\nI'll also push the gatsby version of this site onto github here: https://github.com/simjxu/gatsby-themush. You're probably wondering, what's the point of pushing something so useless onto github?  Well, my plan is to continue iterating on this Gatsby blog, and I also intend to litter the darn thing with comments. Hopefully this will help others understand the nuances of building a site. I don't have many comments yet, but stay tuned and I expect there to be more commentary than there is code.\n\nThe tutorial does a good job at helping you understand how GraphQL allows different page components to query particular items. One of the first uses of GraphQL is to swap out any mention of the website title with a `{data.site.siteMetadata.title}`. This does a page query to another file that must be titled gatsby-config.js to determine the website's metadata, like its title. This means that anytime a title is referenced, it queries the metadata. If the website title were to change at any point, then they can all be changed because of the query.\n\nAnother place where queries are used are for the blog posts. You can set GraphQL to automatically filter out any markdown file within your \"pages\" folder on Gatsby and list them on the homepage of the website. This is any file that ends in .md. To create that query that can point to the blogposts, you need to create a path to the location, and for some reason they call this a \"slug\". The page can then be created by using two Gatsby APIs, `onCreateNode` and `createPages`. \n\nTo be continued, SOON.",
-      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/gatsby1.md",
-      "fields": {
-        "slug": "/posts/gatsby1/"
-      }
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/projectplan1218.md",
+      "relativePath": "pages/posts/projectplan1218.md",
+      "extension": "md",
+      "size": 1427,
+      "prettySize": "1.43 kB",
+      "modifiedTime": "2018-12-10T03:30:23.680Z",
+      "accessTime": "2018-12-30T06:18:06.420Z",
+      "changeTime": "2018-12-10T03:30:23.680Z",
+      "birthTime": "2018-12-10T03:08:46.609Z",
+      "root": "/",
+      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
+      "base": "projectplan1218.md",
+      "ext": ".md",
+      "name": "projectplan1218",
+      "relativeDirectory": "pages/posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 14397087,
+      "blocks": 8,
+      "atimeMs": 1546150686419.9622,
+      "mtimeMs": 1544412623679.9712,
+      "ctimeMs": 1544412623679.9712,
+      "birthtimeMs": 1544411326609.2917,
+      "atime": "2018-12-30T06:18:06.420Z",
+      "mtime": "2018-12-10T03:30:23.680Z",
+      "ctime": "2018-12-10T03:30:23.680Z",
+      "birthtime": "2018-12-10T03:08:46.609Z"
     },
     "2f542769-59e9-5a09-b180-f7c57f910415": {
       "id": "2f542769-59e9-5a09-b180-f7c57f910415",
@@ -2286,30 +2330,30 @@
         "slug": "/about/aboutme/"
       }
     },
-    "3305f733-cc16-59f2-bd3d-eb1c2493426d": {
-      "id": "3305f733-cc16-59f2-bd3d-eb1c2493426d",
+    "bad11a45-7ca0-5880-9fc2-96d778e7dec4": {
+      "id": "bad11a45-7ca0-5880-9fc2-96d778e7dec4",
       "children": [],
-      "parent": "a67a1138-6f42-5125-8acf-1135d1af7eb9",
+      "parent": "454b8dd2-903b-5e1b-96d4-4999a88c39e8",
       "internal": {
-        "content": "\nProbably the most familiar experience of a hardware startup is the lack of monetary resources (free lunches? no way!). And yet, we still want to be cutting edge with our machine learning techniques. Sometimes, doing a custom feature extraction from our datasets can take a lot of computing resources, taking up to 8 hours on a laptop running Linux (notice how I did not say a Macbook Pro). Thankfully, Big Brother Google wants to trickle down some benefits for the needy, and provides us with a Free Tier for a lot of there cloud platform modules. So, I decided to try this out.\n\nFirst, I just wrote a simple Python program (testscript.py) that takes more than just a second to run, by doing the forbidden: nested for loops, the Avada Kedavra of programming.\n\n~~~ python\nnumruns = 300\nprint(\"running\")\nhuge_array = [[[0.0 for i in range(numruns)] for j in range(numruns)] for k in range(numruns)]\ncounter = 0\nprint(\"starting loops\")\nfor i in range(numruns):\n    for j in range(numruns):\n        for k in range(numruns):\n            huge_array[i][j][k] = i+j+k\n            counter+=1\n            if counter%10000 == 0:\n                print(counter)\nprint(\"finished\")\n~~~\n\nThe first thing to do is to create a project on GCP (Google Cloud Platform) by going to console.cloud.google.com and clicking on \"Select a Project\". Once you have named your project, notice you can take advantage of $300 of free credits to play with (how generous!). Once you have made your project, you can click on \"Compute Engine\" on the left hand panel, and create an instance. As of the time this post was written, you can get a free f1-micro instance running on a virtual machine in the US. This f1-micro has 0.6GB of memory and 1vCPU.\n![gce-f1micro](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gce-dashboard.jpg)\n\nAfter this instance is created, you can view your instance and also SSH into the instance. If you do this, then you can interact with this instance via a Debian Linux shell. To upload a file, you can click on the gearbox on the top right side to upload your python file. In my case, I am uploading a python 3 script called testscript.py, which I shared above. \n![gce-f1microShell](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-SSHshell.jpg)\n\nAfter it is uploaded, you can run the file on the instance by first making it an executable with `chmod +x testscript.py`. `chmod` basically changes the mode and using the `+x` option makes it an executable. Then you can run `nohup` on the python script to get it running in the shell without requiring the shell to be open. Unfortunately, with the python script I shared, it gets killed after a few seconds:\n![gce-f1microKilled](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-killed.jpg)\n\nTurns out free also means you can't just leave something running forever. If you check the nohup.out file using `cat nohup.out`, you can see that my script ended somewhere after iteration 523000. Probably exceeded the RAM available here. Probably the better thing to do is to take advantage of another free item, the 5GB of cloud storage. I'll try that next time.\n\nUseful references: https://cloud.google.com/free/docs/always-free-usage-limits\n",
+        "content": "\nIt's good to start expectations low for the first post. Commitment is hard, and you never know if a blog will actually continue far past the first few posts. Anyway, this blog is intended to record me as I self-teach web development. Follow along if you're on the same page. Luckily, I'm not really starting from scratch, at this point I've been working for 8 years. 3 of those years I've spent working in IoT. I've developed tools in MATLAB, Python, LabVIEW, Squirrel/C, and also done a tiny bit of node development, mostly to create an endpoint for my Electric Imp module post requests. \n\nI used to focus primarily on hardware work, and my old blog talked nearly exclusively about digital signal processing (https://simonxu.wordpress.com/). I was also a lot less funny then. Now this will be my new blog. I'm using github pages with jekyll and I'm using a template someone else came up with (credit is on the bottom of the page).\n\nRecently, I decided that hardware is too hard, and thus begins my switch. No guarantees. I'm going rock climbing.\n\n~~~ js\nvar blog = require('persistence');\n~~~\n",
         "type": "MarkdownRemark",
-        "contentDigest": "82151d835b473372ee65d064e7565317",
+        "contentDigest": "aaf9b6346a8f454640a22a3cf72af127",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "How to run a Python Script on Google Compute Engine",
+        "title": "Yeah I'm gonna go rock climbing",
         "layout": "post",
-        "date": "2018-09-19",
-        "_PARENT": "a67a1138-6f42-5125-8acf-1135d1af7eb9"
+        "date": "2018-09-09",
+        "_PARENT": "454b8dd2-903b-5e1b-96d4-4999a88c39e8"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nProbably the most familiar experience of a hardware startup is the lack of monetary resources (free lunches? no way!). And yet, we still want to be cutting edge with our machine learning techniques. Sometimes, doing a custom feature extraction from our datasets can take a lot of computing resources, taking up to 8 hours on a laptop running Linux (notice how I did not say a Macbook Pro). Thankfully, Big Brother Google wants to trickle down some benefits for the needy, and provides us with a Free Tier for a lot of there cloud platform modules. So, I decided to try this out.\n\nFirst, I just wrote a simple Python program (testscript.py) that takes more than just a second to run, by doing the forbidden: nested for loops, the Avada Kedavra of programming.\n\n~~~ python\nnumruns = 300\nprint(\"running\")\nhuge_array = [[[0.0 for i in range(numruns)] for j in range(numruns)] for k in range(numruns)]\ncounter = 0\nprint(\"starting loops\")\nfor i in range(numruns):\n    for j in range(numruns):\n        for k in range(numruns):\n            huge_array[i][j][k] = i+j+k\n            counter+=1\n            if counter%10000 == 0:\n                print(counter)\nprint(\"finished\")\n~~~\n\nThe first thing to do is to create a project on GCP (Google Cloud Platform) by going to console.cloud.google.com and clicking on \"Select a Project\". Once you have named your project, notice you can take advantage of $300 of free credits to play with (how generous!). Once you have made your project, you can click on \"Compute Engine\" on the left hand panel, and create an instance. As of the time this post was written, you can get a free f1-micro instance running on a virtual machine in the US. This f1-micro has 0.6GB of memory and 1vCPU.\n![gce-f1micro](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gce-dashboard.jpg)\n\nAfter this instance is created, you can view your instance and also SSH into the instance. If you do this, then you can interact with this instance via a Debian Linux shell. To upload a file, you can click on the gearbox on the top right side to upload your python file. In my case, I am uploading a python 3 script called testscript.py, which I shared above. \n![gce-f1microShell](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-SSHshell.jpg)\n\nAfter it is uploaded, you can run the file on the instance by first making it an executable with `chmod +x testscript.py`. `chmod` basically changes the mode and using the `+x` option makes it an executable. Then you can run `nohup` on the python script to get it running in the shell without requiring the shell to be open. Unfortunately, with the python script I shared, it gets killed after a few seconds:\n![gce-f1microKilled](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-killed.jpg)\n\nTurns out free also means you can't just leave something running forever. If you check the nohup.out file using `cat nohup.out`, you can see that my script ended somewhere after iteration 523000. Probably exceeded the RAM available here. Probably the better thing to do is to take advantage of another free item, the 5GB of cloud storage. I'll try that next time.\n\nUseful references: https://cloud.google.com/free/docs/always-free-usage-limits\n",
-      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/googlecomputeengine.md",
+      "rawMarkdownBody": "\nIt's good to start expectations low for the first post. Commitment is hard, and you never know if a blog will actually continue far past the first few posts. Anyway, this blog is intended to record me as I self-teach web development. Follow along if you're on the same page. Luckily, I'm not really starting from scratch, at this point I've been working for 8 years. 3 of those years I've spent working in IoT. I've developed tools in MATLAB, Python, LabVIEW, Squirrel/C, and also done a tiny bit of node development, mostly to create an endpoint for my Electric Imp module post requests. \n\nI used to focus primarily on hardware work, and my old blog talked nearly exclusively about digital signal processing (https://simonxu.wordpress.com/). I was also a lot less funny then. Now this will be my new blog. I'm using github pages with jekyll and I'm using a template someone else came up with (credit is on the bottom of the page).\n\nRecently, I decided that hardware is too hard, and thus begins my switch. No guarantees. I'm going rock climbing.\n\n~~~ js\nvar blog = require('persistence');\n~~~\n",
+      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/goingclimbing.md",
       "fields": {
-        "slug": "/posts/googlecomputeengine/"
+        "slug": "/posts/goingclimbing/"
       }
     },
     "87f1932e-ed55-538a-afd0-2f99b81d4af8": {
@@ -2338,6 +2382,58 @@
         "slug": "/posts/graphql_filter/"
       }
     },
+    "3305f733-cc16-59f2-bd3d-eb1c2493426d": {
+      "id": "3305f733-cc16-59f2-bd3d-eb1c2493426d",
+      "children": [],
+      "parent": "a67a1138-6f42-5125-8acf-1135d1af7eb9",
+      "internal": {
+        "content": "\nProbably the most familiar experience of a hardware startup is the lack of monetary resources (free lunches? no way!). And yet, we still want to be cutting edge with our machine learning techniques. Sometimes, doing a custom feature extraction from our datasets can take a lot of computing resources, taking up to 8 hours on a laptop running Linux (notice how I did not say a Macbook Pro). Thankfully, Big Brother Google wants to trickle down some benefits for the needy, and provides us with a Free Tier for a lot of there cloud platform modules. So, I decided to try this out.\n\nFirst, I just wrote a simple Python program (testscript.py) that takes more than just a second to run, by doing the forbidden: nested for loops, the Avada Kedavra of programming.\n\n~~~ python\nnumruns = 300\nprint(\"running\")\nhuge_array = [[[0.0 for i in range(numruns)] for j in range(numruns)] for k in range(numruns)]\ncounter = 0\nprint(\"starting loops\")\nfor i in range(numruns):\n    for j in range(numruns):\n        for k in range(numruns):\n            huge_array[i][j][k] = i+j+k\n            counter+=1\n            if counter%10000 == 0:\n                print(counter)\nprint(\"finished\")\n~~~\n\nThe first thing to do is to create a project on GCP (Google Cloud Platform) by going to console.cloud.google.com and clicking on \"Select a Project\". Once you have named your project, notice you can take advantage of $300 of free credits to play with (how generous!). Once you have made your project, you can click on \"Compute Engine\" on the left hand panel, and create an instance. As of the time this post was written, you can get a free f1-micro instance running on a virtual machine in the US. This f1-micro has 0.6GB of memory and 1vCPU.\n![gce-f1micro](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gce-dashboard.jpg)\n\nAfter this instance is created, you can view your instance and also SSH into the instance. If you do this, then you can interact with this instance via a Debian Linux shell. To upload a file, you can click on the gearbox on the top right side to upload your python file. In my case, I am uploading a python 3 script called testscript.py, which I shared above. \n![gce-f1microShell](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-SSHshell.jpg)\n\nAfter it is uploaded, you can run the file on the instance by first making it an executable with `chmod +x testscript.py`. `chmod` basically changes the mode and using the `+x` option makes it an executable. Then you can run `nohup` on the python script to get it running in the shell without requiring the shell to be open. Unfortunately, with the python script I shared, it gets killed after a few seconds:\n![gce-f1microKilled](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-killed.jpg)\n\nTurns out free also means you can't just leave something running forever. If you check the nohup.out file using `cat nohup.out`, you can see that my script ended somewhere after iteration 523000. Probably exceeded the RAM available here. Probably the better thing to do is to take advantage of another free item, the 5GB of cloud storage. I'll try that next time.\n\nUseful references: https://cloud.google.com/free/docs/always-free-usage-limits\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "82151d835b473372ee65d064e7565317",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "How to run a Python Script on Google Compute Engine",
+        "layout": "post",
+        "date": "2018-09-19",
+        "_PARENT": "a67a1138-6f42-5125-8acf-1135d1af7eb9"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nProbably the most familiar experience of a hardware startup is the lack of monetary resources (free lunches? no way!). And yet, we still want to be cutting edge with our machine learning techniques. Sometimes, doing a custom feature extraction from our datasets can take a lot of computing resources, taking up to 8 hours on a laptop running Linux (notice how I did not say a Macbook Pro). Thankfully, Big Brother Google wants to trickle down some benefits for the needy, and provides us with a Free Tier for a lot of there cloud platform modules. So, I decided to try this out.\n\nFirst, I just wrote a simple Python program (testscript.py) that takes more than just a second to run, by doing the forbidden: nested for loops, the Avada Kedavra of programming.\n\n~~~ python\nnumruns = 300\nprint(\"running\")\nhuge_array = [[[0.0 for i in range(numruns)] for j in range(numruns)] for k in range(numruns)]\ncounter = 0\nprint(\"starting loops\")\nfor i in range(numruns):\n    for j in range(numruns):\n        for k in range(numruns):\n            huge_array[i][j][k] = i+j+k\n            counter+=1\n            if counter%10000 == 0:\n                print(counter)\nprint(\"finished\")\n~~~\n\nThe first thing to do is to create a project on GCP (Google Cloud Platform) by going to console.cloud.google.com and clicking on \"Select a Project\". Once you have named your project, notice you can take advantage of $300 of free credits to play with (how generous!). Once you have made your project, you can click on \"Compute Engine\" on the left hand panel, and create an instance. As of the time this post was written, you can get a free f1-micro instance running on a virtual machine in the US. This f1-micro has 0.6GB of memory and 1vCPU.\n![gce-f1micro](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gce-dashboard.jpg)\n\nAfter this instance is created, you can view your instance and also SSH into the instance. If you do this, then you can interact with this instance via a Debian Linux shell. To upload a file, you can click on the gearbox on the top right side to upload your python file. In my case, I am uploading a python 3 script called testscript.py, which I shared above. \n![gce-f1microShell](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-SSHshell.jpg)\n\nAfter it is uploaded, you can run the file on the instance by first making it an executable with `chmod +x testscript.py`. `chmod` basically changes the mode and using the `+x` option makes it an executable. Then you can run `nohup` on the python script to get it running in the shell without requiring the shell to be open. Unfortunately, with the python script I shared, it gets killed after a few seconds:\n![gce-f1microKilled](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/f1micro-killed.jpg)\n\nTurns out free also means you can't just leave something running forever. If you check the nohup.out file using `cat nohup.out`, you can see that my script ended somewhere after iteration 523000. Probably exceeded the RAM available here. Probably the better thing to do is to take advantage of another free item, the 5GB of cloud storage. I'll try that next time.\n\nUseful references: https://cloud.google.com/free/docs/always-free-usage-limits\n",
+      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/googlecomputeengine.md",
+      "fields": {
+        "slug": "/posts/googlecomputeengine/"
+      }
+    },
+    "634fb842-9758-5f92-9e2d-b197c7f6e5a4": {
+      "id": "634fb842-9758-5f92-9e2d-b197c7f6e5a4",
+      "children": [],
+      "parent": "22e6c91e-3519-5cd1-8b74-0fd6c4ce3ddb",
+      "internal": {
+        "content": "\nTo start off, let's start with something simple, updating a Firebase database with the help of Firebase's Cloud Functions. What makes Cloud Functions easy to use is that it is \"serverless\", or in other words you do not have to do any work to manage a server instance, making sure that it is running, that it isn't getting overloaded, etc. Instead, you are charged for function calls that are done. Google will manage everything else in their backend. By the way, download Postman if you don't already have it, it helps you test out your requests more easily. My project is located here: https://github.com/simjxu/firebase_firestore Here's what I will accomplish in this tutorial:\n\n1. Create an API endpoint to perform GET and POST requests to a Firebase Firestore database.\n2. Pull that database data into an HTML webpage\n3. Deploy all of that above and connect to a personal domain.\n\nSetup:\nOn console.firebase.google.com, you will want to login with your account and create a new project. The project I created is called sjx-restapi. Then, on the left panel of the webpage, you can click Database and Cloud Firestore to create a new Firestore database. Once your firestore database is all set up, then you can create a new folder where you want your REST API firestore app to reside, navigate to it on your terminal and use `firebase init`. (I assumed you already did an `npm install firebase`, check online for how to get the command line tools for firebase). It will ask you what features you would like, and you should include Firestore and Cloud Functions at minimum for this example. Then, connect it to your project. All other options you can just use the default. By doing a `firebase init`, you create a firebase.json file which allows you to test out this webapp and deploy it. \n\nCoding:\nI have 3 main files within my Firebase project folder: functions/index.js, public/index.html, public/app.js. \"index.js\" is what holds my REST API endpoints to handle incoming requests, through `curl` or Postman. \"index.html\" is a simple html page that will show the contents of a particular collection and document in my Firestore database. \"app.js\" is a script that is used to pull the data into the html page in realtime. Let's get started.\n\nFor index.js, you can run an express app on Cloud Functions that will allow you to handle GET/POST. You can handle other things as well, feel free to add it in. Express is a framework which allows you to create handlers. In this example, notice references to `db.collection('devices').doc('Device1')`; these refer to the structure in Cloud Firestore, where collections hold documents which hold collections which hold documents, and so on and so forth. I've created a collection called \"devices\", because this will hold all my IoT device data, and a document Device1 is currently what I am using to test this endpoint out.\n\n```javascript\n// Use admin to access the database, functions to run this app\n// as a Cloud function, and Express to handle REST requests\nconst admin = require('firebase-admin');\nconst functions = require('firebase-functions');\nconst express = require('express');\nconst app = express();\n\n// Initialize the database\nadmin.initializeApp(functions.config().firebase);\nvar db = admin.firestore();\n\n// ------ API GET/POST request handlers --------------------------------------\napp.get('/database', (req, res) => {\n  var Device1Ref = db.collection('devices').doc('Device1');\n  var getDoc = Device1Ref.get().then(doc => {\n    res.send(doc.data());\n    return 0;\n  }).catch(err => {\n    console.log(\"Error: \", err);\n    res.send(\"Error\");\n    return 0;\n  });\n});\n\napp.post('/database', (req, res) => {\n  res.send('POST sent');\n\n  // Now add all these to the database\n  var Device1Ref = db.collection('devices').doc('Device1');\n  req.body.forEach(element => {\n    Device1Ref.set(element);\n\n  });\n});\n\n// Run App on Cloud Functions\nexports.app = functions.https.onRequest(app);\n```\n\nI'm not going to spend much time on the index.html file, but you can take a look at the file on Github. It runs a script \"app.js\", which has my config data for my Firestore database. Again, I look in the \"devices\" collection and pull the document \"Device1\". From here, I just create a realtime updating function which pulls the stringified JSON from the Firestore Database when changes are made.\n\n```javascript\n// Initialize Firebase\nvar config = {\n  ***config***\n};\nfirebase.initializeApp(config);\nvar firestore = firebase.firestore();\n\n// Define the collection and document to pull\nconst docRef = firestore.collection(\"devices\").doc(\"Device1\");\n\n// Identify the HTML tag id to output data to\nconst outputString = document.querySelector(\"#deviceData\");\n\n// Pull the json from the collection/document in firestore and \n// update automatically\ngetRealtimeUpdates = function() {\n  docRef.onSnapshot(function (doc) {\n    if (doc && doc.exists) {\n      const myData = doc.data();\n      var myStr = JSON.stringify(myData, null, 2);\n      outputString.innerText = myStr;\n    }\n  });\n}\ngetRealtimeUpdates();\n```\n\nOnce this is all set, you can use `firebase serve` to run a localhost server to test out your GET/POST calls using Postman. The only notes here are that I set my Headers to `Content-Type: application/json`, and my body to be `raw JSON(application/json)`. Here is an example of something I put in a body:\n```json\n[\n\t{\n\t\t\"key1\": \"testbodyvalA\",\n\t\t\"key2\": \"testbodyvalB\",\n\t\t\"key3\": \"testbodyvalC\",\n\t\t\"key4\": \"testbodyvalD\",\n\t\t\"key5\": \"testbodyvalE\"\n\t}\n]\n```\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a1b9e30920951eeaa9749bae3e466d22",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "How to write into a Firebase Realtime Database using REST/Express",
+        "layout": "post",
+        "date": "2018-12-27",
+        "_PARENT": "22e6c91e-3519-5cd1-8b74-0fd6c4ce3ddb"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nTo start off, let's start with something simple, updating a Firebase database with the help of Firebase's Cloud Functions. What makes Cloud Functions easy to use is that it is \"serverless\", or in other words you do not have to do any work to manage a server instance, making sure that it is running, that it isn't getting overloaded, etc. Instead, you are charged for function calls that are done. Google will manage everything else in their backend. By the way, download Postman if you don't already have it, it helps you test out your requests more easily. My project is located here: https://github.com/simjxu/firebase_firestore Here's what I will accomplish in this tutorial:\n\n1. Create an API endpoint to perform GET and POST requests to a Firebase Firestore database.\n2. Pull that database data into an HTML webpage\n3. Deploy all of that above and connect to a personal domain.\n\nSetup:\nOn console.firebase.google.com, you will want to login with your account and create a new project. The project I created is called sjx-restapi. Then, on the left panel of the webpage, you can click Database and Cloud Firestore to create a new Firestore database. Once your firestore database is all set up, then you can create a new folder where you want your REST API firestore app to reside, navigate to it on your terminal and use `firebase init`. (I assumed you already did an `npm install firebase`, check online for how to get the command line tools for firebase). It will ask you what features you would like, and you should include Firestore and Cloud Functions at minimum for this example. Then, connect it to your project. All other options you can just use the default. By doing a `firebase init`, you create a firebase.json file which allows you to test out this webapp and deploy it. \n\nCoding:\nI have 3 main files within my Firebase project folder: functions/index.js, public/index.html, public/app.js. \"index.js\" is what holds my REST API endpoints to handle incoming requests, through `curl` or Postman. \"index.html\" is a simple html page that will show the contents of a particular collection and document in my Firestore database. \"app.js\" is a script that is used to pull the data into the html page in realtime. Let's get started.\n\nFor index.js, you can run an express app on Cloud Functions that will allow you to handle GET/POST. You can handle other things as well, feel free to add it in. Express is a framework which allows you to create handlers. In this example, notice references to `db.collection('devices').doc('Device1')`; these refer to the structure in Cloud Firestore, where collections hold documents which hold collections which hold documents, and so on and so forth. I've created a collection called \"devices\", because this will hold all my IoT device data, and a document Device1 is currently what I am using to test this endpoint out.\n\n```javascript\n// Use admin to access the database, functions to run this app\n// as a Cloud function, and Express to handle REST requests\nconst admin = require('firebase-admin');\nconst functions = require('firebase-functions');\nconst express = require('express');\nconst app = express();\n\n// Initialize the database\nadmin.initializeApp(functions.config().firebase);\nvar db = admin.firestore();\n\n// ------ API GET/POST request handlers --------------------------------------\napp.get('/database', (req, res) => {\n  var Device1Ref = db.collection('devices').doc('Device1');\n  var getDoc = Device1Ref.get().then(doc => {\n    res.send(doc.data());\n    return 0;\n  }).catch(err => {\n    console.log(\"Error: \", err);\n    res.send(\"Error\");\n    return 0;\n  });\n});\n\napp.post('/database', (req, res) => {\n  res.send('POST sent');\n\n  // Now add all these to the database\n  var Device1Ref = db.collection('devices').doc('Device1');\n  req.body.forEach(element => {\n    Device1Ref.set(element);\n\n  });\n});\n\n// Run App on Cloud Functions\nexports.app = functions.https.onRequest(app);\n```\n\nI'm not going to spend much time on the index.html file, but you can take a look at the file on Github. It runs a script \"app.js\", which has my config data for my Firestore database. Again, I look in the \"devices\" collection and pull the document \"Device1\". From here, I just create a realtime updating function which pulls the stringified JSON from the Firestore Database when changes are made.\n\n```javascript\n// Initialize Firebase\nvar config = {\n  ***config***\n};\nfirebase.initializeApp(config);\nvar firestore = firebase.firestore();\n\n// Define the collection and document to pull\nconst docRef = firestore.collection(\"devices\").doc(\"Device1\");\n\n// Identify the HTML tag id to output data to\nconst outputString = document.querySelector(\"#deviceData\");\n\n// Pull the json from the collection/document in firestore and \n// update automatically\ngetRealtimeUpdates = function() {\n  docRef.onSnapshot(function (doc) {\n    if (doc && doc.exists) {\n      const myData = doc.data();\n      var myStr = JSON.stringify(myData, null, 2);\n      outputString.innerText = myStr;\n    }\n  });\n}\ngetRealtimeUpdates();\n```\n\nOnce this is all set, you can use `firebase serve` to run a localhost server to test out your GET/POST calls using Postman. The only notes here are that I set my Headers to `Content-Type: application/json`, and my body to be `raw JSON(application/json)`. Here is an example of something I put in a body:\n```json\n[\n\t{\n\t\t\"key1\": \"testbodyvalA\",\n\t\t\"key2\": \"testbodyvalB\",\n\t\t\"key3\": \"testbodyvalC\",\n\t\t\"key4\": \"testbodyvalD\",\n\t\t\"key5\": \"testbodyvalE\"\n\t}\n]\n```\n\n\n\n",
+      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/firebase-rest.md",
+      "fields": {
+        "slug": "/posts/firebase-rest/"
+      }
+    },
     "c0b8af4b-c913-5a6c-9bc8-c245ea018dd4": {
       "id": "c0b8af4b-c913-5a6c-9bc8-c245ea018dd4",
       "children": [],
@@ -2362,6 +2458,32 @@
       "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/mfgapp.md",
       "fields": {
         "slug": "/posts/mfgapp/"
+      }
+    },
+    "7084c808-5b01-56d9-85cf-863e222819f6": {
+      "id": "7084c808-5b01-56d9-85cf-863e222819f6",
+      "children": [],
+      "parent": "6c5c6478-5d14-5219-8c35-5230ade2a0b7",
+      "internal": {
+        "content": "\nI'm currently in the process of converting this blog into a Gatsby blog, and I've spent a full day trying to get it working. Thankfully, they do seem to have good documentation on their website <a href=\"https://www.gatsbyjs.org/tutorial/\">Gatsby Tutorial</a>. The going is quite slow, and the results are also quite ugly, but after trying to figure out GraphQL and aggravating myself over backticks, at least I have something.\n![gatsby-1](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gatsby1.jpg)\n\nI'll also push the gatsby version of this site onto github here: https://github.com/simjxu/gatsby-themush. You're probably wondering, what's the point of pushing something so useless onto github?  Well, my plan is to continue iterating on this Gatsby blog, and I also intend to litter the darn thing with comments. Hopefully this will help others understand the nuances of building a site. I don't have many comments yet, but stay tuned and I expect there to be more commentary than there is code.\n\nThe tutorial does a good job at helping you understand how GraphQL allows different page components to query particular items. One of the first uses of GraphQL is to swap out any mention of the website title with a `{data.site.siteMetadata.title}`. This does a page query to another file that must be titled gatsby-config.js to determine the website's metadata, like its title. This means that anytime a title is referenced, it queries the metadata. If the website title were to change at any point, then they can all be changed because of the query.\n\nAnother place where queries are used are for the blog posts. You can set GraphQL to automatically filter out any markdown file within your \"pages\" folder on Gatsby and list them on the homepage of the website. This is any file that ends in .md. To create that query that can point to the blogposts, you need to create a path to the location, and for some reason they call this a \"slug\". The page can then be created by using two Gatsby APIs, `onCreateNode` and `createPages`. \n\nTo be continued, SOON.",
+        "type": "MarkdownRemark",
+        "contentDigest": "971f1c29ae2e160df05e5165a83bb458",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "How GraphQL is used in Gatsby",
+        "layout": "post",
+        "date": "2018-09-30T00:00:00.000Z",
+        "_PARENT": "6c5c6478-5d14-5219-8c35-5230ade2a0b7"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nI'm currently in the process of converting this blog into a Gatsby blog, and I've spent a full day trying to get it working. Thankfully, they do seem to have good documentation on their website <a href=\"https://www.gatsbyjs.org/tutorial/\">Gatsby Tutorial</a>. The going is quite slow, and the results are also quite ugly, but after trying to figure out GraphQL and aggravating myself over backticks, at least I have something.\n![gatsby-1](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/gatsby1.jpg)\n\nI'll also push the gatsby version of this site onto github here: https://github.com/simjxu/gatsby-themush. You're probably wondering, what's the point of pushing something so useless onto github?  Well, my plan is to continue iterating on this Gatsby blog, and I also intend to litter the darn thing with comments. Hopefully this will help others understand the nuances of building a site. I don't have many comments yet, but stay tuned and I expect there to be more commentary than there is code.\n\nThe tutorial does a good job at helping you understand how GraphQL allows different page components to query particular items. One of the first uses of GraphQL is to swap out any mention of the website title with a `{data.site.siteMetadata.title}`. This does a page query to another file that must be titled gatsby-config.js to determine the website's metadata, like its title. This means that anytime a title is referenced, it queries the metadata. If the website title were to change at any point, then they can all be changed because of the query.\n\nAnother place where queries are used are for the blog posts. You can set GraphQL to automatically filter out any markdown file within your \"pages\" folder on Gatsby and list them on the homepage of the website. This is any file that ends in .md. To create that query that can point to the blogposts, you need to create a path to the location, and for some reason they call this a \"slug\". The page can then be created by using two Gatsby APIs, `onCreateNode` and `createPages`. \n\nTo be continued, SOON.",
+      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/gatsby1.md",
+      "fields": {
+        "slug": "/posts/gatsby1/"
       }
     },
     "c5806368-9a38-5f7c-9961-43f4bf5ef877": {
@@ -2390,79 +2512,6 @@
         "slug": "/posts/slackdeliverytracker/"
       }
     },
-    "5002ed5e-b35d-5579-a78e-43e0e064d7b3": {
-      "id": "5002ed5e-b35d-5579-a78e-43e0e064d7b3",
-      "children": [],
-      "parent": "580170bf-9c68-5b11-96d9-1e46253808e3",
-      "internal": {
-        "content": "\nShameful plug post, but I'll be using Particle devices to demonstrate how to setup a Post/Get/Webhook right on a Google Sheet. Although Excel has more spreadsheet features than Google Sheets, the nice thing is that since your google sheets resides on some server connected to the internet, you can essentially use Google Sheets as a basic server to receive and send requests to an IoT device somewhere else. Take a look at how simple this spreadsheet is:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/googlesht-getpostwebhk.jpg)\n\nAll requests will operate under a request/response format, the idea being that the Google Sheet I made will shoot off a request, and a response will be collected. ONE IMPORTANT NOTE: Since you will be allowing anonymous access in order to use Google Apps Script, PLEASE only use this for development testing purposes ONLY, not to run a production server. If someone finds your Google Sheets URL endpoint, they can flood your sheet with requests. Furthermore, your device access token may be exposed.\n\nWith that said, let's get started.\n\nFirst you will want to create a new Google sheet which looks like what I've shown above. You can ignore cells B3, C3, and D2-D3, as these will be populated automatically by the webapp you'll create using Google Apps Script. You don't have to do this, but I merged cell D2 and D3. To create the buttons, go to Insert >> Drawing to draw a basic rectangle with some text in the middle. You will be able to assign function to these buttons you created later.\n\nParticle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:\n\n![photon-pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/particle-photon.JPG)\n\nYou will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino \n\nIn my `setup()` section I've called out 3 different `Particle.variables`: `analogvalue`, which is the output from the photoresistor, `brightness`, which is the brightness of the LED, and `setpoint`, which is the setpoint issued to the LED. I've also created a `Particle.function` called `led`, which toggles the blue LED situated on D7 on the board. Lastly, I've created a `Particle.publish`, which tracks the analog value and publishes a `low_light` event when the value drops below 50. \n\nWhat I will do now is use my \"Post Request\" function on my google sheet to call the `led` function and toggle on/off the LED. I will use the \"Get Request\" button to pull the `analogvalue` variable. Lastly, I will create a webhook to publish the `low_light` event details to my Google sheet when the event publishes.\n\nFirst, go to the Google Sheet and go to Tools >> Script Editor. This will allow you write javascript which controls how your Google Sheet behaves. Start off in the script by setting some Global variables. You have to retrieve you access token from build.particle.io, by clicking the settings tab. The device id is the device of your photon, and spreadsheet id is the long string of in your Google Sheets URL. You can also edit the Sheet name if you decide to change that.\n\n```javascript\n// Set Global Variables \n/* \nACCESS_TOKEN: Go to build.particle.io and click \"Settings\" on the left side panel\nPARTICLE_DEVICE_ID: Identify device ID from the console, or from using \"particle list\"\nSPREADSHEET_ID: Look on the URL for your Google Sheet for the long random string\n*/\nPropertiesService.getScriptProperties().setProperty('SHEET_NAME', 'Sheet1');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_ACCESS_TOKEN', '<enter access token>');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_DEVICE_ID', '<enter device id>');\nPropertiesService.getScriptProperties().setProperty('SPREADSHEET_ID', '<enter spreadsheetid>');\n```\n\nHandling the Post Request:\nGo back to your Google Sheet, and right click the button you labeled \"MAKE POST REQUEST\", and assign it a function called `PostRequest` or whatever you decide to name it. In the script file, add the function below. You will be using the Particle API URL, and sending the request there. The request will require your access token, and the argument (in the case above, either \"on\" or \"off\" for the LED).\n\n```javascript\n// Handle the button click for Post Request -------------------------------------------------\nfunction PostRequest() {\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this:\n  // https://api.particle.io/v1/devices/<deviceid>/\n  // led?args=on&access_token=<accesstoken>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var function_name = sheet.getRange(\"B4\").getValue();\n  var request = sheet.getRange(\"B2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + function_name + \"?\" + \n    \"access_token=\" + access_token;\n\n  // Create a form which will be sent as the payload to the post request\n  var formData = {\n    'args' : request\n    \n  };\n  \n  // Create the options\n  var options =\n      {\n        \"method\"  : \"POST\", \n        \"payload\"  : formData,\n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": false\n      };\n  \n  // Send Post request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {  \n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"B3\").setValue(params);\n  }\n}\n```\n\nThe Get request is even simpler, as now you don't have to include a form as part of the package to be delivered. Don't forget to assign the function to the \"MAKE GET REQUEST\" button.\n\n```javascript\n// Handle the button click for Get Request -------------------------------------------------\nfunction GetRequest() {\n  // Start by trying in postman\n  \n  // Set which spreadsheet to pull or output information\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this: \n  // https://api.particle.io/v1/devices/<PARTICLE_DEVICE_ID>/<VARIABLE_NAME>?access_token=<PARTICLE_ACCESS_TOKEN>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var variable_name = sheet.getRange(\"C2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + variable_name + \"?access_token=\" + access_token\n  \n  // Not sure if all options are necessary\n  var options =\n      {\n        \"method\"  : \"GET\",   \n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": true\n      };\n  \n  // Send Get request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {\n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"C3\").setValue(params);\n  };\n}\n```\n\nFinally, the Webhook. We need to set up the Google Sheet to be able to receive a message that is published to it. This is done through a function called `doPost()`. You will not be able to use any name you want, because doPost will be the handler to a post made externally.\n\n```javascript\n// Handle the webhook using doPost() -------------------------------------------------\nfunction doPost(e){\n  // Set which spreadsheet to output this data to\n  var spreadsheet_id = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // Fill the \"Webhook Data\" cell with the parameters of the webhook package sent\n  sheet.getRange(\"D2\").setValue(e.parameter);\n  \n  return ContentService.createTextOutput(JSON.stringify({text:\"webhook received\"})).setMimeType(ContentService.MimeType.JSON);;\n}\n```\nOnce the full script is complete (full script available here, you will need to edit the Global variables section at the top: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/googlesheets_pgw.gs)go to your Google Apps script (https://script.google.com...), and select Publish >> Deploy as webapp. Copy the webapp URL, which you will need to setup the webhook on the Particle console. Then in the section that says \"Who has access to the app\", you will need to select \"Anyone, even anonymous\". This will ensure that the Particle console can make changes to the google sheet.\nThe webhook must also be set up as an integration on console.particle.io. with a Web Form setup. \n\n![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/webhooksetupconsole.jpg)\n\nUnder the Full URL section, you will need to include the target URL for your google sheets webapp. It should begin with https://script.google.com/... This is the URL you copied earlier after deploying as a webapp.\n\nThat's it! Now you have a Google sheet with a webapp that will communicate between the sheet and your Particle IoT device. Try changing the Post Request section (B2) to \"on\" or \"off\" and clicking the \"MAKE POST REQUEST\" button. Try changing cell C2 to brightness, or setpoint, and clicking \"MAKE GET REQUEST\" to view the values. Try holding your hand over the photoresistor on the photoresistor to block out enough light to trigger the webhook event.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "0b740d0489964a0af4508944ea3033b8",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "How to use Google Sheets as a Post/Get/Webhook Endpoint",
-        "layout": "post",
-        "date": "2018-11-11",
-        "_PARENT": "580170bf-9c68-5b11-96d9-1e46253808e3"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nShameful plug post, but I'll be using Particle devices to demonstrate how to setup a Post/Get/Webhook right on a Google Sheet. Although Excel has more spreadsheet features than Google Sheets, the nice thing is that since your google sheets resides on some server connected to the internet, you can essentially use Google Sheets as a basic server to receive and send requests to an IoT device somewhere else. Take a look at how simple this spreadsheet is:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/googlesht-getpostwebhk.jpg)\n\nAll requests will operate under a request/response format, the idea being that the Google Sheet I made will shoot off a request, and a response will be collected. ONE IMPORTANT NOTE: Since you will be allowing anonymous access in order to use Google Apps Script, PLEASE only use this for development testing purposes ONLY, not to run a production server. If someone finds your Google Sheets URL endpoint, they can flood your sheet with requests. Furthermore, your device access token may be exposed.\n\nWith that said, let's get started.\n\nFirst you will want to create a new Google sheet which looks like what I've shown above. You can ignore cells B3, C3, and D2-D3, as these will be populated automatically by the webapp you'll create using Google Apps Script. You don't have to do this, but I merged cell D2 and D3. To create the buttons, go to Insert >> Drawing to draw a basic rectangle with some text in the middle. You will be able to assign function to these buttons you created later.\n\nParticle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:\n\n![photon-pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/particle-photon.JPG)\n\nYou will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino \n\nIn my `setup()` section I've called out 3 different `Particle.variables`: `analogvalue`, which is the output from the photoresistor, `brightness`, which is the brightness of the LED, and `setpoint`, which is the setpoint issued to the LED. I've also created a `Particle.function` called `led`, which toggles the blue LED situated on D7 on the board. Lastly, I've created a `Particle.publish`, which tracks the analog value and publishes a `low_light` event when the value drops below 50. \n\nWhat I will do now is use my \"Post Request\" function on my google sheet to call the `led` function and toggle on/off the LED. I will use the \"Get Request\" button to pull the `analogvalue` variable. Lastly, I will create a webhook to publish the `low_light` event details to my Google sheet when the event publishes.\n\nFirst, go to the Google Sheet and go to Tools >> Script Editor. This will allow you write javascript which controls how your Google Sheet behaves. Start off in the script by setting some Global variables. You have to retrieve you access token from build.particle.io, by clicking the settings tab. The device id is the device of your photon, and spreadsheet id is the long string of in your Google Sheets URL. You can also edit the Sheet name if you decide to change that.\n\n```javascript\n// Set Global Variables \n/* \nACCESS_TOKEN: Go to build.particle.io and click \"Settings\" on the left side panel\nPARTICLE_DEVICE_ID: Identify device ID from the console, or from using \"particle list\"\nSPREADSHEET_ID: Look on the URL for your Google Sheet for the long random string\n*/\nPropertiesService.getScriptProperties().setProperty('SHEET_NAME', 'Sheet1');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_ACCESS_TOKEN', '<enter access token>');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_DEVICE_ID', '<enter device id>');\nPropertiesService.getScriptProperties().setProperty('SPREADSHEET_ID', '<enter spreadsheetid>');\n```\n\nHandling the Post Request:\nGo back to your Google Sheet, and right click the button you labeled \"MAKE POST REQUEST\", and assign it a function called `PostRequest` or whatever you decide to name it. In the script file, add the function below. You will be using the Particle API URL, and sending the request there. The request will require your access token, and the argument (in the case above, either \"on\" or \"off\" for the LED).\n\n```javascript\n// Handle the button click for Post Request -------------------------------------------------\nfunction PostRequest() {\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this:\n  // https://api.particle.io/v1/devices/<deviceid>/\n  // led?args=on&access_token=<accesstoken>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var function_name = sheet.getRange(\"B4\").getValue();\n  var request = sheet.getRange(\"B2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + function_name + \"?\" + \n    \"access_token=\" + access_token;\n\n  // Create a form which will be sent as the payload to the post request\n  var formData = {\n    'args' : request\n    \n  };\n  \n  // Create the options\n  var options =\n      {\n        \"method\"  : \"POST\", \n        \"payload\"  : formData,\n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": false\n      };\n  \n  // Send Post request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {  \n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"B3\").setValue(params);\n  }\n}\n```\n\nThe Get request is even simpler, as now you don't have to include a form as part of the package to be delivered. Don't forget to assign the function to the \"MAKE GET REQUEST\" button.\n\n```javascript\n// Handle the button click for Get Request -------------------------------------------------\nfunction GetRequest() {\n  // Start by trying in postman\n  \n  // Set which spreadsheet to pull or output information\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this: \n  // https://api.particle.io/v1/devices/<PARTICLE_DEVICE_ID>/<VARIABLE_NAME>?access_token=<PARTICLE_ACCESS_TOKEN>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var variable_name = sheet.getRange(\"C2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + variable_name + \"?access_token=\" + access_token\n  \n  // Not sure if all options are necessary\n  var options =\n      {\n        \"method\"  : \"GET\",   \n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": true\n      };\n  \n  // Send Get request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {\n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"C3\").setValue(params);\n  };\n}\n```\n\nFinally, the Webhook. We need to set up the Google Sheet to be able to receive a message that is published to it. This is done through a function called `doPost()`. You will not be able to use any name you want, because doPost will be the handler to a post made externally.\n\n```javascript\n// Handle the webhook using doPost() -------------------------------------------------\nfunction doPost(e){\n  // Set which spreadsheet to output this data to\n  var spreadsheet_id = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // Fill the \"Webhook Data\" cell with the parameters of the webhook package sent\n  sheet.getRange(\"D2\").setValue(e.parameter);\n  \n  return ContentService.createTextOutput(JSON.stringify({text:\"webhook received\"})).setMimeType(ContentService.MimeType.JSON);;\n}\n```\nOnce the full script is complete (full script available here, you will need to edit the Global variables section at the top: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/googlesheets_pgw.gs)go to your Google Apps script (https://script.google.com...), and select Publish >> Deploy as webapp. Copy the webapp URL, which you will need to setup the webhook on the Particle console. Then in the section that says \"Who has access to the app\", you will need to select \"Anyone, even anonymous\". This will ensure that the Particle console can make changes to the google sheet.\nThe webhook must also be set up as an integration on console.particle.io. with a Web Form setup. \n\n![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/webhooksetupconsole.jpg)\n\nUnder the Full URL section, you will need to include the target URL for your google sheets webapp. It should begin with https://script.google.com/... This is the URL you copied earlier after deploying as a webapp.\n\nThat's it! Now you have a Google sheet with a webapp that will communicate between the sheet and your Particle IoT device. Try changing the Post Request section (B2) to \"on\" or \"off\" and clicking the \"MAKE POST REQUEST\" button. Try changing cell C2 to brightness, or setpoint, and clicking \"MAKE GET REQUEST\" to view the values. Try holding your hand over the photoresistor on the photoresistor to block out enough light to trigger the webhook event.\n",
-      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/particlepostgetwebhk.md",
-      "fields": {
-        "slug": "/posts/particlepostgetwebhk/"
-      }
-    },
-    "68930f42-7248-52cb-800b-085a76d59faf": {
-      "id": "68930f42-7248-52cb-800b-085a76d59faf",
-      "children": [
-        "c04a8650-82f7-5596-9ca9-323146f20280"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "e8e2d979ee7815079ff6cc4f1b108d68",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/posts/projectplan1218.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/projectplan1218.md",
-      "relativePath": "pages/posts/projectplan1218.md",
-      "extension": "md",
-      "size": 1427,
-      "prettySize": "1.43 kB",
-      "modifiedTime": "2018-12-10T03:30:23.680Z",
-      "accessTime": "2018-12-10T03:30:40.137Z",
-      "changeTime": "2018-12-10T03:30:23.680Z",
-      "birthTime": "2018-12-10T03:08:46.609Z",
-      "root": "/",
-      "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
-      "base": "projectplan1218.md",
-      "ext": ".md",
-      "name": "projectplan1218",
-      "relativeDirectory": "pages/posts",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 14397087,
-      "blocks": 8,
-      "atimeMs": 1544412640137.0923,
-      "mtimeMs": 1544412623679.9712,
-      "ctimeMs": 1544412623679.9712,
-      "birthtimeMs": 1544411326609.2917,
-      "atime": "2018-12-10T03:30:40.137Z",
-      "mtime": "2018-12-10T03:30:23.680Z",
-      "ctime": "2018-12-10T03:30:23.680Z",
-      "birthtime": "2018-12-10T03:08:46.609Z"
-    },
     "c04a8650-82f7-5596-9ca9-323146f20280": {
       "id": "c04a8650-82f7-5596-9ca9-323146f20280",
       "children": [],
@@ -2489,6 +2538,32 @@
         "slug": "/posts/projectplan1218/"
       }
     },
+    "5002ed5e-b35d-5579-a78e-43e0e064d7b3": {
+      "id": "5002ed5e-b35d-5579-a78e-43e0e064d7b3",
+      "children": [],
+      "parent": "580170bf-9c68-5b11-96d9-1e46253808e3",
+      "internal": {
+        "content": "\nShameful plug post, but I'll be using Particle devices to demonstrate how to setup a Post/Get/Webhook right on a Google Sheet. Although Excel has more spreadsheet features than Google Sheets, the nice thing is that since your google sheets resides on some server connected to the internet, you can essentially use Google Sheets as a basic server to receive and send requests to an IoT device somewhere else. Take a look at how simple this spreadsheet is:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/googlesht-getpostwebhk.jpg)\n\nAll requests will operate under a request/response format, the idea being that the Google Sheet I made will shoot off a request, and a response will be collected. ONE IMPORTANT NOTE: Since you will be allowing anonymous access in order to use Google Apps Script, PLEASE only use this for development testing purposes ONLY, not to run a production server. If someone finds your Google Sheets URL endpoint, they can flood your sheet with requests. Furthermore, your device access token may be exposed.\n\nWith that said, let's get started.\n\nFirst you will want to create a new Google sheet which looks like what I've shown above. You can ignore cells B3, C3, and D2-D3, as these will be populated automatically by the webapp you'll create using Google Apps Script. You don't have to do this, but I merged cell D2 and D3. To create the buttons, go to Insert >> Drawing to draw a basic rectangle with some text in the middle. You will be able to assign function to these buttons you created later.\n\nParticle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:\n\n![photon-pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/particle-photon.JPG)\n\nYou will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino \n\nIn my `setup()` section I've called out 3 different `Particle.variables`: `analogvalue`, which is the output from the photoresistor, `brightness`, which is the brightness of the LED, and `setpoint`, which is the setpoint issued to the LED. I've also created a `Particle.function` called `led`, which toggles the blue LED situated on D7 on the board. Lastly, I've created a `Particle.publish`, which tracks the analog value and publishes a `low_light` event when the value drops below 50. \n\nWhat I will do now is use my \"Post Request\" function on my google sheet to call the `led` function and toggle on/off the LED. I will use the \"Get Request\" button to pull the `analogvalue` variable. Lastly, I will create a webhook to publish the `low_light` event details to my Google sheet when the event publishes.\n\nFirst, go to the Google Sheet and go to Tools >> Script Editor. This will allow you write javascript which controls how your Google Sheet behaves. Start off in the script by setting some Global variables. You have to retrieve you access token from build.particle.io, by clicking the settings tab. The device id is the device of your photon, and spreadsheet id is the long string of in your Google Sheets URL. You can also edit the Sheet name if you decide to change that.\n\n```javascript\n// Set Global Variables \n/* \nACCESS_TOKEN: Go to build.particle.io and click \"Settings\" on the left side panel\nPARTICLE_DEVICE_ID: Identify device ID from the console, or from using \"particle list\"\nSPREADSHEET_ID: Look on the URL for your Google Sheet for the long random string\n*/\nPropertiesService.getScriptProperties().setProperty('SHEET_NAME', 'Sheet1');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_ACCESS_TOKEN', '<enter access token>');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_DEVICE_ID', '<enter device id>');\nPropertiesService.getScriptProperties().setProperty('SPREADSHEET_ID', '<enter spreadsheetid>');\n```\n\nHandling the Post Request:\nGo back to your Google Sheet, and right click the button you labeled \"MAKE POST REQUEST\", and assign it a function called `PostRequest` or whatever you decide to name it. In the script file, add the function below. You will be using the Particle API URL, and sending the request there. The request will require your access token, and the argument (in the case above, either \"on\" or \"off\" for the LED).\n\n```javascript\n// Handle the button click for Post Request -------------------------------------------------\nfunction PostRequest() {\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this:\n  // https://api.particle.io/v1/devices/<deviceid>/\n  // led?args=on&access_token=<accesstoken>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var function_name = sheet.getRange(\"B4\").getValue();\n  var request = sheet.getRange(\"B2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + function_name + \"?\" + \n    \"access_token=\" + access_token;\n\n  // Create a form which will be sent as the payload to the post request\n  var formData = {\n    'args' : request\n    \n  };\n  \n  // Create the options\n  var options =\n      {\n        \"method\"  : \"POST\", \n        \"payload\"  : formData,\n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": false\n      };\n  \n  // Send Post request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {  \n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"B3\").setValue(params);\n  }\n}\n```\n\nThe Get request is even simpler, as now you don't have to include a form as part of the package to be delivered. Don't forget to assign the function to the \"MAKE GET REQUEST\" button.\n\n```javascript\n// Handle the button click for Get Request -------------------------------------------------\nfunction GetRequest() {\n  // Start by trying in postman\n  \n  // Set which spreadsheet to pull or output information\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this: \n  // https://api.particle.io/v1/devices/<PARTICLE_DEVICE_ID>/<VARIABLE_NAME>?access_token=<PARTICLE_ACCESS_TOKEN>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var variable_name = sheet.getRange(\"C2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + variable_name + \"?access_token=\" + access_token\n  \n  // Not sure if all options are necessary\n  var options =\n      {\n        \"method\"  : \"GET\",   \n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": true\n      };\n  \n  // Send Get request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {\n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"C3\").setValue(params);\n  };\n}\n```\n\nFinally, the Webhook. We need to set up the Google Sheet to be able to receive a message that is published to it. This is done through a function called `doPost()`. You will not be able to use any name you want, because doPost will be the handler to a post made externally.\n\n```javascript\n// Handle the webhook using doPost() -------------------------------------------------\nfunction doPost(e){\n  // Set which spreadsheet to output this data to\n  var spreadsheet_id = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // Fill the \"Webhook Data\" cell with the parameters of the webhook package sent\n  sheet.getRange(\"D2\").setValue(e.parameter);\n  \n  return ContentService.createTextOutput(JSON.stringify({text:\"webhook received\"})).setMimeType(ContentService.MimeType.JSON);;\n}\n```\nOnce the full script is complete (full script available here, you will need to edit the Global variables section at the top: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/googlesheets_pgw.gs)go to your Google Apps script (https://script.google.com...), and select Publish >> Deploy as webapp. Copy the webapp URL, which you will need to setup the webhook on the Particle console. Then in the section that says \"Who has access to the app\", you will need to select \"Anyone, even anonymous\". This will ensure that the Particle console can make changes to the google sheet.\nThe webhook must also be set up as an integration on console.particle.io. with a Web Form setup. \n\n![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/webhooksetupconsole.jpg)\n\nUnder the Full URL section, you will need to include the target URL for your google sheets webapp. It should begin with https://script.google.com/... This is the URL you copied earlier after deploying as a webapp.\n\nThat's it! Now you have a Google sheet with a webapp that will communicate between the sheet and your Particle IoT device. Try changing the Post Request section (B2) to \"on\" or \"off\" and clicking the \"MAKE POST REQUEST\" button. Try changing cell C2 to brightness, or setpoint, and clicking \"MAKE GET REQUEST\" to view the values. Try holding your hand over the photoresistor on the photoresistor to block out enough light to trigger the webhook event.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "0b740d0489964a0af4508944ea3033b8",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "How to use Google Sheets as a Post/Get/Webhook Endpoint",
+        "layout": "post",
+        "date": "2018-11-11",
+        "_PARENT": "580170bf-9c68-5b11-96d9-1e46253808e3"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nShameful plug post, but I'll be using Particle devices to demonstrate how to setup a Post/Get/Webhook right on a Google Sheet. Although Excel has more spreadsheet features than Google Sheets, the nice thing is that since your google sheets resides on some server connected to the internet, you can essentially use Google Sheets as a basic server to receive and send requests to an IoT device somewhere else. Take a look at how simple this spreadsheet is:\n\n![googsht-GPW](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/googlesht-getpostwebhk.jpg)\n\nAll requests will operate under a request/response format, the idea being that the Google Sheet I made will shoot off a request, and a response will be collected. ONE IMPORTANT NOTE: Since you will be allowing anonymous access in order to use Google Apps Script, PLEASE only use this for development testing purposes ONLY, not to run a production server. If someone finds your Google Sheets URL endpoint, they can flood your sheet with requests. Furthermore, your device access token may be exposed.\n\nWith that said, let's get started.\n\nFirst you will want to create a new Google sheet which looks like what I've shown above. You can ignore cells B3, C3, and D2-D3, as these will be populated automatically by the webapp you'll create using Google Apps Script. You don't have to do this, but I merged cell D2 and D3. To create the buttons, go to Insert >> Drawing to draw a basic rectangle with some text in the middle. You will be able to assign function to these buttons you created later.\n\nParticle (www.particle.io) makes it easy for you connect sensors to the internet. I'm using a Particle Photon in this example, but you can use whatever you want. Take a look at docs.particle.io to get your Photon up and running. From the starter kit, you can set up your resistors, LED, and photoresistor like I did in the below image:\n\n![photon-pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/particle-photon.JPG)\n\nYou will need to flash a binary to the Photon that sets it up to receive function calls and publish variables and events. You can how I did that in this script: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/photoresistor.ino \n\nIn my `setup()` section I've called out 3 different `Particle.variables`: `analogvalue`, which is the output from the photoresistor, `brightness`, which is the brightness of the LED, and `setpoint`, which is the setpoint issued to the LED. I've also created a `Particle.function` called `led`, which toggles the blue LED situated on D7 on the board. Lastly, I've created a `Particle.publish`, which tracks the analog value and publishes a `low_light` event when the value drops below 50. \n\nWhat I will do now is use my \"Post Request\" function on my google sheet to call the `led` function and toggle on/off the LED. I will use the \"Get Request\" button to pull the `analogvalue` variable. Lastly, I will create a webhook to publish the `low_light` event details to my Google sheet when the event publishes.\n\nFirst, go to the Google Sheet and go to Tools >> Script Editor. This will allow you write javascript which controls how your Google Sheet behaves. Start off in the script by setting some Global variables. You have to retrieve you access token from build.particle.io, by clicking the settings tab. The device id is the device of your photon, and spreadsheet id is the long string of in your Google Sheets URL. You can also edit the Sheet name if you decide to change that.\n\n```javascript\n// Set Global Variables \n/* \nACCESS_TOKEN: Go to build.particle.io and click \"Settings\" on the left side panel\nPARTICLE_DEVICE_ID: Identify device ID from the console, or from using \"particle list\"\nSPREADSHEET_ID: Look on the URL for your Google Sheet for the long random string\n*/\nPropertiesService.getScriptProperties().setProperty('SHEET_NAME', 'Sheet1');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_ACCESS_TOKEN', '<enter access token>');\nPropertiesService.getScriptProperties().setProperty('PARTICLE_DEVICE_ID', '<enter device id>');\nPropertiesService.getScriptProperties().setProperty('SPREADSHEET_ID', '<enter spreadsheetid>');\n```\n\nHandling the Post Request:\nGo back to your Google Sheet, and right click the button you labeled \"MAKE POST REQUEST\", and assign it a function called `PostRequest` or whatever you decide to name it. In the script file, add the function below. You will be using the Particle API URL, and sending the request there. The request will require your access token, and the argument (in the case above, either \"on\" or \"off\" for the LED).\n\n```javascript\n// Handle the button click for Post Request -------------------------------------------------\nfunction PostRequest() {\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this:\n  // https://api.particle.io/v1/devices/<deviceid>/\n  // led?args=on&access_token=<accesstoken>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var function_name = sheet.getRange(\"B4\").getValue();\n  var request = sheet.getRange(\"B2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + function_name + \"?\" + \n    \"access_token=\" + access_token;\n\n  // Create a form which will be sent as the payload to the post request\n  var formData = {\n    'args' : request\n    \n  };\n  \n  // Create the options\n  var options =\n      {\n        \"method\"  : \"POST\", \n        \"payload\"  : formData,\n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": false\n      };\n  \n  // Send Post request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {  \n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"B3\").setValue(params);\n  }\n}\n```\n\nThe Get request is even simpler, as now you don't have to include a form as part of the package to be delivered. Don't forget to assign the function to the \"MAKE GET REQUEST\" button.\n\n```javascript\n// Handle the button click for Get Request -------------------------------------------------\nfunction GetRequest() {\n  // Start by trying in postman\n  \n  // Set which spreadsheet to pull or output information\n  var spreadsheet_id = SpreadsheetApp.getActiveSpreadsheet().getId();\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // API url goes like this: \n  // https://api.particle.io/v1/devices/<PARTICLE_DEVICE_ID>/<VARIABLE_NAME>?access_token=<PARTICLE_ACCESS_TOKEN>\n  var device_id = PropertiesService.getScriptProperties().getProperty('PARTICLE_DEVICE_ID');\n  var access_token = PropertiesService.getScriptProperties().getProperty('PARTICLE_ACCESS_TOKEN');\n  var variable_name = sheet.getRange(\"C2\").getValue();\n  var url = \"https://api.particle.io/v1/devices/\" + device_id + \"/\" + variable_name + \"?access_token=\" + access_token\n  \n  // Not sure if all options are necessary\n  var options =\n      {\n        \"method\"  : \"GET\",   \n        \"followRedirects\" : true,\n        \"muteHttpExceptions\": true\n      };\n  \n  // Send Get request body to the URL indicated\n  var result = UrlFetchApp.fetch(url, options);\n  \n  // Display response in Cell\n  if (result.getResponseCode() == 200) {\n    var params = JSON.parse(result.getContentText());\n    sheet.getRange(\"C3\").setValue(params);\n  };\n}\n```\n\nFinally, the Webhook. We need to set up the Google Sheet to be able to receive a message that is published to it. This is done through a function called `doPost()`. You will not be able to use any name you want, because doPost will be the handler to a post made externally.\n\n```javascript\n// Handle the webhook using doPost() -------------------------------------------------\nfunction doPost(e){\n  // Set which spreadsheet to output this data to\n  var spreadsheet_id = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');\n  var sheet = SpreadsheetApp.openById(spreadsheet_id).getSheetByName( \n    PropertiesService.getScriptProperties().getProperty('SHEET_NAME'));\n  \n  // Fill the \"Webhook Data\" cell with the parameters of the webhook package sent\n  sheet.getRange(\"D2\").setValue(e.parameter);\n  \n  return ContentService.createTextOutput(JSON.stringify({text:\"webhook received\"})).setMimeType(ContentService.MimeType.JSON);;\n}\n```\nOnce the full script is complete (full script available here, you will need to edit the Global variables section at the top: https://github.com/simjxu/partiscripts/blob/master/getpostwebhook-example/googlesheets_pgw.gs)go to your Google Apps script (https://script.google.com...), and select Publish >> Deploy as webapp. Copy the webapp URL, which you will need to setup the webhook on the Particle console. Then in the section that says \"Who has access to the app\", you will need to select \"Anyone, even anonymous\". This will ensure that the Particle console can make changes to the google sheet.\nThe webhook must also be set up as an integration on console.particle.io. with a Web Form setup. \n\n![webhook-console](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/webhooksetupconsole.jpg)\n\nUnder the Full URL section, you will need to include the target URL for your google sheets webapp. It should begin with https://script.google.com/... This is the URL you copied earlier after deploying as a webapp.\n\nThat's it! Now you have a Google sheet with a webapp that will communicate between the sheet and your Particle IoT device. Try changing the Post Request section (B2) to \"on\" or \"off\" and clicking the \"MAKE POST REQUEST\" button. Try changing cell C2 to brightness, or setpoint, and clicking \"MAKE GET REQUEST\" to view the values. Try holding your hand over the photoresistor on the photoresistor to block out enough light to trigger the webhook event.\n",
+      "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/particlepostgetwebhk.md",
+      "fields": {
+        "slug": "/posts/particlepostgetwebhk/"
+      }
+    },
     "SitePage /offline-plugin-app-shell-fallback/": {
       "jsonName": "offline-plugin-app-shell-fallback-a30",
       "internalComponentName": "ComponentOfflinePluginAppShellFallback",
@@ -2506,50 +2581,6 @@
         "type": "SitePage",
         "contentDigest": "3d2dafc4dd68fd001e64c14ef5f7adc1",
         "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /posts/goingclimbing/": {
-      "jsonName": "posts-goingclimbing-015",
-      "internalComponentName": "ComponentPostsGoingclimbing",
-      "path": "/posts/goingclimbing/",
-      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/posts/goingclimbing/"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "id": "SitePage /posts/goingclimbing/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "fe6d0e4cad08b760b02ea89cfb65a9e4",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /posts/gatsby1/": {
-      "jsonName": "posts-gatsby-1-13b",
-      "internalComponentName": "ComponentPostsGatsby1",
-      "path": "/posts/gatsby1/",
-      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/posts/gatsby1/"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "id": "SitePage /posts/gatsby1/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2c6936fce499cc19c669082050e5005b",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
@@ -2575,24 +2606,24 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /posts/googlecomputeengine/": {
-      "jsonName": "posts-googlecomputeengine-93b",
-      "internalComponentName": "ComponentPostsGooglecomputeengine",
-      "path": "/posts/googlecomputeengine/",
+    "SitePage /posts/goingclimbing/": {
+      "jsonName": "posts-goingclimbing-015",
+      "internalComponentName": "ComponentPostsGoingclimbing",
+      "path": "/posts/goingclimbing/",
       "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {
-        "slug": "/posts/googlecomputeengine/"
+        "slug": "/posts/goingclimbing/"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "id": "SitePage /posts/googlecomputeengine/",
+      "id": "SitePage /posts/goingclimbing/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "902cc123de3d25e8c1f24ea5e1d3539b",
+        "contentDigest": "fe6d0e4cad08b760b02ea89cfb65a9e4",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2619,6 +2650,50 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /posts/googlecomputeengine/": {
+      "jsonName": "posts-googlecomputeengine-93b",
+      "internalComponentName": "ComponentPostsGooglecomputeengine",
+      "path": "/posts/googlecomputeengine/",
+      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/posts/googlecomputeengine/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "id": "SitePage /posts/googlecomputeengine/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "902cc123de3d25e8c1f24ea5e1d3539b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/firebase-rest/": {
+      "jsonName": "posts-firebase-rest-737",
+      "internalComponentName": "ComponentPostsFirebaseRest",
+      "path": "/posts/firebase-rest/",
+      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/posts/firebase-rest/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "id": "SitePage /posts/firebase-rest/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9b9e350ed73f8b6880806ec2bc888821",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /posts/mfgapp/": {
       "jsonName": "posts-mfgapp-3d3",
       "internalComponentName": "ComponentPostsMfgapp",
@@ -2637,6 +2712,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "41fa9bdde18e5b46b884fc12d65f0e5d",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/gatsby1/": {
+      "jsonName": "posts-gatsby-1-13b",
+      "internalComponentName": "ComponentPostsGatsby1",
+      "path": "/posts/gatsby1/",
+      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/posts/gatsby1/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "id": "SitePage /posts/gatsby1/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2c6936fce499cc19c669082050e5005b",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2663,28 +2760,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /posts/particlepostgetwebhk/": {
-      "jsonName": "posts-particlepostgetwebhk-3df",
-      "internalComponentName": "ComponentPostsParticlepostgetwebhk",
-      "path": "/posts/particlepostgetwebhk/",
-      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/posts/particlepostgetwebhk/"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
-      "id": "SitePage /posts/particlepostgetwebhk/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "bffd100b31a7a5c131aa69ab2a0f544f",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /posts/projectplan1218/": {
       "jsonName": "posts-projectplan-1218-c6b",
       "internalComponentName": "ComponentPostsProjectplan1218",
@@ -2703,6 +2778,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "f9c66538ce620400d97b5f39d3426962",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/particlepostgetwebhk/": {
+      "jsonName": "posts-particlepostgetwebhk-3df",
+      "internalComponentName": "ComponentPostsParticlepostgetwebhk",
+      "path": "/posts/particlepostgetwebhk/",
+      "component": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/posts/particlepostgetwebhk/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/templates/blog-post.js",
+      "id": "SitePage /posts/particlepostgetwebhk/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bffd100b31a7a5c131aa69ab2a0f544f",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2832,47 +2929,49 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "072daee042fd1b0ef3a6f94c32230621"
+    "PLUGINS_HASH": "d9c9a1636189691aaa7c495292eae14f"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js"
       ],
-      "bad11a45-7ca0-5880-9fc2-96d778e7dec4": [
-        "/posts/goingclimbing/"
-      ],
-      "7084c808-5b01-56d9-85cf-863e222819f6": [
-        "/posts/gatsby1/"
-      ],
       "2f542769-59e9-5a09-b180-f7c57f910415": [
         "/about/aboutme/"
       ],
-      "3305f733-cc16-59f2-bd3d-eb1c2493426d": [
-        "/posts/googlecomputeengine/"
+      "bad11a45-7ca0-5880-9fc2-96d778e7dec4": [
+        "/posts/goingclimbing/"
       ],
       "87f1932e-ed55-538a-afd0-2f99b81d4af8": [
         "/posts/graphql_filter/"
       ],
+      "3305f733-cc16-59f2-bd3d-eb1c2493426d": [
+        "/posts/googlecomputeengine/"
+      ],
+      "634fb842-9758-5f92-9e2d-b197c7f6e5a4": [
+        "/posts/firebase-rest/"
+      ],
       "c0b8af4b-c913-5a6c-9bc8-c245ea018dd4": [
         "/posts/mfgapp/"
+      ],
+      "7084c808-5b01-56d9-85cf-863e222819f6": [
+        "/posts/gatsby1/"
       ],
       "c5806368-9a38-5f7c-9961-43f4bf5ef877": [
         "/posts/slackdeliverytracker/"
       ],
-      "5002ed5e-b35d-5579-a78e-43e0e064d7b3": [
-        "/posts/particlepostgetwebhk/"
-      ],
       "c04a8650-82f7-5596-9ca9-323146f20280": [
         "/posts/projectplan1218/"
+      ],
+      "5002ed5e-b35d-5579-a78e-43e0e064d7b3": [
+        "/posts/particlepostgetwebhk/"
       ]
     },
     "connections": {
       "MarkdownRemark": [
         null,
         "/about/",
-        "/",
-        null
+        "/"
       ],
       "File": [
         "/my-files/"
@@ -2881,8 +2980,8 @@
   },
   "jsonDataPaths": {
     "sq--src-components-layout-js": 755544856,
-    "my-files-317": "600/path---my-files-317-4c7-JADkMzfUJw1KzHo4coxi7Ck9k",
-    "index": "966/path---index-6a9-OE80GFLgRk4ZuUQoJb0L2SF8d54",
+    "my-files-317": "547/path---my-files-317-4c7-RzJkEsq9VcWewtLhAJf1midx1Y",
+    "index": "151/path---index-6a9-2c7nFynp35S4Txp4kQI8rUmomc",
     "about-f34": "139/path---about-f-34-4c2-d9vjRJIWoRzCMVZZqoQR4qPq4A",
     "about-aboutme-179": "543/path---about-aboutme-179-4eb-S9wWQLeZ6kiCBelY7VXYV7MVdX4",
     "posts-goingclimbing-015": "93/path---posts-goingclimbing-015-fb4-eVppT35deniTbi8ZsuhxkGPo",
@@ -2896,7 +2995,8 @@
     "posts-particlepostgetwebhk-3df": "515/path---posts-particlepostgetwebhk-3-df-dee-ld2J9mWL0H8LQlDfXjn41Jpr2CQ",
     "projects-9e9": "545/path---projects-9-e-9-957-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "posts-projectplan-1218-c6b": "334/path---posts-projectplan-1218-c-6-b-db3-igDX2jM02FenLRV0bmgbpMSBKw"
+    "posts-projectplan-1218-c6b": "334/path---posts-projectplan-1218-c-6-b-db3-igDX2jM02FenLRV0bmgbpMSBKw",
+    "posts-firebase-rest-737": "464/path---posts-firebase-rest-737-623-0u7VJby80s2YjzyxpkToB44Aug"
   },
   "components": {
     "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-offline/app-shell.js": {

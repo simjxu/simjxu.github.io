@@ -36,6 +36,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "posts-firebase-rest-737",
+        "path": "/posts/firebase-rest/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "posts-gatsby-1-13b",
         "path": "/posts/gatsby1/"
     },
