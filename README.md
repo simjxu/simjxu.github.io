@@ -21,7 +21,7 @@ Updating the website:
 - Make edits by adding a post
 - Push these changes to the gh-pages branch. 
     - git push origin gh-pages
-- Run npm deploy. You can see in the file "package.json" that there is a term "deploy": "gatsby build && gh-pages -d public -b master", which pushes changes to the master.
+- Run npm deploy by typing `npm run deploy`. You can see in the file "package.json" that there is a term "deploy": "gatsby build && gh-pages -d public -b master", which pushes changes to the master.
     - npm run deploy
 
 To Do:

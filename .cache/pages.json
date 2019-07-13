@@ -80,6 +80,11 @@
         "path": "/posts/slackdeliverytracker/"
     },
     {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "posts-sublimehighlight-ad3",
+        "path": "/posts/sublimehighlight/"
+    },
+    {
         "componentChunkName": "component---src-pages-projects-js",
         "jsonName": "projects-9e9",
         "path": "/projects/"
