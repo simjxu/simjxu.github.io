@@ -31,4 +31,4 @@ contexts:
 ```
 
 Results:
-![sublime_pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/master/img/sublime-highlight.jpg)
+![sublime_pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/sublime-highlight.jpg)
