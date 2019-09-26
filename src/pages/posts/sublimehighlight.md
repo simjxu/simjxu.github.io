@@ -6,7 +6,7 @@ date: "2019-02-08"
 
 To create a new syntax, go to Tools >> Developer >> New Syntax. This creates a .sublime-syntax file which you can use to edit what color the text will show as. Under the "match:" key value pair, you use regex to determine which types of text it matches. In the example shown below, I have dates with a newline character highlight as orange. The orange color for the Mariana theme matches the "scope:" key value pair of constant.numeric. What I essentially had done was look in the Mariana.sublime-color-scheme file to determine that this scope was an orange color.
 
-Typically, this file is found in Sublime Text 3 >> Packages >> User 
+Typically, this file is found in Sublime Text 3 >> Packages >> User. On Mac, this is under <username>/Library/Application Support/Sublime Text 3/Packages
 
 My file is called Plain text.sublime-syntax
 
