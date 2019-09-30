@@ -8,6 +8,8 @@ To create a new syntax, go to Tools >> Developer >> New Syntax. This creates a .
 
 Typically, this file is found in Sublime Text 3 >> Packages >> User. On Mac, this is under <username>/Library/Application Support/Sublime Text 3/Packages
 
+To edit the Mariana theme file, on Mac use CMD+Shift+P to open the command palette, type "View Package File", and then type in Mariana to edit the file Mariana.sublime-color-scheme.
+
 My file is called Plain text.sublime-syntax
 
 
