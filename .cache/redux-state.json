@@ -1155,12 +1155,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-09-30T00:14:15.375Z",
+      "buildTime": "2019-09-30T00:39:03.048Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0c1a361dbf6b0ca6ec9bc4f852a04d69",
+        "contentDigest": "0621d01d7d77f0b85eb1d2289c0c1087",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1170,7 +1170,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c03a8c95fbcd4f492bdcb793e31817a3",
+        "contentDigest": "6c845056e39219cbb36e70312cdfbd35",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -1182,7 +1182,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-11-07T21:44:44.349Z",
-      "accessTime": "2019-09-30T00:14:30.456Z",
+      "accessTime": "2019-09-30T00:39:11.384Z",
       "changeTime": "2018-11-07T21:44:44.349Z",
       "birthTime": "2018-11-04T01:43:09.963Z",
       "root": "/",
@@ -1200,11 +1200,11 @@
       "blksize": 4096,
       "ino": 5239404,
       "blocks": 0,
-      "atimeMs": 1569802470455.6626,
+      "atimeMs": 1569803951383.848,
       "mtimeMs": 1541627084348.9956,
       "ctimeMs": 1541627084348.9956,
       "birthtimeMs": 1541295789962.6338,
-      "atime": "2019-09-30T00:14:30.456Z",
+      "atime": "2019-09-30T00:39:11.384Z",
       "mtime": "2018-11-07T21:44:44.349Z",
       "ctime": "2018-11-07T21:44:44.349Z",
       "birthtime": "2018-11-04T01:43:09.963Z"
@@ -1214,7 +1214,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "044e97804f64e12829d3bac908f1f7ef",
+        "contentDigest": "82d4eb1e2d731603587de78a7a48acdc",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1226,7 +1226,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-12-28T07:03:20.518Z",
-      "accessTime": "2019-09-30T00:14:30.458Z",
+      "accessTime": "2019-09-30T00:39:11.387Z",
       "changeTime": "2018-12-28T07:03:20.518Z",
       "birthTime": "2018-11-04T01:43:09.965Z",
       "root": "/",
@@ -1244,11 +1244,11 @@
       "blksize": 4096,
       "ino": 5279214,
       "blocks": 0,
-      "atimeMs": 1569802470457.715,
+      "atimeMs": 1569803951386.617,
       "mtimeMs": 1545980600517.8315,
       "ctimeMs": 1545980600517.8315,
       "birthtimeMs": 1541295789964.8677,
-      "atime": "2019-09-30T00:14:30.458Z",
+      "atime": "2019-09-30T00:39:11.387Z",
       "mtime": "2018-12-28T07:03:20.518Z",
       "ctime": "2018-12-28T07:03:20.518Z",
       "birthtime": "2018-11-04T01:43:09.965Z"
@@ -1258,7 +1258,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "cb5a132020b8ea1fc98fccf75d160b84",
+        "contentDigest": "563c88bac47530f009b30c2f153cce80",
         "type": "Directory",
         "description": "Directory \"src/components\"",
         "owner": "gatsby-source-filesystem"
@@ -1270,7 +1270,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-11-04T03:56:49.959Z",
-      "accessTime": "2019-09-30T00:14:30.458Z",
+      "accessTime": "2019-09-30T00:39:11.387Z",
       "changeTime": "2018-11-05T03:00:04.201Z",
       "birthTime": "2018-11-04T01:43:09.963Z",
       "root": "/",
@@ -1288,11 +1288,11 @@
       "blksize": 4096,
       "ino": 5279208,
       "blocks": 0,
-      "atimeMs": 1569802470457.7087,
+      "atimeMs": 1569803951386.7415,
       "mtimeMs": 1541303809958.8206,
       "ctimeMs": 1541386804201.0657,
       "birthtimeMs": 1541295789962.7195,
-      "atime": "2019-09-30T00:14:30.458Z",
+      "atime": "2019-09-30T00:39:11.387Z",
       "mtime": "2018-11-04T03:56:49.959Z",
       "ctime": "2018-11-05T03:00:04.201Z",
       "birthtime": "2018-11-04T01:43:09.963Z"
@@ -1302,7 +1302,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5e9ebb4afec6dc60c80cc5aee58f87b2",
+        "contentDigest": "dd8b3935bee6f19671ed949572fb453c",
         "type": "Directory",
         "description": "Directory \"src/templates\"",
         "owner": "gatsby-source-filesystem"
@@ -1314,7 +1314,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-11-04T06:56:40.702Z",
-      "accessTime": "2019-09-30T00:14:30.458Z",
+      "accessTime": "2019-09-30T00:39:11.387Z",
       "changeTime": "2018-11-05T03:00:04.202Z",
       "birthTime": "2018-11-04T06:56:40.701Z",
       "root": "/",
@@ -1332,11 +1332,11 @@
       "blksize": 4096,
       "ino": 5279212,
       "blocks": 0,
-      "atimeMs": 1569802470457.9114,
+      "atimeMs": 1569803951386.673,
       "mtimeMs": 1541314600701.7566,
       "ctimeMs": 1541386804201.9036,
       "birthtimeMs": 1541314600701.077,
-      "atime": "2019-09-30T00:14:30.458Z",
+      "atime": "2019-09-30T00:39:11.387Z",
       "mtime": "2018-11-04T06:56:40.702Z",
       "ctime": "2018-11-05T03:00:04.202Z",
       "birthtime": "2018-11-04T06:56:40.701Z"
@@ -1346,7 +1346,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "545d7eb8f632402923f24b0df96aca93",
+        "contentDigest": "ee48228dc80d7781d020cf8bcd0045ce",
         "type": "Directory",
         "description": "Directory \"src/pages/about\"",
         "owner": "gatsby-source-filesystem"
@@ -1358,7 +1358,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-11-04T07:09:46.290Z",
-      "accessTime": "2019-09-30T00:14:30.459Z",
+      "accessTime": "2019-09-30T00:39:11.388Z",
       "changeTime": "2018-11-05T03:00:04.208Z",
       "birthTime": "2018-11-04T04:37:05.479Z",
       "root": "/",
@@ -1376,11 +1376,11 @@
       "blksize": 4096,
       "ino": 5279225,
       "blocks": 0,
-      "atimeMs": 1569802470459.0342,
+      "atimeMs": 1569803951388.297,
       "mtimeMs": 1541315386289.6462,
       "ctimeMs": 1541386804208.0159,
       "birthtimeMs": 1541306225479.0728,
-      "atime": "2019-09-30T00:14:30.459Z",
+      "atime": "2019-09-30T00:39:11.388Z",
       "mtime": "2018-11-04T07:09:46.290Z",
       "ctime": "2018-11-05T03:00:04.208Z",
       "birthtime": "2018-11-04T04:37:05.479Z"
@@ -1390,7 +1390,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1a2d76c23a889c0e9d61f6f70263b976",
+        "contentDigest": "bd7769518b30ec79fe847532f49bd444",
         "type": "Directory",
         "description": "Directory \"src/pages/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1402,7 +1402,7 @@
       "size": 384,
       "prettySize": "384 B",
       "modifiedTime": "2019-02-09T19:14:28.276Z",
-      "accessTime": "2019-09-30T00:14:30.459Z",
+      "accessTime": "2019-09-30T00:39:11.388Z",
       "changeTime": "2019-02-09T19:14:28.276Z",
       "birthTime": "2018-11-04T04:37:05.479Z",
       "root": "/",
@@ -1420,11 +1420,11 @@
       "blksize": 4096,
       "ino": 5279215,
       "blocks": 0,
-      "atimeMs": 1569802470459.101,
+      "atimeMs": 1569803951388.312,
       "mtimeMs": 1549739668276.036,
       "ctimeMs": 1549739668276.036,
       "birthtimeMs": 1541306225479.163,
-      "atime": "2019-09-30T00:14:30.459Z",
+      "atime": "2019-09-30T00:39:11.388Z",
       "mtime": "2019-02-09T19:14:28.276Z",
       "ctime": "2019-02-09T19:14:28.276Z",
       "birthtime": "2018-11-04T04:37:05.479Z"
@@ -2571,7 +2571,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b7bac572a1c670f3eaa1e568151937f9",
+        "contentDigest": "715ddb0f3b0b20d6535b9c6f782f1e30",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/posts/sublimehighlight.md\"",
@@ -2581,11 +2581,11 @@
       "absolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/sublimehighlight.md",
       "relativePath": "pages/posts/sublimehighlight.md",
       "extension": "md",
-      "size": 1950,
-      "prettySize": "1.95 kB",
-      "modifiedTime": "2019-09-26T17:10:20.248Z",
-      "accessTime": "2019-09-26T17:11:08.360Z",
-      "changeTime": "2019-09-26T17:10:20.248Z",
+      "size": 2133,
+      "prettySize": "2.13 kB",
+      "modifiedTime": "2019-09-30T00:38:13.869Z",
+      "accessTime": "2019-09-30T00:38:37.733Z",
+      "changeTime": "2019-09-30T00:38:13.869Z",
       "birthTime": "2019-02-09T19:14:00.784Z",
       "root": "/",
       "dir": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts",
@@ -2602,13 +2602,13 @@
       "blksize": 4096,
       "ino": 25008023,
       "blocks": 8,
-      "atimeMs": 1569517868359.9978,
-      "mtimeMs": 1569517820247.5994,
-      "ctimeMs": 1569517820247.5994,
+      "atimeMs": 1569803917732.7817,
+      "mtimeMs": 1569803893869.3503,
+      "ctimeMs": 1569803893869.3503,
       "birthtimeMs": 1549739640784.2046,
-      "atime": "2019-09-26T17:11:08.360Z",
-      "mtime": "2019-09-26T17:10:20.248Z",
-      "ctime": "2019-09-26T17:10:20.248Z",
+      "atime": "2019-09-30T00:38:37.733Z",
+      "mtime": "2019-09-30T00:38:13.869Z",
+      "ctime": "2019-09-30T00:38:13.869Z",
       "birthtime": "2019-02-09T19:14:00.784Z"
     },
     "25b5043d-d610-5435-a47e-cef88779854b": {
@@ -2616,9 +2616,9 @@
       "children": [],
       "parent": "24a9fc51-e5dc-514f-9850-f1a7a0c76a3a",
       "internal": {
-        "content": "\nTo create a new syntax, go to Tools >> Developer >> New Syntax. This creates a .sublime-syntax file which you can use to edit what color the text will show as. Under the \"match:\" key value pair, you use regex to determine which types of text it matches. In the example shown below, I have dates with a newline character highlight as orange. The orange color for the Mariana theme matches the \"scope:\" key value pair of constant.numeric. What I essentially had done was look in the Mariana.sublime-color-scheme file to determine that this scope was an orange color.\n\nTypically, this file is found in Sublime Text 3 >> Packages >> User. On Mac, this is under <username>/Library/Application Support/Sublime Text 3/Packages\n\nMy file is called Plain text.sublime-syntax\n\n\n```yaml\n%YAML 1.2\n---\n# http://www.sublimetext.com/docs/3/syntax.html\nname: Regular Text\nfile_extensions:\n  - txt\nscope: text.plain\ncontexts:\n  main:\n    # Line starting with **\n    - match: '^\\*\\*.*'\n      push:\n        - meta_scope: meta.separator\n        - match: '$\\n?'\n          pop: true\n    # Highlight Plan\n    - comment: Plan (case-insensitive)\n      match: \\b(?:Plan)\\b\n      scope: support.function\n    # Dates\n    - comment: Dates\n      match: '[0-9]{1,2}(/)[0-9]{1,2}(/)[0-9]{1,2}\\n'\n      scope: constant.numeric\n      pop: true\n    # Meeting\n    - comment: Meetings\n      match: '.*Meeting.*\\n'\n      scope: string\n      pop: true\n    # Meeting\n    - comment: Meetings\n      match: '.*mtg\\n'\n      scope: string\n      pop: \n    # Feedback\n    - comment: Feedback\n      match: 'Feedback.*\\n'\n      scope: variable.member\n      pop: true\n    # Important\n    - comment: Important\n      match: '.*:\\n'\n      scope: support.function\n      pop: true\n```\n\nResults:\n![sublime_pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/sublime-highlight.jpg)",
+        "content": "\nTo create a new syntax, go to Tools >> Developer >> New Syntax. This creates a .sublime-syntax file which you can use to edit what color the text will show as. Under the \"match:\" key value pair, you use regex to determine which types of text it matches. In the example shown below, I have dates with a newline character highlight as orange. The orange color for the Mariana theme matches the \"scope:\" key value pair of constant.numeric. What I essentially had done was look in the Mariana.sublime-color-scheme file to determine that this scope was an orange color.\n\nTypically, this file is found in Sublime Text 3 >> Packages >> User. On Mac, this is under <username>/Library/Application Support/Sublime Text 3/Packages\n\nTo edit the Mariana theme file, on Mac use CMD+Shift+P to open the command palette, type \"View Package File\", and then type in Mariana to edit the file Mariana.sublime-color-scheme.\n\nMy file is called Plain text.sublime-syntax\n\n\n```yaml\n%YAML 1.2\n---\n# http://www.sublimetext.com/docs/3/syntax.html\nname: Regular Text\nfile_extensions:\n  - txt\nscope: text.plain\ncontexts:\n  main:\n    # Line starting with **\n    - match: '^\\*\\*.*'\n      push:\n        - meta_scope: meta.separator\n        - match: '$\\n?'\n          pop: true\n    # Highlight Plan\n    - comment: Plan (case-insensitive)\n      match: \\b(?:Plan)\\b\n      scope: support.function\n    # Dates\n    - comment: Dates\n      match: '[0-9]{1,2}(/)[0-9]{1,2}(/)[0-9]{1,2}\\n'\n      scope: constant.numeric\n      pop: true\n    # Meeting\n    - comment: Meetings\n      match: '.*Meeting.*\\n'\n      scope: string\n      pop: true\n    # Meeting\n    - comment: Meetings\n      match: '.*mtg\\n'\n      scope: string\n      pop: \n    # Feedback\n    - comment: Feedback\n      match: 'Feedback.*\\n'\n      scope: variable.member\n      pop: true\n    # Important\n    - comment: Important\n      match: '.*:\\n'\n      scope: support.function\n      pop: true\n```\n\nResults:\n![sublime_pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/sublime-highlight.jpg)",
         "type": "MarkdownRemark",
-        "contentDigest": "938634bd73159af1ba0c45060db23af5",
+        "contentDigest": "0a1a0929748729df9bdb88a614dac28c",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2631,7 +2631,7 @@
         "_PARENT": "24a9fc51-e5dc-514f-9850-f1a7a0c76a3a"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nTo create a new syntax, go to Tools >> Developer >> New Syntax. This creates a .sublime-syntax file which you can use to edit what color the text will show as. Under the \"match:\" key value pair, you use regex to determine which types of text it matches. In the example shown below, I have dates with a newline character highlight as orange. The orange color for the Mariana theme matches the \"scope:\" key value pair of constant.numeric. What I essentially had done was look in the Mariana.sublime-color-scheme file to determine that this scope was an orange color.\n\nTypically, this file is found in Sublime Text 3 >> Packages >> User. On Mac, this is under <username>/Library/Application Support/Sublime Text 3/Packages\n\nMy file is called Plain text.sublime-syntax\n\n\n```yaml\n%YAML 1.2\n---\n# http://www.sublimetext.com/docs/3/syntax.html\nname: Regular Text\nfile_extensions:\n  - txt\nscope: text.plain\ncontexts:\n  main:\n    # Line starting with **\n    - match: '^\\*\\*.*'\n      push:\n        - meta_scope: meta.separator\n        - match: '$\\n?'\n          pop: true\n    # Highlight Plan\n    - comment: Plan (case-insensitive)\n      match: \\b(?:Plan)\\b\n      scope: support.function\n    # Dates\n    - comment: Dates\n      match: '[0-9]{1,2}(/)[0-9]{1,2}(/)[0-9]{1,2}\\n'\n      scope: constant.numeric\n      pop: true\n    # Meeting\n    - comment: Meetings\n      match: '.*Meeting.*\\n'\n      scope: string\n      pop: true\n    # Meeting\n    - comment: Meetings\n      match: '.*mtg\\n'\n      scope: string\n      pop: \n    # Feedback\n    - comment: Feedback\n      match: 'Feedback.*\\n'\n      scope: variable.member\n      pop: true\n    # Important\n    - comment: Important\n      match: '.*:\\n'\n      scope: support.function\n      pop: true\n```\n\nResults:\n![sublime_pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/sublime-highlight.jpg)",
+      "rawMarkdownBody": "\nTo create a new syntax, go to Tools >> Developer >> New Syntax. This creates a .sublime-syntax file which you can use to edit what color the text will show as. Under the \"match:\" key value pair, you use regex to determine which types of text it matches. In the example shown below, I have dates with a newline character highlight as orange. The orange color for the Mariana theme matches the \"scope:\" key value pair of constant.numeric. What I essentially had done was look in the Mariana.sublime-color-scheme file to determine that this scope was an orange color.\n\nTypically, this file is found in Sublime Text 3 >> Packages >> User. On Mac, this is under <username>/Library/Application Support/Sublime Text 3/Packages\n\nTo edit the Mariana theme file, on Mac use CMD+Shift+P to open the command palette, type \"View Package File\", and then type in Mariana to edit the file Mariana.sublime-color-scheme.\n\nMy file is called Plain text.sublime-syntax\n\n\n```yaml\n%YAML 1.2\n---\n# http://www.sublimetext.com/docs/3/syntax.html\nname: Regular Text\nfile_extensions:\n  - txt\nscope: text.plain\ncontexts:\n  main:\n    # Line starting with **\n    - match: '^\\*\\*.*'\n      push:\n        - meta_scope: meta.separator\n        - match: '$\\n?'\n          pop: true\n    # Highlight Plan\n    - comment: Plan (case-insensitive)\n      match: \\b(?:Plan)\\b\n      scope: support.function\n    # Dates\n    - comment: Dates\n      match: '[0-9]{1,2}(/)[0-9]{1,2}(/)[0-9]{1,2}\\n'\n      scope: constant.numeric\n      pop: true\n    # Meeting\n    - comment: Meetings\n      match: '.*Meeting.*\\n'\n      scope: string\n      pop: true\n    # Meeting\n    - comment: Meetings\n      match: '.*mtg\\n'\n      scope: string\n      pop: \n    # Feedback\n    - comment: Feedback\n      match: 'Feedback.*\\n'\n      scope: variable.member\n      pop: true\n    # Important\n    - comment: Important\n      match: '.*:\\n'\n      scope: support.function\n      pop: true\n```\n\nResults:\n![sublime_pic](https://raw.githubusercontent.com/simjxu/simjxu.github.io/gh-pages/img/sublime-highlight.jpg)",
       "fileAbsolutePath": "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/src/pages/posts/sublimehighlight.md",
       "fields": {
         "slug": "/posts/sublimehighlight/"
@@ -3079,8 +3079,8 @@
   },
   "jsonDataPaths": {
     "sq--src-components-layout-js": 755544856,
-    "my-files-317": "12/path---my-files-317-4c7-FeVoBEqeiMBBiARV2te2S3o2M",
-    "index": "358/path---index-6a9-xSB014HEIkLkgr1D3gKavq3lg4",
+    "my-files-317": "462/path---my-files-317-4c7-tdqKYCLWVjWZMD3IFFVGddNw",
+    "index": "775/path---index-6a9-SvnmunMY1LD50yJfsHyBfz5B1k",
     "about-f34": "139/path---about-f-34-4c2-d9vjRJIWoRzCMVZZqoQR4qPq4A",
     "about-aboutme-179": "543/path---about-aboutme-179-4eb-S9wWQLeZ6kiCBelY7VXYV7MVdX4",
     "posts-goingclimbing-015": "93/path---posts-goingclimbing-015-fb4-eVppT35deniTbi8ZsuhxkGPo",
@@ -3096,7 +3096,7 @@
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "posts-projectplan-1218-c6b": "334/path---posts-projectplan-1218-c-6-b-db3-igDX2jM02FenLRV0bmgbpMSBKw",
     "posts-firebase-rest-737": "464/path---posts-firebase-rest-737-623-0u7VJby80s2YjzyxpkToB44Aug",
-    "posts-sublimehighlight-ad3": "317/path---posts-sublimehighlight-ad-3-36c-76HM4M2ALh0wkASM6VVZmsQHjBI"
+    "posts-sublimehighlight-ad3": "686/path---posts-sublimehighlight-ad-3-36c-y6PMmxaTU1Tyk8AaW4vt7lblcaU"
   },
   "components": {
     "/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-offline/app-shell.js": {

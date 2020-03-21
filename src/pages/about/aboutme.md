@@ -18,4 +18,6 @@ I finally stopped working for the Feds after 4 years and transitioned to IoT, wh
 
 Contact me at simjxu@gmail.com
 
-Click <a href="https://drive.google.com/file/d/1Q0AotX0TWgyPH8cb4qUJzP86Df8tJu84/view">here</a> for my resume. 
+Github: github.com/simjxu
+
+Click <a href="https://drive.google.com/open?id=1EqT5BBnOqTuAYIkJrYaqyTHDdjUS90Xe">here</a> for my resume. 
