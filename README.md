@@ -16,9 +16,12 @@ git reset --hard <commit SHA>
 git push --force origin master
 
 Updating the website:
-- Checkout the branch gh-pages
+- Checkout the branch gh-pages (not master)
     - git fetch && git checkout gh-pages && git reset --hard origin/gh-pages
 - Make edits by adding a post
+    - Look in the src/pages/posts
+    - Add a markdown file, use existing ones as templates
+    - images should be placed in the ./img folder
 - Push these changes to the gh-pages branch. 
     - git push origin gh-pages
 - Run npm deploy by typing `npm run deploy`. You can see in the file "package.json" that there is a term "deploy": "gatsby build && gh-pages -d public -b master", which pushes changes to the master.
