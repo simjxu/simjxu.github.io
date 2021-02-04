@@ -1,10 +1,10 @@
 module.exports = [{
-      plugin: require('/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-emotion/gatsby-browser'),
+      plugin: require('../node_modules/gatsby-plugin-emotion/gatsby-browser.js'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/node_modules/gatsby-plugin-offline/gatsby-browser'),
+      plugin: require('../node_modules/gatsby-plugin-offline/gatsby-browser.js'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/simonxu/Projects/Github-simjxu/simjxu.github.io/gatsby-browser.js'),
+      plugin: require('../gatsby-browser.js'),
       options: {"plugins":[]},
     }]
