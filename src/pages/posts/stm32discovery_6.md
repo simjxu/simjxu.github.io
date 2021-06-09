@@ -4,7 +4,7 @@ title: B-L475E-IOT01A - Setting up environment in Docker
 date: "2021-05-05"
 ---
 
-I've fully switched over ot using mbed compile tools on mbed-cli, which does drastically simplify the GCC compile process. In my most recent update, which I have now tagged v1 on the stm32_discovery_mbed repository, I have the LED control of the discovery board over BLE. This code was copied from another repository, and took a little finagling to get it to work. Turns out, a lot of the newer mbed-os compile scripts run on python3, since python 2 is deprecated.
+I've fully switched over ot using mbed compile tools on mbed-cli, which does drastically simplify the GCC compile process. In my most recent update, which I have now tagged v1 on the `stm32_discovery_mbed` repository, I have the LED control of the discovery board over BLE. This code was copied from another repository, and took a little finagling to get it to work. Turns out, a lot of the newer mbed-os compile scripts run on python3, since python 2 is deprecated.
 
 I decided to create a Dockerfile which allows others to compile the code with the same environment. Ultimately, there is a messy step which requires copying over a "tools" folder to replace the one from the outdated mbed-os version.
 

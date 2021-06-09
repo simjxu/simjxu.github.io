@@ -39,7 +39,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "5212ef5f12d8847637cec8796dc955fd"
+    "revision": "0bcf5726ee25f92048a74331f067269d"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
@@ -59,7 +59,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/index/page-data.json",
-    "revision": "8b1a1d6159a5ba34bb98647794d03b31"
+    "revision": "980a75995508c9fe34668d50f0691aa5"
   },
   {
     "url": "page-data/sq/d/3649515864.json",
