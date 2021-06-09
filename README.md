@@ -34,3 +34,6 @@ To Do:
 - Try out CSS Modules when you get a chance (see same link above)
 - Emotion lets you write CSS using JS
 - Rhythm supposedly can help make the links to the blog posts look better
+
+6/8/21
+- Made an update to the gatsby-config.js file, adding an icon field because this was causing `npm run deploy` to fail.
