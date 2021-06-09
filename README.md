@@ -37,3 +37,4 @@ To Do:
 
 6/8/21
 - Made an update to the gatsby-config.js file, adding an icon field because this was causing `npm run deploy` to fail.
+- TO DO: use a different picture for "bgimage.png" which is being used in gatsby-config.js. Create an icon for yourself!
