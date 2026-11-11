@@ -15,7 +15,7 @@ import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ORIGIN = "https://simjxu.github.io"
+ORIGIN = "https://simonxu.com"
 PAGES = {
     "index.html": "/",
     "about/index.html": "/about/",
@@ -254,8 +254,8 @@ class SiteTests(unittest.TestCase):
         self.assertEqual(len(urls), len(set(urls)))
 
     def test_domain_and_manifest_configuration(self):
-        self.assertFalse((ROOT / "CNAME").exists(),
-                         "A CNAME would redirect the GitHub Pages URL to a custom domain")
+        self.assertEqual((ROOT / "CNAME").read_text().strip(), urlsplit(ORIGIN).hostname,
+                         "CNAME must match the primary domain configured in GitHub Pages")
         self.assertEqual((ROOT / ".nojekyll").read_bytes(), b"")
         self.assertIn(f"Sitemap: {ORIGIN}/sitemap.xml", (ROOT / "robots.txt").read_text())
         manifest = json.loads((ROOT / "manifest.webmanifest").read_text())
