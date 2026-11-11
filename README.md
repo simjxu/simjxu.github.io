@@ -13,7 +13,8 @@ The primary URL is **https://simjxu.github.io/**.
 1. Run the checks below, then commit and push `master` to `origin`.
 2. In [repository Settings → Pages](https://github.com/simjxu/simjxu.github.io/settings/pages),
    use **Deploy from a branch**, branch **master**, folder **/ (root)**.
-   Leave **Custom domain** empty and enable **Enforce HTTPS**. Keep `CNAME`
+   Leave **Custom domain** empty and enable **Enforce HTTPS** when available
+   (see the current platform limitation below). Keep `CNAME`
    absent and `.nojekyll` present to serve these already-built files directly.
 3. Wait for the **pages build and deployment** workflow to succeed for the
    pushed commit, then verify the live site:
@@ -45,6 +46,19 @@ Reintroducing a custom domain requires working DNS and a valid HTTPS certificate
 as well as the Pages setting. Follow [GitHub's custom-domain setup](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 as a separate hosting change; adding `CNAME` without completing that setup can
 recreate this outage.
+
+### HTTPS enforcement limitation
+
+The restored site serves `https://simjxu.github.io/` with a valid TLS certificate.
+On November 10, 2026, GitHub's Pages API still rejected `https_enforced: true`
+with `404: The certificate does not exist yet`, even after successful deployment
+and with `cname: null`. Plain HTTP therefore also serves the site instead of
+redirecting to HTTPS. All published canonical and sitemap URLs use HTTPS.
+
+Retry the **Enforce HTTPS** setting when GitHub makes it available, then verify
+that `curl -I http://simjxu.github.io/` redirects to the HTTPS URL. Do not restore
+the broken custom domain to work around this setting. See the
+[Pages settings API](https://docs.github.com/en/rest/pages/pages#update-information-about-a-github-pages-site).
 
 Reference: [GitHub publishing sources](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
