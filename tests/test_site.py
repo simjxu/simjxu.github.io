@@ -15,7 +15,7 @@ import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ORIGIN = "https://www.simonxu.com"
+ORIGIN = "https://simjxu.github.io"
 PAGES = {
     "index.html": "/",
     "about/index.html": "/about/",
@@ -101,9 +101,7 @@ def document(path):
 def local_path(url, page):
     """Resolve a site URL to the corresponding file, excluding other origins."""
     parsed = urlsplit(urljoin(ORIGIN + PAGES.get(page, "/" + page), url))
-    if parsed.scheme not in {"http", "https"} or parsed.netloc not in {
-        "www.simonxu.com", "simonxu.com",
-    }:
+    if parsed.scheme not in {"http", "https"} or parsed.netloc != urlsplit(ORIGIN).netloc:
         return None
     path = ROOT / unquote(parsed.path).lstrip("/")
     if parsed.path.endswith("/") or path.is_dir():
@@ -171,6 +169,10 @@ class SiteTests(unittest.TestCase):
                          for m in tree.find("meta")}
                 self.assertGreaterEqual(len(metas.get("description", "")), 30)
                 self.assertNotEqual(metas["description"].lower(), "sample")
+                og_urls = [meta.attrs.get("content") for meta in tree.find("meta")
+                           if meta.attrs.get("property") == "og:url"]
+                share_route = "/404.html" if path == "404/index.html" else PAGES[path]
+                self.assertEqual(og_urls, [ORIGIN + share_route])
                 canonicals = [e for e in tree.find("link")
                               if e.attrs.get("rel") == "canonical"]
                 if path in NOINDEX:
@@ -252,7 +254,8 @@ class SiteTests(unittest.TestCase):
         self.assertEqual(len(urls), len(set(urls)))
 
     def test_domain_and_manifest_configuration(self):
-        self.assertEqual((ROOT / "CNAME").read_text().strip(), urlsplit(ORIGIN).hostname)
+        self.assertFalse((ROOT / "CNAME").exists(),
+                         "A CNAME would redirect the GitHub Pages URL to a custom domain")
         self.assertEqual((ROOT / ".nojekyll").read_bytes(), b"")
         self.assertIn(f"Sitemap: {ORIGIN}/sitemap.xml", (ROOT / "robots.txt").read_text())
         manifest = json.loads((ROOT / "manifest.webmanifest").read_text())

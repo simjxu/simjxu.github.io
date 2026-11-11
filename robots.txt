@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.simonxu.com/sitemap.xml
+Sitemap: https://simjxu.github.io/sitemap.xml

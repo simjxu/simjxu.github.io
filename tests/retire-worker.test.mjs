@@ -38,7 +38,7 @@ function loadWorker({ cacheNames = [], failKeys = false } = {}) {
 
 test("retiring worker activates immediately and preserves unrelated caches", async () => {
   const worker = loadWorker({ cacheNames: [
-    "gatsby-plugin-offline-precache-v2-https://www.simonxu.com/",
+    "gatsby-plugin-offline-precache-v2-https://simjxu.github.io/",
     "gatsby-plugin-offline-runtime",
     "gatsby-plugin-offline",
     "another-app-cache",
@@ -51,7 +51,7 @@ test("retiring worker activates immediately and preserves unrelated caches", asy
   assert.deepEqual(worker.calls, [
     "skipWaiting",
     "claim",
-    "delete:gatsby-plugin-offline-precache-v2-https://www.simonxu.com/",
+    "delete:gatsby-plugin-offline-precache-v2-https://simjxu.github.io/",
     "delete:gatsby-plugin-offline-runtime",
     "delete:gatsby-plugin-offline",
     "unregister",
@@ -65,7 +65,7 @@ test("cache-storage failure still unregisters the legacy worker", async () => {
   assert.deepEqual(worker.calls, ["claim", "unregister"]);
 });
 
-function registration({ scope = "https://www.simonxu.com/", script = "https://www.simonxu.com/sw.js", state = "active", failUpdate = false } = {}) {
+function registration({ scope = "https://simjxu.github.io/", script = "https://simjxu.github.io/sw.js", state = "active", failUpdate = false } = {}) {
   const calls = [];
   return {
     scope,
@@ -81,7 +81,7 @@ function registration({ scope = "https://www.simonxu.com/", script = "https://ww
 
 async function runCleanup(registrations, { failLookup = false, supported = true } = {}) {
   vm.runInNewContext(cleanupSource, {
-    location: { origin: "https://www.simonxu.com" },
+    location: { origin: "https://simjxu.github.io" },
     navigator: supported ? {
       serviceWorker: {
         getRegistrations: async () => {
@@ -100,9 +100,9 @@ test("page cleanup updates only the same-origin root /sw.js registration", async
     registration(),
     registration({ state: "waiting" }),
     registration({ state: "installing" }),
-    registration({ scope: "https://www.simonxu.com/app/" }),
-    registration({ script: "https://www.simonxu.com/other-worker.js" }),
-    registration({ script: "https://www.simonxu.com/sw.js?other-app" }),
+    registration({ scope: "https://simjxu.github.io/app/" }),
+    registration({ script: "https://simjxu.github.io/other-worker.js" }),
+    registration({ script: "https://simjxu.github.io/sw.js?other-app" }),
     registration({ scope: "https://other.example/", script: "https://other.example/sw.js" }),
   ];
 

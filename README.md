@@ -1,4 +1,4 @@
-# The Mush — simonxu.com
+# The Mush — simjxu.github.io
 
 This branch (`master`) is the published, static website. The homepage, About,
 Projects, and error pages are plain HTML, with one small shared stylesheet and
@@ -6,53 +6,47 @@ a script that retires the previous Gatsby offline cache. They need no build or
 package installation. Posts, their data, and their legacy Gatsby assets are
 preserved as published.
 
-## Restore the custom domain
+## Publish to GitHub Pages
 
-The October 2026 check found that `simonxu.com` was using Namecheap URL forwarding
-to `https://simjxu.github.io`, and `www.simonxu.com` had no DNS record. The GitHub
-Pages site itself was responding successfully. A redirect to the GitHub address
-does not serve the site at the custom domain.
+The primary URL is **https://simjxu.github.io/**.
 
-1. Commit and push the changes on this branch when ready to publish.
-2. Open [repository Settings → Pages](https://github.com/simjxu/simjxu.github.io/settings/pages).
-   Use **Deploy from a branch**, branch **master**, folder **/ (root)**. Set
-   **Custom domain** to **www.simonxu.com** and save it **before changing DNS**.
-   The root `CNAME` file must contain that same domain. `.nojekyll` tells Pages
-   to serve these already-built files without Jekyll processing.
-3. In Namecheap, open **Domain List → Manage → Advanced DNS → Host Records**.
-   Remove the `@` URL Redirect to the GitHub address, and replace conflicting
-   `@`/`www` website records with these:
+1. Run the checks below, then commit and push `master` to `origin`.
+2. In [repository Settings → Pages](https://github.com/simjxu/simjxu.github.io/settings/pages),
+   use **Deploy from a branch**, branch **master**, folder **/ (root)**.
+   Leave **Custom domain** empty and enable **Enforce HTTPS**. Keep `CNAME`
+   absent and `.nojekyll` present to serve these already-built files directly.
+3. Wait for the **pages build and deployment** workflow to succeed for the
+   pushed commit, then verify the live site:
 
-   | Type | Host | Value |
-   | --- | --- | --- |
-   | A | `@` | `185.199.108.153` |
-   | A | `@` | `185.199.109.153` |
-   | A | `@` | `185.199.110.153` |
-   | A | `@` | `185.199.111.153` |
-   | CNAME | `www` | `simjxu.github.io` |
+   ```sh
+   curl -I https://simjxu.github.io/
+   curl -I https://simjxu.github.io/posts/sublimehighlight/
+   curl -I https://simjxu.github.io/assets/site.css
+   ```
 
-   Preserve the domain's email MX/TXT records and other unrelated records.
-   The `www` target is a hostname, without `https://` or a path.
-4. Wait for the DNS check and certificate provisioning in GitHub Pages, then
-   enable **Enforce HTTPS**. DNS changes and certificate availability can take
-   up to 24 hours. GitHub redirects `simonxu.com` to `www.simonxu.com` when both
-   have the correct DNS records.
+   Each HTTPS URL should return `200` without redirecting to another hostname.
+   Also check browser navigation from the homepage to a post and back.
 
-Verify both hostnames after provisioning:
+### November 2026 outage
 
-```sh
-dig +short simonxu.com A
-dig +short www.simonxu.com CNAME
-curl -I https://simonxu.com
-curl -I https://www.simonxu.com
-```
+GitHub Pages was configured to redirect every request to `http://www.simonxu.com/`,
+but `www.simonxu.com` had no DNS record. The apex `simonxu.com` forwarded to the
+GitHub address through Namecheap, so it also led to the broken hostname. The
+published HTML and assets were intact; the custom-domain redirect made them
+unreachable through the public URLs.
 
-Expect the four GitHub IP addresses, the `simjxu.github.io` CNAME, a redirect
-from the apex domain to `www`, and a successful response at `www`.
+The restoration removes `CNAME`, clears the Pages custom-domain setting, and
+uses `https://simjxu.github.io` in metadata and the sitemap. Registrar DNS is
+unchanged. Removing the file alone is not sufficient: verify the Pages setting
+and the actual HTTP response after deployment. If a browser remembers the old
+permanent redirect, try a private window or clear its cached redirect.
 
-References: [GitHub custom domain setup](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site),
-[Namecheap instructions](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages/),
-[GitHub publishing sources](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+Reintroducing a custom domain requires working DNS and a valid HTTPS certificate
+as well as the Pages setting. Follow [GitHub's custom-domain setup](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+as a separate hosting change; adding `CNAME` without completing that setup can
+recreate this outage.
+
+Reference: [GitHub publishing sources](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 ## Local preview and checks
 
@@ -77,7 +71,7 @@ current HTML. Keep `/sw.js` available for existing visitors and legacy posts.
 ## Editing and legacy Gatsby source
 
 Edit the main HTML pages and `assets/site.css` directly. Keep canonical URLs,
-`CNAME`, `robots.txt`, and `sitemap.xml` consistent with `https://www.simonxu.com`.
+Open Graph URLs, `robots.txt`, and `sitemap.xml` consistent with `https://simjxu.github.io`.
 The unavailable `app.simonxu.com` link was removed from the main navigation;
 its HTTPS certificate did not cover that hostname when checked.
 
@@ -90,8 +84,7 @@ than rendering stale React components. Keep these handoff records in place.
 
 The older **`gh-pages` branch contains the Gatsby source**. Its `npm run deploy`
 command builds Gatsby and replaces `master`, which would overwrite the static
-page improvements and can remove `CNAME` again. Publish this branch directly.
+page improvements. Publish this branch directly.
 Before using that older pipeline again, port these changes into its generated
-output, including `CNAME`, `.nojekyll`, route handoffs, and cache retirement.
-Gatsby copies files in its `static/` source folder into the published root, so
-that source branch would need `static/CNAME` to preserve the domain.
+output, including `.nojekyll`, route handoffs, cache retirement, and the primary
+URL. Keep the publishing output free of `CNAME` while using the GitHub address.
